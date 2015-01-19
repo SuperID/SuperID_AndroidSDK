@@ -1,0 +1,8 @@
+<resources>
+
+
+    <dimen name="s_size_font_bar">18dp</dimen>
+    <dimen name="s_size_font_title">17dp</dimen>
+    <dimen name="s_size_font_text">15dp</dimen>
+    <dimen name="s_size_font_tips">12dp</dimen>
+</resources>

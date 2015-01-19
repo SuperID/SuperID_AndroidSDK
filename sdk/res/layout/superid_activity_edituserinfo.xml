@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s_color_background_view"
+    android:orientation="vertical" >
+
+    <include layout="@layout/superid_common_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp" >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="@color/s_color_background_bar" />
+
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/superid_avatar_img_bg" />
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/superid_avatar_img_default" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/avatar"
+            android:layout_alignRight="@+id/avatar"
+            android:src="@drawable/superid_common_edit_avatar_ico" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp" >
+
+        <ImageView
+            android:id="@+id/icon_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/superid_common_edit_mobilephone_ico_disable" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon_phone"
+            android:layout_marginLeft="38dp"
+            android:layout_toRightOf="@+id/icon_phone"
+            android:textColor="@color/s_color_font_darkbule"
+            android:textSize="@dimen/s_size_font_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp" >
+
+        <ImageView
+            android:id="@+id/icon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/superid_common_edit_nickname_ico_disable" />
+
+        <EditText
+            android:id="@+id/ed_name"
+            style="@style/my_edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:singleLine="true"
+            
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/icon_name"
+            android:textColor="@color/s_color_font_darkbule"
+            android:textSize="@dimen/s_size_font_title"
+            android:ems="10"
+            android:hint="@string/superid_tips_nickname" >
+
+            <requestFocus />
+        </EditText>
+        <Button
+            android:id="@+id/edit_nameclear"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignBaseline="@+id/ed_name"
+            android:layout_alignBottom="@+id/ed_name"
+            android:layout_alignRight="@+id/ed_name"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/button_edittextclearselector"
+            android:onClick="btn_nameedclear" />
+    </RelativeLayout>
+
+  
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_faceselector"
+        android:onClick="btn_save"
+        android:text="@string/superid_action_save"
+        android:textColor="@color/s_color_font_hightlight" />
+
+</LinearLayout>

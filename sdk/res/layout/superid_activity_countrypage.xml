@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s_color_background_cell"
+    android:orientation="vertical" >
+
+    <include layout="@layout/superid_common_bar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/list_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="@null"
+            android:layout_marginRight="30dp" >
+        </ListView>
+
+         <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/superid_show_head_toast_bg"
+            android:gravity="center"
+            android:textColor="@color/s_color_background_cell"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+        <com.isnc.facesdk.view.SideBar
+            android:id="@+id/sidebar"
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+
+</LinearLayout>

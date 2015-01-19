@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listitem_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/s_color_background_cell"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/catalog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/s_color_font_main"
+            android:textSize="@dimen/s_size_font_title" />
+
+        <View
+            android:id="@+id/linecatalog"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/s_color_border"
+            android:gravity="top"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:background="@drawable/superid_listviewbg" >
+
+        <TextView
+            android:id="@+id/countryname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/s_color_font_contant"
+            android:textSize="@dimen/s_size_font_title" />
+
+        <TextView
+            android:id="@+id/countrycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/s_color_font_tips"
+            android:textSize="@dimen/s_size_font_title" />
+    </RelativeLayout>
+
+</LinearLayout>
