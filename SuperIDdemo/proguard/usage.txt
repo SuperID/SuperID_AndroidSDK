@@ -1,0 +1,304 @@
+com.isnc.superiddemo.BuildConfig
+com.isnc.superiddemo.R:
+    10:10:public R()
+com.lotuseed.android.Constants:
+    public static final java.lang.String SDK_VERSION
+    3:3:public Constants()
+com.lotuseed.android.LocationReport
+com.lotuseed.android.PackageReceiver:
+    12:12:public PackageReceiver()
+com.lotuseed.android.e:
+    public static final java.lang.String BASE_SDK_VERSION
+    3:3:e()
+com.lotuseed.android.g:
+    87:96:public static void init(android.content.Context)
+    115:116:public static void forcePost()
+    124:126:public static void onCreate(android.content.Context)
+    134:136:public static void onDestroy(android.content.Context)
+    144:149:public static void onPageViewBegin(java.lang.String)
+    157:162:public static void onPageViewEnd(java.lang.String)
+    292:294:public static void onCustomLog(java.lang.String)
+    302:303:public static void onEvent(java.lang.String)
+    306:307:public static void onEvent(java.lang.String,boolean)
+    310:311:public static void onEvent(java.lang.String,long)
+    314:315:public static void onEvent(java.lang.String,long,boolean)
+    318:319:public static void onEvent(java.lang.String,java.lang.String)
+    322:323:public static void onEvent(java.lang.String,java.lang.String,boolean)
+    326:327:public static void onEvent(java.lang.String,java.lang.String,long)
+    331:333:public static void onEvent(java.lang.String,java.lang.String,long,boolean)
+    336:337:public static void onEvent(java.lang.String,java.util.Map)
+    341:342:public static void onEvent(java.lang.String,java.util.Map,boolean)
+    346:347:public static void onEvent(java.lang.String,java.util.Map,long)
+    351:363:public static void onEvent(java.lang.String,java.util.Map,long,boolean)
+    371:372:public static void onEventDuration(java.lang.String,long)
+    376:377:public static void onEventDuration(java.lang.String,long,boolean)
+    381:382:public static void onEventDuration(java.lang.String,java.lang.String,long)
+    386:388:public static void onEventDuration(java.lang.String,java.lang.String,long,boolean)
+    392:393:public static void onEventDuration(java.lang.String,java.util.Map,long)
+    397:409:public static void onEventDuration(java.lang.String,java.util.Map,long,boolean)
+    417:425:public static void setUpdateOnlyWifi(boolean)
+    433:435:public static void setUpdateUseCache(boolean)
+    443:443:public static boolean isUpdating()
+    472:474:public static java.lang.String getConfigParams(java.lang.String,java.lang.String)
+    483:484:public static void setDebugMode(boolean)
+    492:493:public static void setSessionContinueMillis(long)
+    511:516:public static void queryMyLocation(com.lotuseed.android.LocationReport)
+com.lotuseed.android.s
+com.lotuseed.android.t
+com.lotuseed.android.w:
+    43:46:static void a(android.content.Context)
+    351:395:static java.lang.String b(android.content.Context,java.lang.String)
+    502:502:static void a(boolean)
+    522:522:static void b(boolean)
+    536:537:static boolean b()
+com.lotuseed.android.y:
+    202:203:static void a(long)
+com.umeng.update.UmengUpdateAgent:
+    25:25:public UmengUpdateAgent()
+    36:46:public static void setDefault()
+    49:50:public static void setUpdateCheckConfig(boolean)
+    69:70:public static void setUpdateAutoPopup(boolean)
+    81:82:public static void setUpdateUIStyle(int)
+    91:92:public static void setDeltaUpdate(boolean)
+    101:102:public static void setAppkey(java.lang.String)
+    111:112:public static void setChannel(java.lang.String)
+    120:121:public static void setRichNotification(boolean)
+    130:131:public static void setUpdateListener(com.umeng.update.UmengUpdateListener)
+    141:142:public static void setDialogListener(com.umeng.update.UmengDialogButtonListener)
+    152:153:public static void setDownloadListener(com.umeng.update.UmengDownloadListener)
+    170:173:public static void silentUpdate(android.content.Context)
+    182:185:public static void forceUpdate(android.content.Context)
+    211:215:public static void update(android.content.Context,java.lang.String,java.lang.String)
+    334:335:public static void showUpdateDialog(android.content.Context,com.umeng.update.UpdateResponse)
+    347:348:public static void showUpdateNotification(android.content.Context,com.umeng.update.UpdateResponse)
+com.umeng.update.UpdateConfig:
+    public static final java.lang.String a
+    public static final java.lang.String b
+    public static final java.lang.String c
+    public static final java.lang.String d
+    public static final java.lang.String e
+    public static final java.lang.String f
+    public static final java.lang.String g
+    public static final java.lang.String h
+    public static final java.lang.String i
+    private static final java.lang.String j
+    private static final java.lang.String k
+    12:12:public UpdateConfig()
+    42:43:public static void setAppkey(java.lang.String)
+    46:47:public static void setChannel(java.lang.String)
+    50:51:public static void setDebug(boolean)
+    97:98:public static void setUpdateAutoPopup(boolean)
+    113:114:public static void setDeltaUpdate(boolean)
+    129:130:public static void setStyle(int)
+    137:138:public static void setUpdateCheck(boolean)
+    145:146:public static void setRichNotification(boolean)
+com.umeng.update.UpdateResponse:
+    private static final long a
+    public java.lang.String proto_ver
+    65:67:public UpdateResponse(org.json.JSONObject)
+    75:96:private void a(org.json.JSONObject)
+com.umeng.update.UpdateStatus
+com.umeng.update.a
+com.umeng.update.net.DownloadingService:
+    static final int a
+    static final int b
+    static final int c
+    static final int d
+    static final int e
+    static final int f
+    public static final int g
+    public static final int h
+    public static final int i
+    public static final int j
+    public static final int k
+    public static final int l
+    public static final int m
+    public static final int n
+    private static final long w
+    private static final long x
+    private static final long y
+    static final int o
+    static final java.lang.String p
+    private static final int z
+    private static final long C
+    private static final long D
+com.umeng.update.net.a:
+    61:62:public void a(java.lang.String[])
+com.umeng.update.net.b:
+    private static final java.lang.String b
+    private static final java.lang.String c
+    private static final java.lang.String d
+    private static final java.lang.String e
+    private static final java.lang.String f
+    private static final java.lang.String g
+    private static final java.lang.String h
+    private static final java.lang.String j
+    126:135:public void a(java.lang.String,java.lang.String,java.lang.String)
+    138:149:public int b(java.lang.String,java.lang.String)
+    153:164:public java.lang.String c(java.lang.String,java.lang.String)
+    168:187:public java.util.Date d(java.lang.String,java.lang.String)
+    191:196:public void e(java.lang.String,java.lang.String)
+    199:212:public java.util.List a(java.lang.String)
+com.umeng.update.net.b$a:
+    private static final int b
+    private static final java.lang.String c
+com.umeng.update.net.b$b:
+    67:67:private b$b()
+com.umeng.update.net.c:
+    static final int a
+    static final int b
+    static final int c
+    static final int d
+com.umeng.update.net.e:
+    private static final java.lang.String a
+com.umeng.update.net.f:
+    public static final java.lang.String a
+    public static final java.lang.String b
+    public static final java.lang.String c
+    public static final java.lang.String d
+    public static final java.lang.String e
+    15:15:public f()
+    55:59:public static int a(com.umeng.update.net.a$a)
+    63:69:public static android.app.PendingIntent a(android.content.Context,java.lang.String)
+com.umeng.update.net.g
+com.umeng.update.net.g$a
+com.umeng.update.net.g$b
+com.umeng.update.net.h
+com.umeng.update.net.i
+com.umeng.update.net.i$a
+com.umeng.update.net.j:
+    private static final long c
+    private static final long d
+    private static final long e
+    87:92:private static java.lang.String b(java.lang.String)
+    120:167:public static java.lang.String a(android.content.Context,java.lang.String)
+    326:340:protected static java.io.File b(android.content.Context,java.lang.String)
+    357:358:public static void a(android.content.Context,android.widget.ImageView,java.lang.String,boolean)
+    374:375:public static void a(android.content.Context,android.widget.ImageView,java.lang.String,boolean,com.umeng.update.net.j$a)
+    393:394:public static void a(android.content.Context,android.widget.ImageView,java.lang.String,boolean,com.umeng.update.net.j$a,android.view.animation.Animation)
+    413:434:public static void a(android.content.Context,android.widget.ImageView,java.lang.String,boolean,com.umeng.update.net.j$a,android.view.animation.Animation,boolean)
+    443:446:private static boolean a(android.widget.ImageView,java.lang.String)
+    453:484:private static synchronized void b(android.content.Context,android.widget.ImageView,android.graphics.drawable.Drawable,boolean,com.umeng.update.net.j$a,android.view.animation.Animation,boolean,java.lang.String)
+    566:572:private static android.graphics.drawable.Drawable c(java.lang.String)
+    612:636:private static android.graphics.Bitmap a(android.graphics.Bitmap)
+    449:449:static synthetic void a(android.content.Context,android.widget.ImageView,android.graphics.drawable.Drawable,boolean,com.umeng.update.net.j$a,android.view.animation.Animation,boolean,java.lang.String)
+    565:565:static synthetic android.graphics.drawable.Drawable a(java.lang.String)
+    49:49:static synthetic java.lang.String a()
+com.umeng.update.net.j$a
+com.umeng.update.net.j$b
+com.umeng.update.net.j$c
+com.umeng.update.util.DeltaUpdate:
+    private static final java.lang.String b
+    10:10:public DeltaUpdate()
+com.umeng.update.util.a
+com.umeng.update.util.c
+org.apache.http.entity.mime.Header:
+    68:68:public java.util.List getFields()
+    84:92:public java.util.List getFields(java.lang.String)
+    97:106:public int removeFields(java.lang.String)
+    110:133:public void setField(org.apache.http.entity.mime.MinimalField)
+org.apache.http.entity.mime.HttpMultipart:
+    138:139:public HttpMultipart(java.lang.String,java.nio.charset.Charset,java.lang.String)
+    142:143:public HttpMultipart(java.lang.String,java.lang.String)
+    146:146:public java.lang.String getSubType()
+    150:150:public java.nio.charset.Charset getCharset()
+    154:154:public org.apache.http.entity.mime.HttpMultipartMode getMode()
+org.apache.http.entity.mime.MIME:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_TRANSFER_ENC
+    public static final java.lang.String CONTENT_DISPOSITION
+    public static final java.lang.String ENC_8BIT
+    public static final java.lang.String ENC_BINARY
+    36:36:public MIME()
+org.apache.http.entity.mime.MultipartEntity:
+    93:94:public MultipartEntity(org.apache.http.entity.mime.HttpMultipartMode)
+org.apache.http.entity.mime.content.AbstractContentBody:
+    61:61:public java.lang.String getMediaType()
+    65:65:public java.lang.String getSubType()
+org.apache.http.entity.mime.content.ByteArrayBody
+org.apache.http.entity.mime.content.ContentDescriptor:
+    public abstract java.lang.String getMediaType()
+    public abstract java.lang.String getSubType()
+org.apache.http.entity.mime.content.FileBody:
+    85:85:public java.io.InputStream getInputStream()
+    93:94:public void writeTo(java.io.OutputStream,int)
+    130:130:public java.io.File getFile()
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody:
+    58:60:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.lang.String,java.nio.charset.Charset)
+    69:69:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.nio.charset.Charset)
+    76:76:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String)
+    126:127:public StringBody(java.lang.String)
+    130:130:public java.io.Reader getReader()
+    140:141:public void writeTo(java.io.OutputStream,int)
+u.upd.a:
+    public static final java.lang.String b
+    public static final java.lang.String c
+    public static final java.lang.String d
+    public static final int e
+    57:65:public static boolean a(java.lang.String,android.content.Context)
+    76:77:public static boolean a(android.content.Context)
+    87:90:public static boolean b(android.content.Context)
+    119:123:public static java.lang.String d(android.content.Context)
+    151:160:public static java.lang.String e(android.content.Context)
+    172:180:public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    190:218:public static java.lang.String a()
+    267:267:public static java.lang.String g(android.content.Context)
+    278:287:public static java.lang.String h(android.content.Context)
+    299:312:public static java.lang.String i(android.content.Context)
+    411:420:public static int m(android.content.Context)
+    431:451:public static java.lang.String[] n(android.content.Context)
+    462:479:private static java.util.Locale x(android.content.Context)
+    544:555:public static java.lang.String q(android.content.Context)
+    565:597:public static int[] r(android.content.Context)
+    602:608:private static int a(java.lang.Object,java.lang.String)
+    620:626:public static java.lang.String s(android.content.Context)
+    636:638:public static java.lang.String a(java.util.Date)
+    647:650:public static java.lang.String c()
+    662:666:public static java.util.Date a(java.lang.String)
+    680:688:public static int a(java.util.Date,java.util.Date)
+    753:755:public static boolean w(android.content.Context)
+u.upd.b:
+    8:8:public b()
+    56:59:public static void d(java.lang.String,java.lang.String)
+    62:65:public static void d(java.lang.String,java.lang.String,java.lang.Exception)
+u.upd.c:
+    47:47:public int a(java.lang.String)
+    91:91:public int e(java.lang.String)
+    113:113:public int g(java.lang.String)
+u.upd.d
+u.upd.d$a
+u.upd.d$b
+u.upd.e
+u.upd.f
+u.upd.f$a
+u.upd.g:
+    300:301:public u.upd.g a(java.util.Map)
+u.upd.h:
+    75:75:public java.lang.String d()
+u.upd.i:
+    22:24:public i(org.json.JSONObject)
+u.upd.j:
+    8:8:public j()
+    31:31:public static int f(android.content.Context)
+u.upd.k:
+    8:8:public k()
+u.upd.l:
+    7:7:public l()
+u.upd.m:
+    15:15:public m()
+    75:81:public static java.lang.String a(byte[],java.lang.String)
+    85:102:public static byte[] b(byte[])
+u.upd.n:
+    private static final java.lang.String b
+    34:34:public n()
+    146:158:public static java.lang.String a(android.content.Context,long)
+    192:195:public static void a(android.content.Context,java.lang.String)
+    207:213:public static boolean b(android.content.Context,java.lang.String)
+    237:241:public static boolean e(java.lang.String)
+    276:287:public static java.lang.String a(java.io.InputStream)
+    297:306:public static byte[] b(java.io.InputStream)
+    316:324:public static void a(java.io.File,byte[])
+    333:334:public static void a(java.io.File,java.lang.String)
+    341:346:public static void c(java.io.InputStream)
+    352:357:public static void a(java.io.OutputStream)

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/s_demo_color_background_red"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="个人中心"
+            android:textColor="@color/s_color_font_hightlight"
+            android:textSize="@dimen/s_size_font_bar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/superid_common_viewbg_img" >
+
+        <LinearLayout
+            android:id="@+id/userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/superid_demo_usercenterbg_img"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingTop="24dp" >
+
+                <ImageView
+                    android:id="@+id/avatarimg"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/superid_avatar_img_default" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="22dp"
+                    android:text=""
+                    android:textColor="@color/s_color_font_main"
+                    android:textSize="@dimen/s_size_font_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="手机"
+                    android:textColor="@color/s_color_font_main"
+                    android:textSize="@dimen/s_size_font_text" />
+
+                <TextView
+                    android:id="@+id/tv_phonenum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:text=""
+                    android:textColor="@color/s_color_font_vice"
+                    android:textSize="@dimen/s_size_font_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userinfo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/superid_demo_usercenterbg_img"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/icon_wx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/superid_demo_binding_wechat_ico_disable" />
+
+                <TextView
+                    android:id="@+id/tv_wx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@id/icon_wx"
+                    android:gravity="center_vertical"
+                    android:text="微信"
+                    android:textColor="@color/s_color_font_main"
+                    android:textSize="@dimen/s_size_font_text" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:background="@null"
+                    android:text="点击绑定"
+                    android:textColor="#FDAEAE"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/s_color_border" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/icon_sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/superid_demo_binding_superid_ico_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@id/icon_sp"
+                    android:gravity="center_vertical"
+                    android:text="一登"
+                    android:textColor="@color/s_color_font_main"
+                    android:textSize="@dimen/s_size_font_text" />
+
+                <Button
+                    android:id="@+id/btn_spbundle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:background="@null"
+                    android:onClick="btn_unbundle"
+                    android:text="点击绑定"
+                    android:textColor="@color/s_demo_color_background_red"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/s_color_border" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/icon_wb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/superid_demo_binding_weibo_ico_disable" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@id/icon_wb"
+                    android:gravity="center_vertical"
+                    android:text="新浪微博"
+                    android:textColor="@color/s_color_font_main"
+                    android:textSize="@dimen/s_size_font_text" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:background="@null"
+                    android:text="点击绑定"
+                    android:textColor="#FDAEAE"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/action"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/superid_demo_usercenterbg_img"
+            android:orientation="vertical" >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:gravity="center_vertical"
+                    android:text="人脸信息"
+                    android:textColor="@color/s_color_font_main"
+                    android:textSize="@dimen/s_size_font_text" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:background="@null"
+                    android:onClick="btn_facedata"
+                    android:text="点击体验"
+                    android:textColor="@color/s_demo_color_background_red"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:gravity="center_vertical"
+                    android:text="人脸信息(隐藏版)"
+                    android:textColor="@color/s_color_font_main"
+                    android:textSize="@dimen/s_size_font_text" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:background="@null"
+                    android:onClick="btn_sciencefacedata"
+                    android:text="点击体验"
+                    android:textColor="@color/s_demo_color_background_red"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/superid_demo_usercenterbg_img"
+            android:onClick="btn_logout"
+            android:text="退出登录"
+            android:textColor="@color/s_demo_color_background_red" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,2662 @@
+com.isnc.facesdk.FaceSDKMethod -> com.isnc.facesdk.FaceSDKMethod:
+    int REQUEST_CODE -> REQUEST_CODE
+    void initFaceSDK(android.content.Context) -> initFaceSDK
+    java.lang.String SendinfoToSuperID(android.content.Context,java.lang.String[]) -> SendinfoToSuperID
+    void FaceLogin(android.app.Activity) -> FaceLogin
+    void FaceLoginWithPhoneUid(android.app.Activity,java.lang.String,java.lang.String,java.lang.String) -> FaceLoginWithPhoneUid
+    void FaceBundle(android.app.Activity,java.lang.String,java.lang.String) -> FaceBundle
+    void FaceBundleWithPhone(android.app.Activity,java.lang.String,java.lang.String,java.lang.String) -> FaceBundleWithPhone
+    void GetFaceEmotion(android.app.Activity) -> GetFaceEmotion
+    void Unbundle(android.content.Context,com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback,com.isnc.facesdk.FaceSDKMethod$IntFailCallback) -> Unbundle
+    void UpdateAppUid(android.content.Context,java.lang.String,com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback,com.isnc.facesdk.FaceSDKMethod$IntFailCallback) -> UpdateAppUid
+    void UpdateAppInfo(android.content.Context,java.lang.String,com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback,com.isnc.facesdk.FaceSDKMethod$IntFailCallback) -> UpdateAppInfo
+    void UidAuthorized(android.content.Context,java.lang.String,com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback,com.isnc.facesdk.FaceSDKMethod$IntFailCallback) -> UidAuthorized
+    void PhoneAuthorized(android.content.Context,java.lang.String,com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback,com.isnc.facesdk.FaceSDKMethod$IntFailCallback) -> PhoneAuthorized
+    void FaceLogout(android.content.Context) -> FaceLogout
+    void setDebugMode(boolean) -> setDebugMode
+    void switchLanguage(android.content.Context,java.util.Locale) -> switchLanguage
+com.isnc.facesdk.FaceSDKMethod$1 -> com.isnc.facesdk.FaceSDKMethod$1:
+    android.content.Context val$context -> val$context
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.FaceSDKMethod$10 -> com.isnc.facesdk.FaceSDKMethod$10:
+    com.isnc.facesdk.FaceSDKMethod$IntFailCallback val$failCallback -> val$failCallback
+    void onFail(int) -> onFail
+com.isnc.facesdk.FaceSDKMethod$11 -> com.isnc.facesdk.FaceSDKMethod$11:
+    com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback val$successCallback -> val$successCallback
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.FaceSDKMethod$12 -> com.isnc.facesdk.FaceSDKMethod$12:
+    com.isnc.facesdk.FaceSDKMethod$IntFailCallback val$failCallback -> val$failCallback
+    void onFail(int) -> onFail
+com.isnc.facesdk.FaceSDKMethod$2 -> com.isnc.facesdk.FaceSDKMethod$2:
+    android.content.Context val$context -> val$context
+    void onFail() -> onFail
+com.isnc.facesdk.FaceSDKMethod$3 -> com.isnc.facesdk.FaceSDKMethod$3:
+    android.content.Context val$context -> val$context
+    com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback val$successCallback -> val$successCallback
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.FaceSDKMethod$4 -> com.isnc.facesdk.FaceSDKMethod$4:
+    com.isnc.facesdk.FaceSDKMethod$IntFailCallback val$failCallback -> val$failCallback
+    void onFail(int) -> onFail
+com.isnc.facesdk.FaceSDKMethod$5 -> com.isnc.facesdk.FaceSDKMethod$5:
+    com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback val$successCallback -> val$successCallback
+    com.isnc.facesdk.FaceSDKMethod$IntFailCallback val$failCallback -> val$failCallback
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.FaceSDKMethod$6 -> com.isnc.facesdk.FaceSDKMethod$6:
+    com.isnc.facesdk.FaceSDKMethod$IntFailCallback val$failCallback -> val$failCallback
+    void onFail(int) -> onFail
+com.isnc.facesdk.FaceSDKMethod$7 -> com.isnc.facesdk.FaceSDKMethod$7:
+    com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback val$successCallback -> val$successCallback
+    com.isnc.facesdk.FaceSDKMethod$IntFailCallback val$failCallback -> val$failCallback
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.FaceSDKMethod$8 -> com.isnc.facesdk.FaceSDKMethod$8:
+    com.isnc.facesdk.FaceSDKMethod$IntFailCallback val$failCallback -> val$failCallback
+    void onFail(int) -> onFail
+com.isnc.facesdk.FaceSDKMethod$9 -> com.isnc.facesdk.FaceSDKMethod$9:
+    com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback val$successCallback -> val$successCallback
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.FaceSDKMethod$FailCallback -> com.isnc.facesdk.FaceSDKMethod$FailCallback:
+    void onFail() -> onFail
+com.isnc.facesdk.FaceSDKMethod$IntFailCallback -> com.isnc.facesdk.FaceSDKMethod$IntFailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback -> com.isnc.facesdk.FaceSDKMethod$IntSuccessCallback:
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.FaceSDKMethod$SuccessCallback -> com.isnc.facesdk.FaceSDKMethod$SuccessCallback:
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.aty.A -> com.isnc.facesdk.aty.A:
+    com.isnc.facesdk.aty.u aT -> aT
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.Aty_AgreeItem -> com.isnc.facesdk.aty.Aty_AgreeItem:
+    android.webkit.WebView a -> a
+    android.widget.LinearLayout c -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void btn_back(android.view.View) -> btn_back
+    android.widget.LinearLayout a(com.isnc.facesdk.aty.Aty_AgreeItem) -> a
+com.isnc.facesdk.aty.Aty_Auth -> com.isnc.facesdk.aty.Aty_Auth:
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String name -> name
+    java.lang.String h -> h
+    java.lang.String i -> i
+    android.widget.TextView j -> j
+    android.widget.TextView k -> k
+    android.widget.TextView l -> l
+    android.widget.ImageView avatarimg -> avatarimg
+    android.widget.ImageView m -> m
+    android.widget.ViewSwitcher n -> n
+    android.widget.ProgressBar o -> o
+    com.isnc.facesdk.aty.Aty_Auth instance -> instance
+    boolean istakephoto -> istakephoto
+    void onCreate(android.os.Bundle) -> onCreate
+    void btn_auth(android.view.View) -> btn_auth
+    void a(java.lang.String,java.io.File) -> a
+    void updateAppInfo() -> updateAppInfo
+    void btn_save(android.view.View) -> btn_save
+    void a(boolean) -> a
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void showloading(java.lang.String) -> showloading
+    void showloadingnext(java.lang.String,int) -> showloadingnext
+    void hideloading(boolean) -> hideloading
+    void btn_back(android.view.View) -> btn_back
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onBackPressed() -> onBackPressed
+    java.lang.String a(com.isnc.facesdk.aty.Aty_Auth) -> a
+    java.lang.String b(com.isnc.facesdk.aty.Aty_Auth) -> b
+    java.lang.String c(com.isnc.facesdk.aty.Aty_Auth) -> c
+    void a(com.isnc.facesdk.aty.Aty_Auth,java.lang.String,java.io.File) -> a
+    android.widget.ViewSwitcher d(com.isnc.facesdk.aty.Aty_Auth) -> d
+    android.widget.ProgressBar e(com.isnc.facesdk.aty.Aty_Auth) -> e
+com.isnc.facesdk.aty.Aty_ClipPicture -> com.isnc.facesdk.aty.Aty_ClipPicture:
+    android.widget.ImageView v -> v
+    android.widget.TextView w -> w
+    com.isnc.facesdk.view.ClipView x -> x
+    java.lang.String y -> y
+    java.lang.String h -> h
+    android.graphics.Matrix z -> z
+    android.graphics.Matrix A -> A
+    int mode -> mode
+    android.graphics.PointF B -> B
+    android.graphics.PointF C -> C
+    float D -> D
+    int E -> E
+    void onCreate(android.os.Bundle) -> onCreate
+    void btn_back(android.view.View) -> btn_back
+    void btn_save(android.view.View) -> btn_save
+    void invokeToFaceRegist(android.content.Context,java.lang.String,java.lang.String) -> invokeToFaceRegist
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    float a(android.view.MotionEvent) -> a
+    int a(java.lang.String) -> a
+    android.graphics.Bitmap rotateBitmapByDegree(android.graphics.Bitmap,int) -> rotateBitmapByDegree
+com.isnc.facesdk.aty.Aty_CountryPage -> com.isnc.facesdk.aty.Aty_CountryPage:
+    com.isnc.facesdk.aty.Aty_CountryPage instance -> instance
+    android.widget.ListView F -> F
+    int G -> G
+    com.isnc.facesdk.view.SideBar H -> H
+    android.widget.TextView I -> I
+    com.isnc.facesdk.viewmodel.CountryAdapter J -> J
+    java.util.ArrayList K -> K
+    void onCreate(android.os.Bundle) -> onCreate
+    void btn_back(android.view.View) -> btn_back
+    com.isnc.facesdk.viewmodel.CountryAdapter a(com.isnc.facesdk.aty.Aty_CountryPage) -> a
+    android.widget.ListView b(com.isnc.facesdk.aty.Aty_CountryPage) -> b
+    java.util.ArrayList c(com.isnc.facesdk.aty.Aty_CountryPage) -> c
+    int d(com.isnc.facesdk.aty.Aty_CountryPage) -> d
+com.isnc.facesdk.aty.Aty_EditUserinfo -> com.isnc.facesdk.aty.Aty_EditUserinfo:
+    android.widget.TextView w -> w
+    android.widget.TextView M -> M
+    android.widget.EditText N -> N
+    java.lang.String name -> name
+    java.lang.String g -> g
+    java.lang.String h -> h
+    android.widget.ImageView avatarimg -> avatarimg
+    com.isnc.facesdk.aty.Aty_EditUserinfo O -> O
+    android.net.Uri P -> P
+    android.content.ContentResolver mContentResolver -> mContentResolver
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void btn_nameedclear(android.view.View) -> btn_nameedclear
+    void btn_save(android.view.View) -> btn_save
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onBackPressed() -> onBackPressed
+    void a(com.isnc.facesdk.aty.Aty_EditUserinfo,android.net.Uri) -> a
+    android.net.Uri a(com.isnc.facesdk.aty.Aty_EditUserinfo) -> a
+com.isnc.facesdk.aty.Aty_FaceDetect -> com.isnc.facesdk.aty.Aty_FaceDetect:
+    com.isnc.facesdk.aty.Aty_FaceDetect instance -> instance
+    com.matrixcv.androidapi.face.Accelerometer acc -> acc
+    android.content.Context S -> S
+    android.widget.Button T -> T
+    android.widget.Button U -> U
+    android.widget.Button V -> V
+    android.widget.Button W -> W
+    android.widget.Button X -> X
+    android.widget.ProgressBar o -> o
+    android.widget.EditText Y -> Y
+    android.widget.EditText Z -> Z
+    android.widget.EditText aa -> aa
+    android.widget.ImageView m -> m
+    android.widget.ImageView ab -> ab
+    android.widget.TextView w -> w
+    android.widget.TextView l -> l
+    android.widget.TextView ac -> ac
+    android.widget.TextView k -> k
+    android.widget.TextView ad -> ad
+    android.widget.TextView ae -> ae
+    android.widget.TextView af -> af
+    android.widget.TextView ag -> ag
+    android.widget.TextView ah -> ah
+    android.widget.TextView ai -> ai
+    android.widget.TextView aj -> aj
+    android.widget.TextView ak -> ak
+    android.widget.TextView al -> al
+    android.widget.ViewSwitcher n -> n
+    android.widget.RelativeLayout am -> am
+    android.widget.RelativeLayout an -> an
+    android.widget.RelativeLayout ao -> ao
+    android.widget.RelativeLayout ap -> ap
+    android.widget.RelativeLayout aq -> aq
+    int ar -> ar
+    java.util.Timer as -> as
+    java.util.Timer at -> at
+    java.util.TimerTask au -> au
+    java.util.TimerTask av -> av
+    com.isnc.facesdk.view.FaceRegistView mFaceRegistView -> mFaceRegistView
+    android.view.SurfaceView infoSurfaceView -> infoSurfaceView
+    java.lang.String aw -> aw
+    java.lang.String ax -> ax
+    java.lang.String ay -> ay
+    java.lang.String az -> az
+    java.lang.String aA -> aA
+    java.lang.String aB -> aB
+    java.lang.String aC -> aC
+    java.lang.String f -> f
+    java.lang.String aD -> aD
+    java.lang.String g -> g
+    java.lang.String name -> name
+    java.lang.String aE -> aE
+    int aF -> aF
+    int aG -> aG
+    int aH -> aH
+    boolean isfacedete -> isfacedete
+    int action -> action
+    boolean aI -> aI
+    boolean aJ -> aJ
+    com.isnc.facesdk.viewmodel.SmsContent aK -> aK
+    android.view.View aL -> aL
+    boolean aM -> aM
+    boolean aN -> aN
+    java.io.File file -> file
+    android.app.AlertDialog$Builder aO -> aO
+    android.os.Handler handler -> handler
+    void onCreate(android.os.Bundle) -> onCreate
+    void a() -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onDestroy() -> onDestroy
+    void b() -> b
+    void facecallback() -> facecallback
+    void getEmotion() -> getEmotion
+    void btn_guidestart(android.view.View) -> btn_guidestart
+    void btn_grchange(android.view.View) -> btn_grchange
+    void btn_grrescan(android.view.View) -> btn_grrescan
+    void btn_gr3rebundle(android.view.View) -> btn_gr3rebundle
+    void btn_gr3out(android.view.View) -> btn_gr3out
+    void btn_lselectcountry(android.view.View) -> btn_lselectcountry
+    void btn_rselectcountry(android.view.View) -> btn_rselectcountry
+    void btn_llogin(android.view.View) -> btn_llogin
+    void isuserauth(java.lang.String) -> isuserauth
+    void btn_rreg(android.view.View) -> btn_rreg
+    void btn_rbcancel(android.view.View) -> btn_rbcancel
+    void agree(android.view.View) -> agree
+    void btn_ledclear(android.view.View) -> btn_ledclear
+    void btn_rbedclear(android.view.View) -> btn_rbedclear
+    void btn_back(android.view.View) -> btn_back
+    void showLoading(java.lang.String) -> showLoading
+    void showLoadingNext(java.lang.String,int) -> showLoadingNext
+    void hideLoading(boolean) -> hideLoading
+    void btn_recode(android.view.View) -> btn_recode
+    void b(java.lang.String) -> b
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    com.isnc.facesdk.view.FaceRegistView a(com.isnc.facesdk.aty.Aty_FaceDetect) -> a
+    android.widget.TextView b(com.isnc.facesdk.aty.Aty_FaceDetect) -> b
+    android.widget.ImageView c(com.isnc.facesdk.aty.Aty_FaceDetect) -> c
+    void a(com.isnc.facesdk.aty.Aty_FaceDetect,boolean) -> a
+    int d(com.isnc.facesdk.aty.Aty_FaceDetect) -> d
+    boolean e(com.isnc.facesdk.aty.Aty_FaceDetect) -> e
+    java.lang.String f(com.isnc.facesdk.aty.Aty_FaceDetect) -> f
+    java.lang.String g(com.isnc.facesdk.aty.Aty_FaceDetect) -> g
+    void a(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> a
+    void b(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> b
+    android.os.Handler h(com.isnc.facesdk.aty.Aty_FaceDetect) -> h
+    android.widget.EditText i(com.isnc.facesdk.aty.Aty_FaceDetect) -> i
+    void j(com.isnc.facesdk.aty.Aty_FaceDetect) -> j
+    boolean k(com.isnc.facesdk.aty.Aty_FaceDetect) -> k
+    boolean l(com.isnc.facesdk.aty.Aty_FaceDetect) -> l
+    java.lang.String m(com.isnc.facesdk.aty.Aty_FaceDetect) -> m
+    void c(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> c
+    java.lang.String n(com.isnc.facesdk.aty.Aty_FaceDetect) -> n
+    java.io.File o(com.isnc.facesdk.aty.Aty_FaceDetect) -> o
+    int p(com.isnc.facesdk.aty.Aty_FaceDetect) -> p
+    void a(com.isnc.facesdk.aty.Aty_FaceDetect,android.app.AlertDialog$Builder) -> a
+    int q(com.isnc.facesdk.aty.Aty_FaceDetect) -> q
+    void a(com.isnc.facesdk.aty.Aty_FaceDetect,int) -> a
+    void d(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> d
+    java.lang.String r(com.isnc.facesdk.aty.Aty_FaceDetect) -> r
+    void e(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> e
+    int s(com.isnc.facesdk.aty.Aty_FaceDetect) -> s
+    android.view.View t(com.isnc.facesdk.aty.Aty_FaceDetect) -> t
+    android.widget.Button u(com.isnc.facesdk.aty.Aty_FaceDetect) -> u
+    android.widget.Button v(com.isnc.facesdk.aty.Aty_FaceDetect) -> v
+    void w(com.isnc.facesdk.aty.Aty_FaceDetect) -> w
+    android.app.AlertDialog$Builder x(com.isnc.facesdk.aty.Aty_FaceDetect) -> x
+    void b(com.isnc.facesdk.aty.Aty_FaceDetect,int) -> b
+    void f(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> f
+    java.lang.String y(com.isnc.facesdk.aty.Aty_FaceDetect) -> y
+    java.lang.String z(com.isnc.facesdk.aty.Aty_FaceDetect) -> z
+    java.lang.String A(com.isnc.facesdk.aty.Aty_FaceDetect) -> A
+    java.lang.String B(com.isnc.facesdk.aty.Aty_FaceDetect) -> B
+    void g(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> g
+    void h(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> h
+    void a(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String,java.lang.String) -> a
+    android.widget.Button C(com.isnc.facesdk.aty.Aty_FaceDetect) -> C
+    android.widget.EditText D(com.isnc.facesdk.aty.Aty_FaceDetect) -> D
+    android.widget.RelativeLayout E(com.isnc.facesdk.aty.Aty_FaceDetect) -> E
+    android.widget.EditText F(com.isnc.facesdk.aty.Aty_FaceDetect) -> F
+    void b(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String,java.lang.String) -> b
+    android.widget.Button G(com.isnc.facesdk.aty.Aty_FaceDetect) -> G
+    void i(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> i
+    java.lang.String H(com.isnc.facesdk.aty.Aty_FaceDetect) -> H
+    android.widget.Button I(com.isnc.facesdk.aty.Aty_FaceDetect) -> I
+    void j(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> j
+    java.lang.String J(com.isnc.facesdk.aty.Aty_FaceDetect) -> J
+    void b(com.isnc.facesdk.aty.Aty_FaceDetect,boolean) -> b
+    void c(com.isnc.facesdk.aty.Aty_FaceDetect,boolean) -> c
+    android.widget.TextView K(com.isnc.facesdk.aty.Aty_FaceDetect) -> K
+    void k(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> k
+    android.widget.ViewSwitcher L(com.isnc.facesdk.aty.Aty_FaceDetect) -> L
+    android.widget.ProgressBar M(com.isnc.facesdk.aty.Aty_FaceDetect) -> M
+    void N(com.isnc.facesdk.aty.Aty_FaceDetect) -> N
+    void l(com.isnc.facesdk.aty.Aty_FaceDetect,java.lang.String) -> l
+    int O(com.isnc.facesdk.aty.Aty_FaceDetect) -> O
+    java.util.TimerTask P(com.isnc.facesdk.aty.Aty_FaceDetect) -> P
+    void c(com.isnc.facesdk.aty.Aty_FaceDetect,int) -> c
+com.isnc.facesdk.aty.Aty_FaceEmotion -> com.isnc.facesdk.aty.Aty_FaceEmotion:
+    com.isnc.facesdk.view.FaceRegistView mFaceRegistView -> mFaceRegistView
+    android.view.SurfaceView infoSurfaceView -> infoSurfaceView
+    boolean isfacedete -> isfacedete
+    com.matrixcv.androidapi.face.Accelerometer acc -> acc
+    com.isnc.facesdk.aty.Aty_FaceEmotion instance -> instance
+    java.io.File file -> file
+    void setContentView(int) -> setContentView
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onDestroy() -> onDestroy
+    void FaceDetecion() -> FaceDetecion
+    void facecallback() -> facecallback
+    void FaceDataCallback(java.lang.String) -> FaceDataCallback
+    void RequestFaceData() -> RequestFaceData
+    void GetFaceDataFail() -> GetFaceDataFail
+    void LoginWithSuperID() -> LoginWithSuperID
+    com.isnc.facesdk.view.FaceRegistView access$0(com.isnc.facesdk.aty.Aty_FaceEmotion) -> access$0
+com.isnc.facesdk.aty.B -> com.isnc.facesdk.aty.B:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.isnc.facesdk.aty.C -> com.isnc.facesdk.aty.C:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.isnc.facesdk.aty.D -> com.isnc.facesdk.aty.D:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.isnc.facesdk.aty.E -> com.isnc.facesdk.aty.E:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+com.isnc.facesdk.aty.F -> com.isnc.facesdk.aty.F:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+com.isnc.facesdk.aty.G -> com.isnc.facesdk.aty.G:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+com.isnc.facesdk.aty.H -> com.isnc.facesdk.aty.H:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+com.isnc.facesdk.aty.I -> com.isnc.facesdk.aty.I:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    void run() -> run
+com.isnc.facesdk.aty.J -> com.isnc.facesdk.aty.J:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    void run() -> run
+com.isnc.facesdk.aty.K -> com.isnc.facesdk.aty.K:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+com.isnc.facesdk.aty.L -> com.isnc.facesdk.aty.L:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    void onSuccess(int) -> onSuccess
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.L) -> a
+com.isnc.facesdk.aty.M -> com.isnc.facesdk.aty.M:
+    com.isnc.facesdk.aty.L aU -> aU
+    java.lang.String aR -> aR
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.N -> com.isnc.facesdk.aty.N:
+    com.isnc.facesdk.aty.L aU -> aU
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.O -> com.isnc.facesdk.aty.O:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    void onFail(int) -> onFail
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.O) -> a
+com.isnc.facesdk.aty.P -> com.isnc.facesdk.aty.P:
+    com.isnc.facesdk.aty.O aV -> aV
+    java.lang.String aR -> aR
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.Q -> com.isnc.facesdk.aty.Q:
+    com.isnc.facesdk.aty.O aV -> aV
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.R -> com.isnc.facesdk.aty.R:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    java.lang.String aS -> aS
+    void run() -> run
+com.isnc.facesdk.aty.S -> com.isnc.facesdk.aty.S:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    boolean u -> u
+    void run() -> run
+com.isnc.facesdk.aty.T -> com.isnc.facesdk.aty.T:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void onSuccess(int) -> onSuccess
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.T) -> a
+com.isnc.facesdk.aty.U -> com.isnc.facesdk.aty.U:
+    com.isnc.facesdk.aty.T aW -> aW
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.V -> com.isnc.facesdk.aty.V:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aX -> aX
+    void onFail() -> onFail
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.V) -> a
+com.isnc.facesdk.aty.W -> com.isnc.facesdk.aty.W:
+    com.isnc.facesdk.aty.V aY -> aY
+    java.lang.String aX -> aX
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.X -> com.isnc.facesdk.aty.X:
+    com.isnc.facesdk.aty.V aY -> aY
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.Y -> com.isnc.facesdk.aty.Y:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.Y) -> a
+com.isnc.facesdk.aty.Z -> com.isnc.facesdk.aty.Z:
+    com.isnc.facesdk.aty.Y aZ -> aZ
+    void run() -> run
+com.isnc.facesdk.aty.a -> com.isnc.facesdk.aty.a:
+    com.isnc.facesdk.aty.Aty_AgreeItem d -> d
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.isnc.facesdk.aty.aA -> com.isnc.facesdk.aty.aA:
+    com.isnc.facesdk.aty.at bd -> bd
+    java.lang.String aR -> aR
+    java.lang.String aS -> aS
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.aB -> com.isnc.facesdk.aty.aB:
+    com.isnc.facesdk.aty.at bd -> bd
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.aC -> com.isnc.facesdk.aty.aC:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.aty.aD -> com.isnc.facesdk.aty.aD:
+    com.isnc.facesdk.aty.Aty_FaceEmotion be -> be
+    void run() -> run
+com.isnc.facesdk.aty.aE -> com.isnc.facesdk.aty.aE:
+    com.isnc.facesdk.aty.Aty_FaceEmotion be -> be
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.aty.aF -> com.isnc.facesdk.aty.aF:
+    void onFail(int) -> onFail
+com.isnc.facesdk.aty.aG -> com.isnc.facesdk.aty.aG:
+    com.isnc.facesdk.aty.Aty_FaceEmotion be -> be
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.aty.aH -> com.isnc.facesdk.aty.aH:
+    com.isnc.facesdk.aty.Aty_FaceEmotion be -> be
+    void onFail() -> onFail
+com.isnc.facesdk.aty.aa -> com.isnc.facesdk.aty.aa:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+com.isnc.facesdk.aty.ab -> com.isnc.facesdk.aty.ab:
+    com.isnc.facesdk.aty.aa ba -> ba
+    void run() -> run
+com.isnc.facesdk.aty.ac -> com.isnc.facesdk.aty.ac:
+    com.isnc.facesdk.aty.aa ba -> ba
+    void run() -> run
+com.isnc.facesdk.aty.ad -> com.isnc.facesdk.aty.ad:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.ad) -> a
+com.isnc.facesdk.aty.ae -> com.isnc.facesdk.aty.ae:
+    com.isnc.facesdk.aty.ad bb -> bb
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.aty.af -> com.isnc.facesdk.aty.af:
+    com.isnc.facesdk.aty.ad bb -> bb
+    void onFail(int) -> onFail
+com.isnc.facesdk.aty.ag -> com.isnc.facesdk.aty.ag:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aX -> aX
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.aty.ah -> com.isnc.facesdk.aty.ah:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aX -> aX
+    void onFail(org.json.JSONObject) -> onFail
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.ah) -> a
+com.isnc.facesdk.aty.ai -> com.isnc.facesdk.aty.ai:
+    com.isnc.facesdk.aty.ah bc -> bc
+    java.lang.String aX -> aX
+    void run() -> run
+com.isnc.facesdk.aty.aj -> com.isnc.facesdk.aty.aj:
+    com.isnc.facesdk.aty.ah bc -> bc
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.ak -> com.isnc.facesdk.aty.ak:
+    com.isnc.facesdk.aty.ah bc -> bc
+    void run() -> run
+com.isnc.facesdk.aty.al -> com.isnc.facesdk.aty.al:
+    com.isnc.facesdk.aty.ah bc -> bc
+    java.lang.String aX -> aX
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.am -> com.isnc.facesdk.aty.am:
+    com.isnc.facesdk.aty.ah bc -> bc
+    java.lang.String aX -> aX
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.an -> com.isnc.facesdk.aty.an:
+    com.isnc.facesdk.aty.ah bc -> bc
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.ao -> com.isnc.facesdk.aty.ao:
+    com.isnc.facesdk.aty.ah bc -> bc
+    void run() -> run
+com.isnc.facesdk.aty.ap -> com.isnc.facesdk.aty.ap:
+    com.isnc.facesdk.aty.ah bc -> bc
+    java.lang.String aX -> aX
+    void run() -> run
+com.isnc.facesdk.aty.aq -> com.isnc.facesdk.aty.aq:
+    com.isnc.facesdk.aty.ah bc -> bc
+    java.lang.String aX -> aX
+    void run() -> run
+com.isnc.facesdk.aty.ar -> com.isnc.facesdk.aty.ar:
+    com.isnc.facesdk.aty.ah bc -> bc
+    java.lang.String aX -> aX
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.as -> com.isnc.facesdk.aty.as:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.aty.at -> com.isnc.facesdk.aty.at:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    java.lang.String aS -> aS
+    void onFail(int) -> onFail
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.at) -> a
+com.isnc.facesdk.aty.au -> com.isnc.facesdk.aty.au:
+    com.isnc.facesdk.aty.at bd -> bd
+    java.lang.String aR -> aR
+    java.lang.String aS -> aS
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.av -> com.isnc.facesdk.aty.av:
+    com.isnc.facesdk.aty.at bd -> bd
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.aw -> com.isnc.facesdk.aty.aw:
+    com.isnc.facesdk.aty.at bd -> bd
+    void run() -> run
+com.isnc.facesdk.aty.ax -> com.isnc.facesdk.aty.ax:
+    com.isnc.facesdk.aty.at bd -> bd
+    java.lang.String aR -> aR
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.ay -> com.isnc.facesdk.aty.ay:
+    com.isnc.facesdk.aty.at bd -> bd
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.az -> com.isnc.facesdk.aty.az:
+    com.isnc.facesdk.aty.at bd -> bd
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.b -> com.isnc.facesdk.aty.b:
+    void imageLoad(android.widget.ImageView,android.graphics.Bitmap) -> imageLoad
+com.isnc.facesdk.aty.c -> com.isnc.facesdk.aty.c:
+    com.isnc.facesdk.aty.Aty_Auth p -> p
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.aty.d -> com.isnc.facesdk.aty.d:
+    com.isnc.facesdk.aty.Aty_Auth p -> p
+    java.lang.String q -> q
+    java.io.File r -> r
+    void onFail(int) -> onFail
+    com.isnc.facesdk.aty.Aty_Auth a(com.isnc.facesdk.aty.d) -> a
+com.isnc.facesdk.aty.e -> com.isnc.facesdk.aty.e:
+    com.isnc.facesdk.aty.d s -> s
+    java.lang.String q -> q
+    java.io.File r -> r
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.f -> com.isnc.facesdk.aty.f:
+    com.isnc.facesdk.aty.d s -> s
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.g -> com.isnc.facesdk.aty.g:
+    com.isnc.facesdk.aty.Aty_Auth p -> p
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.aty.h -> com.isnc.facesdk.aty.h:
+    com.isnc.facesdk.aty.Aty_Auth p -> p
+    void onFail(int) -> onFail
+    com.isnc.facesdk.aty.Aty_Auth a(com.isnc.facesdk.aty.h) -> a
+com.isnc.facesdk.aty.i -> com.isnc.facesdk.aty.i:
+    com.isnc.facesdk.aty.h t -> t
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.j -> com.isnc.facesdk.aty.j:
+    com.isnc.facesdk.aty.h t -> t
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.k -> com.isnc.facesdk.aty.k:
+    com.isnc.facesdk.aty.Aty_Auth p -> p
+    boolean u -> u
+    void run() -> run
+com.isnc.facesdk.aty.l -> com.isnc.facesdk.aty.l:
+    com.isnc.facesdk.aty.Aty_CountryPage L -> L
+    void onTouchingLetterChanged(java.lang.String) -> onTouchingLetterChanged
+com.isnc.facesdk.aty.m -> com.isnc.facesdk.aty.m:
+    com.isnc.facesdk.aty.Aty_CountryPage L -> L
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.isnc.facesdk.aty.n -> com.isnc.facesdk.aty.n:
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.isnc.facesdk.aty.o -> com.isnc.facesdk.aty.o:
+    void imageLoad(android.widget.ImageView,android.graphics.Bitmap) -> imageLoad
+com.isnc.facesdk.aty.p -> com.isnc.facesdk.aty.p:
+    void imageLoad(android.widget.ImageView,android.graphics.Bitmap) -> imageLoad
+com.isnc.facesdk.aty.q -> com.isnc.facesdk.aty.q:
+    com.isnc.facesdk.aty.Aty_EditUserinfo Q -> Q
+    void onClick(android.view.View) -> onClick
+    com.isnc.facesdk.aty.Aty_EditUserinfo a(com.isnc.facesdk.aty.q) -> a
+com.isnc.facesdk.aty.r -> com.isnc.facesdk.aty.r:
+    com.isnc.facesdk.aty.q R -> R
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.s -> com.isnc.facesdk.aty.s:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    void run() -> run
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.s) -> a
+com.isnc.facesdk.aty.t -> com.isnc.facesdk.aty.t:
+    com.isnc.facesdk.aty.s aQ -> aQ
+    void run() -> run
+com.isnc.facesdk.aty.u -> com.isnc.facesdk.aty.u:
+    com.isnc.facesdk.aty.Aty_FaceDetect aP -> aP
+    java.lang.String aR -> aR
+    java.lang.String aS -> aS
+    void onFail(int) -> onFail
+    com.isnc.facesdk.aty.Aty_FaceDetect a(com.isnc.facesdk.aty.u) -> a
+com.isnc.facesdk.aty.v -> com.isnc.facesdk.aty.v:
+    com.isnc.facesdk.aty.u aT -> aT
+    java.lang.String aR -> aR
+    java.lang.String aS -> aS
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.w -> com.isnc.facesdk.aty.w:
+    com.isnc.facesdk.aty.u aT -> aT
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.x -> com.isnc.facesdk.aty.x:
+    com.isnc.facesdk.aty.u aT -> aT
+    void run() -> run
+com.isnc.facesdk.aty.y -> com.isnc.facesdk.aty.y:
+    com.isnc.facesdk.aty.u aT -> aT
+    java.lang.String aR -> aR
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.aty.z -> com.isnc.facesdk.aty.z:
+    com.isnc.facesdk.aty.u aT -> aT
+    java.lang.String aR -> aR
+    java.lang.String aS -> aS
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.facesdk.common.Cache -> com.isnc.facesdk.common.Cache:
+    com.isnc.facesdk.common.Cache bf -> bf
+    android.content.SharedPreferences bg -> bg
+    com.isnc.facesdk.common.Cache a(android.content.Context) -> a
+    void saveCached(android.content.Context,java.lang.String[]) -> saveCached
+    void saveIntCached(android.content.Context,java.lang.String,int) -> saveIntCached
+    java.lang.String getCached(android.content.Context,java.lang.String) -> getCached
+    int getIntCached(android.content.Context,java.lang.String,int) -> getIntCached
+    void deleCached(android.content.Context,java.lang.String[]) -> deleCached
+    void clearCached(android.content.Context) -> clearCached
+com.isnc.facesdk.common.DebugMode -> com.isnc.facesdk.common.DebugMode:
+    boolean isshow -> isshow
+    void error(java.lang.String) -> error
+    void warn(java.lang.String) -> warn
+    void debug(java.lang.String) -> debug
+    void info(java.lang.String) -> info
+com.isnc.facesdk.common.MD5 -> com.isnc.facesdk.common.MD5:
+    char[] bh -> bh
+    java.lang.String hexdigest(java.lang.String) -> hexdigest
+    java.lang.String hexdigest(byte[]) -> hexdigest
+com.isnc.facesdk.common.MResource -> com.isnc.facesdk.common.MResource:
+    int getIdByName(android.content.Context,java.lang.String,java.lang.String) -> getIdByName
+com.isnc.facesdk.common.SAnimation -> com.isnc.facesdk.common.SAnimation:
+    android.view.animation.Animation animShow(android.content.Context,int) -> animShow
+    android.view.animation.Animation animHide(android.content.Context,int) -> animHide
+    android.view.animation.Animation animAlpha(android.widget.ImageView,com.isnc.facesdk.view.FaceRegistView,android.widget.TextView) -> animAlpha
+    android.view.animation.Animation alphaShow() -> alphaShow
+    android.view.animation.Animation alphaHide() -> alphaHide
+com.isnc.facesdk.common.SDKConfig -> com.isnc.facesdk.common.SDKConfig:
+    java.lang.String BASE_URL -> BASE_URL
+    java.lang.String ACTION_GETAPPTOKEN -> ACTION_GETAPPTOKEN
+    java.lang.String ACTION_SDKLOGIN -> ACTION_SDKLOGIN
+    java.lang.String ACTION_SDKLOGOUT -> ACTION_SDKLOGOUT
+    java.lang.String ACTION_GETAUTH -> ACTION_GETAUTH
+    java.lang.String ACTION_SDKREBUNDLE -> ACTION_SDKREBUNDLE
+    java.lang.String ACTION_SDKREQUESTTOKEN -> ACTION_SDKREQUESTTOKEN
+    java.lang.String ACTION_SDKACCESSTOKEN -> ACTION_SDKACCESSTOKEN
+    java.lang.String ACTION_USERAUTHORIZED -> ACTION_USERAUTHORIZED
+    java.lang.String ACTION_UIDAUTHORIZED -> ACTION_UIDAUTHORIZED
+    java.lang.String ACTION_UPDATEAPPINFO -> ACTION_UPDATEAPPINFO
+    java.lang.String ACTION_UPDATEAPPUID -> ACTION_UPDATEAPPUID
+    java.lang.String ACTION_SDKGETEMOTION -> ACTION_SDKGETEMOTION
+    java.lang.String ACTION_SDKAPPGETEMOTION -> ACTION_SDKAPPGETEMOTION
+    java.lang.String KEY_STATUS -> KEY_STATUS
+    java.lang.String KEY_MESSAGE -> KEY_MESSAGE
+    java.lang.String KEY_ERRORCODE -> KEY_ERRORCODE
+    java.lang.String KEY_DATA -> KEY_DATA
+    java.lang.String KEY_APPID -> KEY_APPID
+    java.lang.String KEY_APPSECRET -> KEY_APPSECRET
+    java.lang.String KEY_DEVICETYPE -> KEY_DEVICETYPE
+    java.lang.String KEY_ANDROIDPK -> KEY_ANDROIDPK
+    java.lang.String KEY_ANDROIDKEY -> KEY_ANDROIDKEY
+    java.lang.String KEY_APPTOKEN -> KEY_APPTOKEN
+    java.lang.String KEY_EXPIRED -> KEY_EXPIRED
+    java.lang.String KEY_REQUESTTOKEN -> KEY_REQUESTTOKEN
+    java.lang.String KEY_ACCESSTOKEN -> KEY_ACCESSTOKEN
+    java.lang.String KEY_AUTHCODE -> KEY_AUTHCODE
+    java.lang.String KEY_PHONENUM -> KEY_PHONENUM
+    java.lang.String KEY_APPUID -> KEY_APPUID
+    java.lang.String KEY_APPINFO -> KEY_APPINFO
+    java.lang.String KEY_NAME -> KEY_NAME
+    java.lang.String KEY_AVATAR -> KEY_AVATAR
+    java.lang.String KEY_MAIL -> KEY_MAIL
+    java.lang.String KEY_FACEDATA -> KEY_FACEDATA
+    java.lang.String KEY_FACE -> KEY_FACE
+    java.lang.String KEY_AUTHORIZED -> KEY_AUTHORIZED
+    java.lang.String KEY_EDPHONENUM -> KEY_EDPHONENUM
+    java.lang.String KEY_DEVICEID -> KEY_DEVICEID
+    java.lang.String KEY_ANDROIDDEVICEID -> KEY_ANDROIDDEVICEID
+    java.lang.String KEY_DEVICE -> KEY_DEVICE
+    java.lang.String KEY_UID -> KEY_UID
+    java.lang.String KEY_SCORE -> KEY_SCORE
+    java.lang.String KEY_NEEDCHANGEUSER -> KEY_NEEDCHANGEUSER
+    java.lang.String KEY_RESOURCEID -> KEY_RESOURCEID
+    java.lang.String KEY_EMRESOURCEID -> KEY_EMRESOURCEID
+    java.lang.String KEY_ACCESSTOKENEXPIRED -> KEY_ACCESSTOKENEXPIRED
+    java.lang.String KEY_APPACTION -> KEY_APPACTION
+    int RESULT_STATUS_SUCCESS -> RESULT_STATUS_SUCCESS
+    int RESULT_STATUS_FAIL -> RESULT_STATUS_FAIL
+    int ISAUTHORIZED -> ISAUTHORIZED
+    int NOAUTHORIZED -> NOAUTHORIZED
+    int CONNECTTIMEOUT -> CONNECTTIMEOUT
+    int SOCKETTIMEOUT -> SOCKETTIMEOUT
+    int SSLException -> SSLException
+    int OTHER_ERROR -> OTHER_ERROR
+    int MISSING_PARAMETER -> MISSING_PARAMETER
+    int INVALID_PARAMETER -> INVALID_PARAMETER
+    int USER_NOTEXIST -> USER_NOTEXIST
+    int MISSING_DATAUSERFACE -> MISSING_DATAUSERFACE
+    int COMPAREFACE_FAIL -> COMPAREFACE_FAIL
+    int APPTOKEN_EXPIRED -> APPTOKEN_EXPIRED
+    int ACCESSTOKEN_EXPIRED -> ACCESSTOKEN_EXPIRED
+    int PHONECODE_ERROR -> PHONECODE_ERROR
+    int USER_NOTAUTHORIZED -> USER_NOTAUTHORIZED
+    int CODE_OVERLIMIT -> CODE_OVERLIMIT
+    int REQUESTTOKEN_EXPIRED -> REQUESTTOKEN_EXPIRED
+    int MISSING_USERFACE -> MISSING_USERFACE
+    int MISSING_FACEEMOTION -> MISSING_FACEEMOTION
+    int SUPERIDUID_EXIST -> SUPERIDUID_EXIST
+    java.lang.String RIGHT_APPGETEMOTION -> RIGHT_APPGETEMOTION
+    java.lang.String RIGHT_INTERNATIONALSMS -> RIGHT_INTERNATIONALSMS
+    java.lang.String SP_USERINFO -> SP_USERINFO
+    java.lang.String INTENT_ACTION -> INTENT_ACTION
+    java.lang.String INTENT_PHONE -> INTENT_PHONE
+    java.lang.String INTENT_APPUID -> INTENT_APPUID
+    java.lang.String INTENT_USERINFO -> INTENT_USERINFO
+    java.lang.String INTENT_SERUSERINFO -> INTENT_SERUSERINFO
+    java.lang.String INTENT_APPUSERINFO -> INTENT_APPUSERINFO
+    java.lang.String INTENT_ONEKEYBUNDLE -> INTENT_ONEKEYBUNDLE
+    int INTENT_ACTION_LOGIN -> INTENT_ACTION_LOGIN
+    int INTENT_ACTION_BUNDLE -> INTENT_ACTION_BUNDLE
+    int INTENT_ACTION_GETEMOTION -> INTENT_ACTION_GETEMOTION
+    int INTENT_NOACTION -> INTENT_NOACTION
+    boolean INTENT_ISONEKEYBUNDLE -> INTENT_ISONEKEYBUNDLE
+    boolean INTENT_NOONEKEYBUNDLE -> INTENT_NOONEKEYBUNDLE
+    int REQUESTCODE_LCOUNTRYSELE -> REQUESTCODE_LCOUNTRYSELE
+    int REQUESTCODE_RCOUNTRYSELE -> REQUESTCODE_RCOUNTRYSELE
+    int EDITINFO_BACK -> EDITINFO_BACK
+    int EDITINFO_SAVE -> EDITINFO_SAVE
+    int LOGINSUCCESS -> LOGINSUCCESS
+    int LOGINFAIL -> LOGINFAIL
+    int USER_NOTFOUND -> USER_NOTFOUND
+    int SUPERIDEXIST -> SUPERIDEXIST
+    int BUNDLEFAIL -> BUNDLEFAIL
+    int NETWORKFAIL -> NETWORKFAIL
+    int USER_NOTAUTH -> USER_NOTAUTH
+    int PHONECODEOVERLIMIT -> PHONECODEOVERLIMIT
+    int AUTH_SUCCESS -> AUTH_SUCCESS
+    int AUTH_BACK -> AUTH_BACK
+    int UID_ISNULL -> UID_ISNULL
+    int GETEMOTIONRESULT -> GETEMOTIONRESULT
+    int GETEMOTION_FAIL -> GETEMOTION_FAIL
+    int TOKEN_ISNULL -> TOKEN_ISNULL
+    int APPTOKENERROR -> APPTOKENERROR
+    int ACCESSTOKENERROR -> ACCESSTOKENERROR
+    java.lang.String SUPERIDDATA -> SUPERIDDATA
+    java.lang.String FACEDATA -> FACEDATA
+    java.lang.String SD_ROOT_PATH -> SD_ROOT_PATH
+    java.lang.String TEMP_PATH -> TEMP_PATH
+    java.lang.String SUPERID_DEFAULTAVATAR -> SUPERID_DEFAULTAVATAR
+    java.lang.String SUPERID_AGREEITEMURL -> SUPERID_AGREEITEMURL
+    java.lang.String SUPERID_AGREEITEMENURL -> SUPERID_AGREEITEMENURL
+    java.lang.String LOTUSEEDKEY -> LOTUSEEDKEY
+    java.lang.String SMSNUM -> SMSNUM
+com.isnc.facesdk.common.Utils -> com.isnc.facesdk.common.Utils:
+    android.graphics.Bitmap ARGB2Gray(android.graphics.Bitmap) -> ARGB2Gray
+    boolean doARGB2Gray(android.graphics.Bitmap,android.graphics.Bitmap) -> doARGB2Gray
+    void NV21ToGrayBitmap(byte[],android.graphics.Bitmap) -> NV21ToGrayBitmap
+    void RotateBitmapAlpha8(android.graphics.Bitmap,android.graphics.Bitmap) -> RotateBitmapAlpha8
+    void drawFaceRect(android.view.SurfaceHolder,android.graphics.Canvas,com.matrixcv.androidapi.face.FaceRect,int,int,boolean,boolean,int) -> drawFaceRect
+    android.graphics.Rect RotateDeg90(android.graphics.Rect,int,int) -> RotateDeg90
+    android.graphics.Point RotateDeg90(android.graphics.Point,int,int) -> RotateDeg90
+    boolean isMobileNO(java.lang.String,boolean) -> isMobileNO
+    boolean isIntentSafe(android.app.Activity,android.content.Intent) -> isIntentSafe
+    java.lang.String getRealPath(android.content.Context,android.net.Uri) -> getRealPath
+    android.graphics.Bitmap getBitmapByPath(java.lang.String) -> getBitmapByPath
+    android.graphics.Bitmap getBitmapByPath(java.lang.String,android.graphics.BitmapFactory$Options) -> getBitmapByPath
+    int[] getScreenSizeArray(android.content.Context) -> getScreenSizeArray
+    android.graphics.Bitmap zoomBitmaptoMin(android.graphics.Bitmap,int) -> zoomBitmaptoMin
+    boolean isFileExist(java.lang.String) -> isFileExist
+    java.io.File createSDDir(java.lang.String) -> createSDDir
+    java.io.File saveBitmap(android.graphics.Bitmap,java.lang.String) -> saveBitmap
+    android.graphics.Bitmap getRoundedCornerBitmap(android.graphics.Bitmap,float) -> getRoundedCornerBitmap
+    void showKeyBoard(boolean,android.widget.EditText,android.content.Context) -> showKeyBoard
+    boolean isNetAvailable() -> isNetAvailable
+    android.net.NetworkInfo getActiveNetworkInfo() -> getActiveNetworkInfo
+    java.lang.String getVersion(android.content.Context) -> getVersion
+    java.util.HashMap getappinfo(android.content.Context,java.lang.String[]) -> getappinfo
+    java.lang.String getSign(android.content.Context,java.lang.String) -> getSign
+    java.lang.String getDeviceID(android.content.Context) -> getDeviceID
+    boolean appActionRight(android.content.Context,java.lang.String) -> appActionRight
+    java.lang.String subStringPhone(java.lang.String,java.lang.String) -> subStringPhone
+    java.lang.String[] resolveStringPhone(java.lang.String) -> resolveStringPhone
+    java.lang.String getMCC(android.content.Context) -> getMCC
+    java.lang.String judgeChina(java.lang.String,java.lang.Integer) -> judgeChina
+com.isnc.facesdk.common.a -> com.isnc.facesdk.common.a:
+    android.widget.ImageView bi -> bi
+    android.widget.TextView bj -> bj
+    com.isnc.facesdk.view.FaceRegistView bk -> bk
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+com.isnc.facesdk.net.A -> com.isnc.facesdk.net.A:
+    com.isnc.facesdk.net.MsdkRequestToken$SuccessCallback cc -> cc
+    com.isnc.facesdk.net.MsdkRequestToken$FailCallback cd -> cd
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.AsyncBitmapLoader -> com.isnc.facesdk.net.AsyncBitmapLoader:
+    java.util.HashMap bl -> bl
+    android.graphics.Bitmap loadBitmap(android.content.Context,java.lang.String,android.widget.ImageView,java.lang.String,com.isnc.facesdk.net.AsyncBitmapLoader$ImageCallBack) -> loadBitmap
+    java.io.InputStream getStreamFromURL(java.lang.String,android.content.Context) -> getStreamFromURL
+    java.util.HashMap a(com.isnc.facesdk.net.AsyncBitmapLoader) -> a
+    void a(com.isnc.facesdk.net.AsyncBitmapLoader,java.util.HashMap) -> a
+com.isnc.facesdk.net.AsyncBitmapLoader$ImageCallBack -> com.isnc.facesdk.net.AsyncBitmapLoader$ImageCallBack:
+    void imageLoad(android.widget.ImageView,android.graphics.Bitmap) -> imageLoad
+com.isnc.facesdk.net.B -> com.isnc.facesdk.net.B:
+    com.isnc.facesdk.net.MsdkRequestToken$FailCallback cd -> cd
+    void onFail() -> onFail
+com.isnc.facesdk.net.C -> com.isnc.facesdk.net.C:
+    android.content.Context val$context -> val$context
+    com.isnc.facesdk.net.MsdkUidAuthorized$SuccessCallback ce -> ce
+    com.isnc.facesdk.net.MsdkUidAuthorized$FailCallback cf -> cf
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.D -> com.isnc.facesdk.net.D:
+    com.isnc.facesdk.net.MsdkUidAuthorized$FailCallback cf -> cf
+    void onFail() -> onFail
+com.isnc.facesdk.net.E -> com.isnc.facesdk.net.E:
+    android.content.Context val$context -> val$context
+    com.isnc.facesdk.net.MsdkUpdateAppInfo$SuccessCallback cg -> cg
+    com.isnc.facesdk.net.MsdkUpdateAppInfo$FailCallback ch -> ch
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.F -> com.isnc.facesdk.net.F:
+    com.isnc.facesdk.net.MsdkUpdateAppInfo$FailCallback ch -> ch
+    void onFail() -> onFail
+com.isnc.facesdk.net.G -> com.isnc.facesdk.net.G:
+    android.content.Context val$context -> val$context
+    com.isnc.facesdk.net.MsdkUpdateAppUid$SuccessCallback ci -> ci
+    com.isnc.facesdk.net.MsdkUpdateAppUid$FailCallback cj -> cj
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.H -> com.isnc.facesdk.net.H:
+    com.isnc.facesdk.net.MsdkUpdateAppUid$FailCallback cj -> cj
+    void onFail() -> onFail
+com.isnc.facesdk.net.HttpConnectionManager -> com.isnc.facesdk.net.HttpConnectionManager:
+    org.apache.http.params.HttpParams bs -> bs
+    int MAX_TOTAL_CONNECTIONS -> MAX_TOTAL_CONNECTIONS
+    int WAIT_TIMEOUT -> WAIT_TIMEOUT
+    int WIFI_WAIT_TIMEOUT -> WIFI_WAIT_TIMEOUT
+    int GPRS_WAIT_TIMEOUT -> GPRS_WAIT_TIMEOUT
+    int MAX_ROUTE_CONNECTIONS -> MAX_ROUTE_CONNECTIONS
+    java.lang.Object _lock_ -> _lock_
+    org.apache.http.impl.client.DefaultHttpClient bt -> bt
+    com.isnc.facesdk.net.HttpConnectionManager$a b(android.content.Context) -> b
+    void reset() -> reset
+    org.apache.http.impl.client.DefaultHttpClient getHttpClient(android.content.Context) -> getHttpClient
+com.isnc.facesdk.net.HttpConnectionManager$a -> com.isnc.facesdk.net.HttpConnectionManager$a:
+    org.apache.http.conn.ClientConnectionRequest requestConnection(org.apache.http.conn.routing.HttpRoute,java.lang.Object) -> requestConnection
+com.isnc.facesdk.net.HttpConnectionManager$b -> com.isnc.facesdk.net.HttpConnectionManager$b:
+    java.io.InputStream getContent() -> getContent
+    long getContentLength() -> getContentLength
+com.isnc.facesdk.net.HttpConnectionManager$c -> com.isnc.facesdk.net.HttpConnectionManager$c:
+    com.isnc.facesdk.net.HttpConnectionManager$a bu -> bu
+    int bv -> bv
+    int bw -> bw
+    com.isnc.facesdk.net.HttpConnectionManager$c bx -> bx
+    void a(com.isnc.facesdk.net.HttpConnectionManager$a,int,int) -> a
+    void run() -> run
+com.isnc.facesdk.net.HttpConnectionManager$d -> com.isnc.facesdk.net.HttpConnectionManager$d:
+    javax.net.ssl.SSLContext by -> by
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+    java.net.Socket createSocket() -> createSocket
+com.isnc.facesdk.net.HttpMethod -> com.isnc.facesdk.net.HttpMethod:
+    com.isnc.facesdk.net.HttpMethod GET -> GET
+    com.isnc.facesdk.net.HttpMethod POST -> POST
+    com.isnc.facesdk.net.HttpMethod PUT -> PUT
+    com.isnc.facesdk.net.HttpMethod[] bz -> bz
+    com.isnc.facesdk.net.HttpMethod[] values() -> values
+    com.isnc.facesdk.net.HttpMethod valueOf(java.lang.String) -> valueOf
+com.isnc.facesdk.net.HttpRequest -> com.isnc.facesdk.net.HttpRequest:
+    org.apache.http.impl.client.DefaultHttpClient bA -> bA
+    org.apache.http.HttpResponse bB -> bB
+    android.content.Context S -> S
+    android.os.Handler handler -> handler
+    android.content.Context a(com.isnc.facesdk.net.HttpRequest) -> a
+    org.apache.http.impl.client.DefaultHttpClient b(com.isnc.facesdk.net.HttpRequest) -> b
+    void a(com.isnc.facesdk.net.HttpRequest,org.apache.http.HttpResponse) -> a
+    org.apache.http.HttpResponse c(com.isnc.facesdk.net.HttpRequest) -> c
+com.isnc.facesdk.net.HttpRequest$FailCallback -> com.isnc.facesdk.net.HttpRequest$FailCallback:
+    void onFail() -> onFail
+com.isnc.facesdk.net.HttpRequest$SuccessCallback -> com.isnc.facesdk.net.HttpRequest$SuccessCallback:
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.MsdkAccessToken -> com.isnc.facesdk.net.MsdkAccessToken:
+com.isnc.facesdk.net.MsdkAccessToken$FailCallback -> com.isnc.facesdk.net.MsdkAccessToken$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkAccessToken$SuccessCallback -> com.isnc.facesdk.net.MsdkAccessToken$SuccessCallback:
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.net.MsdkAppGetEmotion -> com.isnc.facesdk.net.MsdkAppGetEmotion:
+com.isnc.facesdk.net.MsdkAppGetEmotion$FailCallback -> com.isnc.facesdk.net.MsdkAppGetEmotion$FailCallback:
+    void onFail() -> onFail
+com.isnc.facesdk.net.MsdkAppGetEmotion$SuccessCallback -> com.isnc.facesdk.net.MsdkAppGetEmotion$SuccessCallback:
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.net.MsdkAppToken -> com.isnc.facesdk.net.MsdkAppToken:
+com.isnc.facesdk.net.MsdkAppToken$FailCallback -> com.isnc.facesdk.net.MsdkAppToken$FailCallback:
+    void onFail() -> onFail
+com.isnc.facesdk.net.MsdkAppToken$SuccessCallback -> com.isnc.facesdk.net.MsdkAppToken$SuccessCallback:
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.net.MsdkAuthorized -> com.isnc.facesdk.net.MsdkAuthorized:
+com.isnc.facesdk.net.MsdkAuthorized$FailCallback -> com.isnc.facesdk.net.MsdkAuthorized$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkAuthorized$SuccessCallback -> com.isnc.facesdk.net.MsdkAuthorized$SuccessCallback:
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.net.MsdkGetAuthCode -> com.isnc.facesdk.net.MsdkGetAuthCode:
+com.isnc.facesdk.net.MsdkGetAuthCode$FailCallback -> com.isnc.facesdk.net.MsdkGetAuthCode$FailCallback:
+    void onFail() -> onFail
+com.isnc.facesdk.net.MsdkGetAuthCode$SuccessCallback -> com.isnc.facesdk.net.MsdkGetAuthCode$SuccessCallback:
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.net.MsdkGetEmotion -> com.isnc.facesdk.net.MsdkGetEmotion:
+com.isnc.facesdk.net.MsdkGetEmotion$FailCallback -> com.isnc.facesdk.net.MsdkGetEmotion$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkGetEmotion$SuccessCallback -> com.isnc.facesdk.net.MsdkGetEmotion$SuccessCallback:
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.net.MsdkLogin -> com.isnc.facesdk.net.MsdkLogin:
+com.isnc.facesdk.net.MsdkLogin$FailCallback -> com.isnc.facesdk.net.MsdkLogin$FailCallback:
+    void onFail(org.json.JSONObject) -> onFail
+com.isnc.facesdk.net.MsdkLogin$SuccessCallback -> com.isnc.facesdk.net.MsdkLogin$SuccessCallback:
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.net.MsdkLogout -> com.isnc.facesdk.net.MsdkLogout:
+com.isnc.facesdk.net.MsdkLogout$FailCallback -> com.isnc.facesdk.net.MsdkLogout$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkLogout$SuccessCallback -> com.isnc.facesdk.net.MsdkLogout$SuccessCallback:
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.net.MsdkRebundle -> com.isnc.facesdk.net.MsdkRebundle:
+com.isnc.facesdk.net.MsdkRebundle$FailCallback -> com.isnc.facesdk.net.MsdkRebundle$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkRebundle$SuccessCallback -> com.isnc.facesdk.net.MsdkRebundle$SuccessCallback:
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.net.MsdkRequestToken -> com.isnc.facesdk.net.MsdkRequestToken:
+com.isnc.facesdk.net.MsdkRequestToken$FailCallback -> com.isnc.facesdk.net.MsdkRequestToken$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkRequestToken$SuccessCallback -> com.isnc.facesdk.net.MsdkRequestToken$SuccessCallback:
+    void onSuccess(org.json.JSONObject) -> onSuccess
+com.isnc.facesdk.net.MsdkUidAuthorized -> com.isnc.facesdk.net.MsdkUidAuthorized:
+com.isnc.facesdk.net.MsdkUidAuthorized$FailCallback -> com.isnc.facesdk.net.MsdkUidAuthorized$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkUidAuthorized$SuccessCallback -> com.isnc.facesdk.net.MsdkUidAuthorized$SuccessCallback:
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.net.MsdkUpdateAppInfo -> com.isnc.facesdk.net.MsdkUpdateAppInfo:
+com.isnc.facesdk.net.MsdkUpdateAppInfo$FailCallback -> com.isnc.facesdk.net.MsdkUpdateAppInfo$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkUpdateAppInfo$SuccessCallback -> com.isnc.facesdk.net.MsdkUpdateAppInfo$SuccessCallback:
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.net.MsdkUpdateAppUid -> com.isnc.facesdk.net.MsdkUpdateAppUid:
+com.isnc.facesdk.net.MsdkUpdateAppUid$FailCallback -> com.isnc.facesdk.net.MsdkUpdateAppUid$FailCallback:
+    void onFail(int) -> onFail
+com.isnc.facesdk.net.MsdkUpdateAppUid$SuccessCallback -> com.isnc.facesdk.net.MsdkUpdateAppUid$SuccessCallback:
+    void onSuccess(int) -> onSuccess
+com.isnc.facesdk.net.NetStatusUtil -> com.isnc.facesdk.net.NetStatusUtil:
+    java.lang.String NETWORKTYPE_INVALID -> NETWORKTYPE_INVALID
+    java.lang.String NETWORKTYPE_WAP -> NETWORKTYPE_WAP
+    java.lang.String NETWORKTYPE_2G -> NETWORKTYPE_2G
+    java.lang.String NETWORKTYPE_3G -> NETWORKTYPE_3G
+    java.lang.String NETWORKTYPE_WIFI -> NETWORKTYPE_WIFI
+    java.lang.String getNetWorkType(android.content.Context) -> getNetWorkType
+com.isnc.facesdk.net.a -> com.isnc.facesdk.net.a:
+    com.isnc.facesdk.net.AsyncBitmapLoader$ImageCallBack bm -> bm
+    android.widget.ImageView bn -> bn
+    void handleMessage(android.os.Message) -> handleMessage
+com.isnc.facesdk.net.b -> com.isnc.facesdk.net.b:
+    com.isnc.facesdk.net.AsyncBitmapLoader bo -> bo
+    java.lang.String bp -> bp
+    android.content.Context val$context -> val$context
+    android.os.Handler bq -> bq
+    java.lang.String br -> br
+    void run() -> run
+com.isnc.facesdk.net.c -> com.isnc.facesdk.net.c:
+    boolean retryRequest(java.io.IOException,int,org.apache.http.protocol.HttpContext) -> retryRequest
+com.isnc.facesdk.net.d -> com.isnc.facesdk.net.d:
+    void process(org.apache.http.HttpRequest,org.apache.http.protocol.HttpContext) -> process
+com.isnc.facesdk.net.e -> com.isnc.facesdk.net.e:
+    void process(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> process
+com.isnc.facesdk.net.f -> com.isnc.facesdk.net.f:
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+com.isnc.facesdk.net.g -> com.isnc.facesdk.net.g:
+    com.isnc.facesdk.net.HttpRequest bC -> bC
+    void handleMessage(android.os.Message) -> handleMessage
+com.isnc.facesdk.net.h -> com.isnc.facesdk.net.h:
+    com.isnc.facesdk.net.HttpRequest bC -> bC
+    java.lang.String[] bD -> bD
+    com.isnc.facesdk.net.HttpMethod bE -> bE
+    java.lang.String bF -> bF
+    java.io.File r -> r
+    java.lang.String bG -> bG
+    int[] bH -> bH
+    com.isnc.facesdk.net.HttpRequest$SuccessCallback bI -> bI
+    com.isnc.facesdk.net.HttpRequest$FailCallback bJ -> bJ
+    java.lang.String c() -> c
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    int[] d() -> d
+com.isnc.facesdk.net.i -> com.isnc.facesdk.net.i:
+    com.isnc.facesdk.net.MsdkAccessToken$SuccessCallback bK -> bK
+    com.isnc.facesdk.net.MsdkAccessToken$FailCallback bL -> bL
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.j -> com.isnc.facesdk.net.j:
+    com.isnc.facesdk.net.MsdkAccessToken$FailCallback bL -> bL
+    void onFail() -> onFail
+com.isnc.facesdk.net.k -> com.isnc.facesdk.net.k:
+    com.isnc.facesdk.net.MsdkAppGetEmotion$SuccessCallback bM -> bM
+    com.isnc.facesdk.net.MsdkAppGetEmotion$FailCallback bN -> bN
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.l -> com.isnc.facesdk.net.l:
+    com.isnc.facesdk.net.MsdkAppGetEmotion$FailCallback bN -> bN
+    void onFail() -> onFail
+com.isnc.facesdk.net.m -> com.isnc.facesdk.net.m:
+    com.isnc.facesdk.net.MsdkAppToken$SuccessCallback bO -> bO
+    com.isnc.facesdk.net.MsdkAppToken$FailCallback bP -> bP
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.n -> com.isnc.facesdk.net.n:
+    com.isnc.facesdk.net.MsdkAppToken$FailCallback bP -> bP
+    void onFail() -> onFail
+com.isnc.facesdk.net.o -> com.isnc.facesdk.net.o:
+    com.isnc.facesdk.net.MsdkAuthorized$SuccessCallback bQ -> bQ
+    android.content.Context val$context -> val$context
+    com.isnc.facesdk.net.MsdkAuthorized$FailCallback bR -> bR
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.p -> com.isnc.facesdk.net.p:
+    com.isnc.facesdk.net.MsdkAuthorized$FailCallback bR -> bR
+    void onFail() -> onFail
+com.isnc.facesdk.net.q -> com.isnc.facesdk.net.q:
+    com.isnc.facesdk.net.MsdkGetAuthCode$SuccessCallback bS -> bS
+    com.isnc.facesdk.net.MsdkGetAuthCode$FailCallback bT -> bT
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.r -> com.isnc.facesdk.net.r:
+    com.isnc.facesdk.net.MsdkGetAuthCode$FailCallback bT -> bT
+    void onFail() -> onFail
+com.isnc.facesdk.net.s -> com.isnc.facesdk.net.s:
+    android.content.Context val$context -> val$context
+    com.isnc.facesdk.net.MsdkGetEmotion$SuccessCallback bU -> bU
+    com.isnc.facesdk.net.MsdkGetEmotion$FailCallback bV -> bV
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.t -> com.isnc.facesdk.net.t:
+    com.isnc.facesdk.net.MsdkGetEmotion$FailCallback bV -> bV
+    void onFail() -> onFail
+com.isnc.facesdk.net.u -> com.isnc.facesdk.net.u:
+    android.content.Context val$context -> val$context
+    java.lang.String aX -> aX
+    com.isnc.facesdk.net.MsdkLogin$SuccessCallback bW -> bW
+    com.isnc.facesdk.net.MsdkLogin$FailCallback bX -> bX
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.v -> com.isnc.facesdk.net.v:
+    com.isnc.facesdk.net.MsdkLogin$FailCallback bX -> bX
+    void onFail() -> onFail
+com.isnc.facesdk.net.w -> com.isnc.facesdk.net.w:
+    com.isnc.facesdk.net.MsdkLogout$SuccessCallback bY -> bY
+    android.content.Context val$context -> val$context
+    com.isnc.facesdk.net.MsdkLogout$FailCallback bZ -> bZ
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.x -> com.isnc.facesdk.net.x:
+    com.isnc.facesdk.net.MsdkLogout$FailCallback bZ -> bZ
+    void onFail() -> onFail
+com.isnc.facesdk.net.y -> com.isnc.facesdk.net.y:
+    com.isnc.facesdk.net.MsdkRebundle$SuccessCallback ca -> ca
+    com.isnc.facesdk.net.MsdkRebundle$FailCallback cb -> cb
+    void onSuccess(java.lang.String) -> onSuccess
+com.isnc.facesdk.net.z -> com.isnc.facesdk.net.z:
+    com.isnc.facesdk.net.MsdkRebundle$FailCallback cb -> cb
+    void onFail() -> onFail
+com.isnc.facesdk.view.ClipView -> com.isnc.facesdk.view.ClipView:
+    void onDraw(android.graphics.Canvas) -> onDraw
+com.isnc.facesdk.view.FaceRegistView -> com.isnc.facesdk.view.FaceRegistView:
+    int ck -> ck
+    int cl -> cl
+    boolean isstart -> isstart
+    android.hardware.Camera cm -> cm
+    android.view.SurfaceHolder cn -> cn
+    android.view.SurfaceHolder co -> co
+    android.view.SurfaceView cp -> cp
+    boolean cq -> cq
+    int cr -> cr
+    android.content.Context mContext -> mContext
+    byte[] cs -> cs
+    android.graphics.Bitmap ct -> ct
+    byte[] cu -> cu
+    boolean savepic -> savepic
+    com.matrixcv.androidapi.face.FaceTrackerBase cv -> cv
+    com.matrixcv.androidapi.face.FaceRect[] cw -> cw
+    java.lang.Thread thread -> thread
+    boolean cx -> cx
+    int count -> count
+    boolean issilentface -> issilentface
+    int ratio -> ratio
+    android.os.Handler mHandler -> mHandler
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void setSurfaceView(android.view.SurfaceView) -> setSurfaceView
+    void resetCamera() -> resetCamera
+    void a(android.app.Activity,int,android.hardware.Camera) -> a
+    void onStartPreview(android.content.Context) -> onStartPreview
+    void e() -> e
+    void RestartCamera() -> RestartCamera
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    void onPreviewFrame(byte[],android.hardware.Camera) -> onPreviewFrame
+    void detection() -> detection
+    android.graphics.Bitmap rotateImage(int,android.graphics.Bitmap) -> rotateImage
+    void savenv21topic(int) -> savenv21topic
+    void pause() -> pause
+    android.content.Context a(com.isnc.facesdk.view.FaceRegistView) -> a
+    boolean b(com.isnc.facesdk.view.FaceRegistView) -> b
+    byte[] c(com.isnc.facesdk.view.FaceRegistView) -> c
+    byte[] d(com.isnc.facesdk.view.FaceRegistView) -> d
+    int e(com.isnc.facesdk.view.FaceRegistView) -> e
+    com.matrixcv.androidapi.face.FaceTrackerBase f(com.isnc.facesdk.view.FaceRegistView) -> f
+    void a(com.isnc.facesdk.view.FaceRegistView,com.matrixcv.androidapi.face.FaceRect[]) -> a
+    com.matrixcv.androidapi.face.FaceRect[] g(com.isnc.facesdk.view.FaceRegistView) -> g
+    android.view.SurfaceHolder h(com.isnc.facesdk.view.FaceRegistView) -> h
+    int f() -> f
+    int g() -> g
+com.isnc.facesdk.view.SideBar -> com.isnc.facesdk.view.SideBar:
+    com.isnc.facesdk.view.SideBar$OnTouchingLetterChangedListener cz -> cz
+    java.lang.String[] b -> b
+    int cA -> cA
+    android.graphics.Paint cB -> cB
+    android.widget.TextView cC -> cC
+    void setTextView(android.widget.TextView) -> setTextView
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    void setOnTouchingLetterChangedListener(com.isnc.facesdk.view.SideBar$OnTouchingLetterChangedListener) -> setOnTouchingLetterChangedListener
+com.isnc.facesdk.view.SideBar$OnTouchingLetterChangedListener -> com.isnc.facesdk.view.SideBar$OnTouchingLetterChangedListener:
+    void onTouchingLetterChanged(java.lang.String) -> onTouchingLetterChanged
+com.isnc.facesdk.view.a -> com.isnc.facesdk.view.a:
+    com.isnc.facesdk.view.FaceRegistView cy -> cy
+    void handleMessage(android.os.Message) -> handleMessage
+com.isnc.facesdk.view.b -> com.isnc.facesdk.view.b:
+    com.isnc.facesdk.view.FaceRegistView cy -> cy
+    void run() -> run
+com.isnc.facesdk.viewmodel.CountryAdapter -> com.isnc.facesdk.viewmodel.CountryAdapter:
+    android.view.LayoutInflater cD -> cD
+    android.content.Context mContext -> mContext
+    java.util.ArrayList cE -> cE
+    com.isnc.facesdk.viewmodel.CountryAdapter$a cF -> cF
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getPositionForSection(java.lang.String) -> getPositionForSection
+com.isnc.facesdk.viewmodel.CountryAdapter$a -> com.isnc.facesdk.viewmodel.CountryAdapter$a:
+    android.widget.TextView cG -> cG
+    android.view.View cH -> cH
+    android.widget.TextView cI -> cI
+    android.widget.TextView cJ -> cJ
+com.isnc.facesdk.viewmodel.GetCountryData -> com.isnc.facesdk.viewmodel.GetCountryData:
+    java.util.ArrayList getCountryData(android.content.Context) -> getCountryData
+    java.lang.String[] getCountryByMCC(android.content.Context,java.lang.String) -> getCountryByMCC
+com.isnc.facesdk.viewmodel.SmsContent -> com.isnc.facesdk.viewmodel.SmsContent:
+    java.lang.String SMS_URI_INBOX -> SMS_URI_INBOX
+    android.app.Activity cK -> cK
+    java.lang.String cL -> cL
+    android.widget.EditText cM -> cM
+    void onChange(boolean) -> onChange
+com.isnc.superiddemo.Aty_AppGetFaceEmotion -> com.isnc.superiddemo.Aty_AppGetFaceEmotion:
+    double sex -> b
+    double glasses -> c
+    double beauty -> d
+    double sunglasses -> e
+    double mouth_open_wide -> f
+    double eye_closed -> g
+    double age -> h
+    double beard -> i
+    double smile -> j
+    double happy -> k
+    double angry -> l
+    double calm -> m
+    double surprised -> n
+    double confused -> o
+    double sad -> p
+    double disgust -> q
+    java.lang.String emotion -> r
+    double maxValue -> a
+    java.lang.String maxKey -> s
+    void onCreate(android.os.Bundle) -> onCreate
+    void setlist() -> a
+    java.util.List getData() -> b
+    void getIntentData() -> c
+    void btn_back(android.view.View) -> btn_back
+com.isnc.superiddemo.Aty_GetFaceEmotion -> com.isnc.superiddemo.Aty_GetFaceEmotion:
+    double sex -> b
+    double glasses -> c
+    double beauty -> d
+    double sunglasses -> e
+    double mouth_open_wide -> f
+    double eye_closed -> g
+    double age -> h
+    double beard -> i
+    double smile -> j
+    double happy -> k
+    double angry -> l
+    double calm -> m
+    double surprised -> n
+    double confused -> o
+    double sad -> p
+    double disgust -> q
+    java.lang.String emotion -> r
+    double maxValue -> a
+    java.lang.String maxKey -> s
+    android.widget.RelativeLayout rl -> t
+    android.widget.LinearLayout ll -> u
+    void onCreate(android.os.Bundle) -> onCreate
+    void RequestFaceData() -> RequestFaceData
+    void FaceDataCallback(java.lang.String) -> FaceDataCallback
+    void GetFaceDataFail() -> GetFaceDataFail
+    void setlist() -> a
+    java.util.List getData() -> b
+    void getIntentData(java.lang.String) -> a
+    void btn_back(android.view.View) -> btn_back
+com.isnc.superiddemo.Aty_Login -> com.isnc.superiddemo.Aty_Login:
+    android.content.Context context -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void btn_login(android.view.View) -> btn_login
+    void btn_superidlogin(android.view.View) -> btn_superidlogin
+    void btn_clear(android.view.View) -> btn_clear
+    void delete(java.io.File) -> a
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+com.isnc.superiddemo.Aty_UserCenter -> com.isnc.superiddemo.Aty_UserCenter:
+    android.content.Context context -> a
+    android.widget.Button btn_spbundle -> b
+    android.widget.ImageView icon_sp -> c
+    android.widget.ImageView avatarimg -> d
+    android.widget.TextView tv_phonenum -> e
+    android.widget.TextView tv_name -> f
+    java.lang.String userinfo -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void btn_unbundle(android.view.View) -> btn_unbundle
+    void btn_facedata(android.view.View) -> btn_facedata
+    void btn_sciencefacedata(android.view.View) -> btn_sciencefacedata
+    void btn_logout(android.view.View) -> btn_logout
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    android.content.Context access$0(com.isnc.superiddemo.Aty_UserCenter) -> a
+    android.widget.Button access$1(com.isnc.superiddemo.Aty_UserCenter) -> b
+    android.widget.ImageView access$2(com.isnc.superiddemo.Aty_UserCenter) -> c
+com.isnc.superiddemo.Aty_UserCenter$1 -> com.isnc.superiddemo.a:
+    com.isnc.superiddemo.Aty_UserCenter this$0 -> a
+    void imageLoad(android.widget.ImageView,android.graphics.Bitmap) -> imageLoad
+com.isnc.superiddemo.Aty_UserCenter$2 -> com.isnc.superiddemo.b:
+    com.isnc.superiddemo.Aty_UserCenter this$0 -> a
+    void imageLoad(android.widget.ImageView,android.graphics.Bitmap) -> imageLoad
+com.isnc.superiddemo.Aty_UserCenter$3 -> com.isnc.superiddemo.c:
+    com.isnc.superiddemo.Aty_UserCenter this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+    com.isnc.superiddemo.Aty_UserCenter access$0(com.isnc.superiddemo.Aty_UserCenter$3) -> a
+com.isnc.superiddemo.Aty_UserCenter$3$1 -> com.isnc.superiddemo.d:
+    com.isnc.superiddemo.Aty_UserCenter$3 this$1 -> a
+    void onSuccess(int) -> onSuccess
+com.isnc.superiddemo.Aty_UserCenter$3$2 -> com.isnc.superiddemo.e:
+    com.isnc.superiddemo.Aty_UserCenter$3 this$1 -> a
+    void onFail(int) -> onFail
+com.isnc.superiddemo.Aty_UserCenter$4 -> com.isnc.superiddemo.f:
+    com.isnc.superiddemo.Aty_UserCenter this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.isnc.superiddemo.Aty_Welcome -> com.isnc.superiddemo.Aty_Welcome:
+    void onCreate(android.os.Bundle) -> onCreate
+com.isnc.superiddemo.Aty_Welcome$1 -> com.isnc.superiddemo.g:
+    com.isnc.superiddemo.Aty_Welcome this$0 -> a
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+com.isnc.superiddemo.R -> com.isnc.superiddemo.R:
+com.isnc.superiddemo.R$array -> com.isnc.superiddemo.R$array:
+    int superid_country_group_a -> superid_country_group_a
+    int superid_country_group_b -> superid_country_group_b
+    int superid_country_group_c -> superid_country_group_c
+    int superid_country_group_d -> superid_country_group_d
+    int superid_country_group_e -> superid_country_group_e
+    int superid_country_group_f -> superid_country_group_f
+    int superid_country_group_g -> superid_country_group_g
+    int superid_country_group_h -> superid_country_group_h
+    int superid_country_group_i -> superid_country_group_i
+    int superid_country_group_j -> superid_country_group_j
+    int superid_country_group_k -> superid_country_group_k
+    int superid_country_group_l -> superid_country_group_l
+    int superid_country_group_m -> superid_country_group_m
+    int superid_country_group_n -> superid_country_group_n
+    int superid_country_group_o -> superid_country_group_o
+    int superid_country_group_p -> superid_country_group_p
+    int superid_country_group_q -> superid_country_group_q
+    int superid_country_group_r -> superid_country_group_r
+    int superid_country_group_s -> superid_country_group_s
+    int superid_country_group_t -> superid_country_group_t
+    int superid_country_group_u -> superid_country_group_u
+    int superid_country_group_v -> superid_country_group_v
+    int superid_country_group_w -> superid_country_group_w
+    int superid_country_group_x -> superid_country_group_x
+    int superid_country_group_y -> superid_country_group_y
+    int superid_country_group_z -> superid_country_group_z
+com.isnc.superiddemo.R$attr -> com.isnc.superiddemo.R$attr:
+com.isnc.superiddemo.R$color -> com.isnc.superiddemo.R$color:
+    int s_color_background_bar -> s_color_background_bar
+    int s_color_background_cell -> s_color_background_cell
+    int s_color_background_green -> s_color_background_green
+    int s_color_background_main -> s_color_background_main
+    int s_color_background_view -> s_color_background_view
+    int s_color_background_view_input -> s_color_background_view_input
+    int s_color_background_view_touch -> s_color_background_view_touch
+    int s_color_barbtn_press -> s_color_barbtn_press
+    int s_color_border -> s_color_border
+    int s_color_border_hightlight -> s_color_border_hightlight
+    int s_color_camera_shade -> s_color_camera_shade
+    int s_color_faceloginloadbg -> s_color_faceloginloadbg
+    int s_color_font_contant -> s_color_font_contant
+    int s_color_font_darkbule -> s_color_font_darkbule
+    int s_color_font_green -> s_color_font_green
+    int s_color_font_hightlight -> s_color_font_hightlight
+    int s_color_font_hightlight_disable -> s_color_font_hightlight_disable
+    int s_color_font_hint -> s_color_font_hint
+    int s_color_font_ligthbule -> s_color_font_ligthbule
+    int s_color_font_main -> s_color_font_main
+    int s_color_font_tips -> s_color_font_tips
+    int s_color_font_vice -> s_color_font_vice
+    int s_color_nofacetips -> s_color_nofacetips
+    int s_demo_color_background_red -> s_demo_color_background_red
+com.isnc.superiddemo.R$dimen -> com.isnc.superiddemo.R$dimen:
+    int s_size_font_bar -> s_size_font_bar
+    int s_size_font_text -> s_size_font_text
+    int s_size_font_tips -> s_size_font_tips
+    int s_size_font_title -> s_size_font_title
+com.isnc.superiddemo.R$drawable -> com.isnc.superiddemo.R$drawable:
+    int barbtn_selector -> barbtn_selector
+    int button_backselector -> button_backselector
+    int button_demobackselector -> button_demobackselector
+    int button_demoselector -> button_demoselector
+    int button_demosp -> button_demosp
+    int button_demowb -> button_demowb
+    int button_demowx -> button_demowx
+    int button_edittextclearselector -> button_edittextclearselector
+    int button_faceselector -> button_faceselector
+    int button_faceselector2 -> button_faceselector2
+    int drawable_progress -> drawable_progress
+    int facedatabg -> facedatabg
+    int ic_launcher -> ic_launcher
+    int my_edittext -> my_edittext
+    int sidebar_background -> sidebar_background
+    int superid_avatar_img_bg -> superid_avatar_img_bg
+    int superid_avatar_img_default -> superid_avatar_img_default
+    int superid_common_alert_fail_img -> superid_common_alert_fail_img
+    int superid_common_alert_success_img -> superid_common_alert_success_img
+    int superid_common_back_btn_disable -> superid_common_back_btn_disable
+    int superid_common_back_btn_normal -> superid_common_back_btn_normal
+    int superid_common_confirm_btn_disable -> superid_common_confirm_btn_disable
+    int superid_common_confirm_btn_normal -> superid_common_confirm_btn_normal
+    int superid_common_confirm_btn_normal_dark -> superid_common_confirm_btn_normal_dark
+    int superid_common_confirm_btn_normal_disable -> superid_common_confirm_btn_normal_disable
+    int superid_common_delete_btn_normal -> superid_common_delete_btn_normal
+    int superid_common_delete_btn_pressed -> superid_common_delete_btn_pressed
+    int superid_common_edit_avatar_ico -> superid_common_edit_avatar_ico
+    int superid_common_edit_mail_ico_disable -> superid_common_edit_mail_ico_disable
+    int superid_common_edit_mobilephone_ico_disable -> superid_common_edit_mobilephone_ico_disable
+    int superid_common_edit_nickname_ico_disable -> superid_common_edit_nickname_ico_disable
+    int superid_common_empower_bg_down -> superid_common_empower_bg_down
+    int superid_common_empower_bg_up -> superid_common_empower_bg_up
+    int superid_common_empower_select_ico_disable -> superid_common_empower_select_ico_disable
+    int superid_common_empower_select_ico_normal -> superid_common_empower_select_ico_normal
+    int superid_common_guideview_btn_normal -> superid_common_guideview_btn_normal
+    int superid_common_superidlogo_img -> superid_common_superidlogo_img
+    int superid_common_tips1_ico -> superid_common_tips1_ico
+    int superid_common_tips2_ico -> superid_common_tips2_ico
+    int superid_common_viewbg_img -> superid_common_viewbg_img
+    int superid_demo_appicon_img -> superid_demo_appicon_img
+    int superid_demo_avatar_img_default -> superid_demo_avatar_img_default
+    int superid_demo_avatar_img_meijia -> superid_demo_avatar_img_meijia
+    int superid_demo_back_btn_disable -> superid_demo_back_btn_disable
+    int superid_demo_back_btn_normal -> superid_demo_back_btn_normal
+    int superid_demo_binding_superid_ico_disable -> superid_demo_binding_superid_ico_disable
+    int superid_demo_binding_superid_ico_normal -> superid_demo_binding_superid_ico_normal
+    int superid_demo_binding_wechat_ico_disable -> superid_demo_binding_wechat_ico_disable
+    int superid_demo_binding_wechat_ico_normal -> superid_demo_binding_wechat_ico_normal
+    int superid_demo_binding_weibo_ico_disable -> superid_demo_binding_weibo_ico_disable
+    int superid_demo_binding_weibo_ico_normal -> superid_demo_binding_weibo_ico_normal
+    int superid_demo_cleandate_img_disable -> superid_demo_cleandate_img_disable
+    int superid_demo_cleandate_img_normal -> superid_demo_cleandate_img_normal
+    int superid_demo_confirm_btn_disable -> superid_demo_confirm_btn_disable
+    int superid_demo_confirm_btn_normal -> superid_demo_confirm_btn_normal
+    int superid_demo_login_superid_ico_disable -> superid_demo_login_superid_ico_disable
+    int superid_demo_login_superid_ico_normal -> superid_demo_login_superid_ico_normal
+    int superid_demo_login_wechat_ico_disable -> superid_demo_login_wechat_ico_disable
+    int superid_demo_login_wechat_ico_normal -> superid_demo_login_wechat_ico_normal
+    int superid_demo_login_weibo_ico_disable -> superid_demo_login_weibo_ico_disable
+    int superid_demo_login_weibo_ico_normal -> superid_demo_login_weibo_ico_normal
+    int superid_demo_logo_img -> superid_demo_logo_img
+    int superid_demo_usercenterbg_img -> superid_demo_usercenterbg_img
+    int superid_editbox_focus -> superid_editbox_focus
+    int superid_editbox_normal -> superid_editbox_normal
+    int superid_guideview_facebinding_img -> superid_guideview_facebinding_img
+    int superid_guideview_faceerror_img -> superid_guideview_faceerror_img
+    int superid_guideview_rebind_dark_ico -> superid_guideview_rebind_dark_ico
+    int superid_guideview_rebind_img -> superid_guideview_rebind_img
+    int superid_guideview_rebind_light_ico -> superid_guideview_rebind_light_ico
+    int superid_guideview_scanface_img -> superid_guideview_scanface_img
+    int superid_image_progress -> superid_image_progress
+    int superid_input_bg_focus -> superid_input_bg_focus
+    int superid_listviewbg -> superid_listviewbg
+    int superid_show_head_toast_bg -> superid_show_head_toast_bg
+    int superid_tips_scanface_img -> superid_tips_scanface_img
+    int text_selector -> text_selector
+    int umeng_common_gradient_green -> umeng_common_gradient_green
+    int umeng_common_gradient_orange -> umeng_common_gradient_orange
+    int umeng_common_gradient_red -> umeng_common_gradient_red
+    int umeng_update_btn_check_off_focused_holo_light -> umeng_update_btn_check_off_focused_holo_light
+    int umeng_update_btn_check_off_holo_light -> umeng_update_btn_check_off_holo_light
+    int umeng_update_btn_check_off_pressed_holo_light -> umeng_update_btn_check_off_pressed_holo_light
+    int umeng_update_btn_check_on_focused_holo_light -> umeng_update_btn_check_on_focused_holo_light
+    int umeng_update_btn_check_on_holo_light -> umeng_update_btn_check_on_holo_light
+    int umeng_update_btn_check_on_pressed_holo_light -> umeng_update_btn_check_on_pressed_holo_light
+    int umeng_update_button_cancel_bg_focused -> umeng_update_button_cancel_bg_focused
+    int umeng_update_button_cancel_bg_normal -> umeng_update_button_cancel_bg_normal
+    int umeng_update_button_cancel_bg_selector -> umeng_update_button_cancel_bg_selector
+    int umeng_update_button_cancel_bg_tap -> umeng_update_button_cancel_bg_tap
+    int umeng_update_button_check_selector -> umeng_update_button_check_selector
+    int umeng_update_button_close_bg_selector -> umeng_update_button_close_bg_selector
+    int umeng_update_button_ok_bg_focused -> umeng_update_button_ok_bg_focused
+    int umeng_update_button_ok_bg_normal -> umeng_update_button_ok_bg_normal
+    int umeng_update_button_ok_bg_selector -> umeng_update_button_ok_bg_selector
+    int umeng_update_button_ok_bg_tap -> umeng_update_button_ok_bg_tap
+    int umeng_update_close_bg_normal -> umeng_update_close_bg_normal
+    int umeng_update_close_bg_tap -> umeng_update_close_bg_tap
+    int umeng_update_dialog_bg -> umeng_update_dialog_bg
+    int umeng_update_title_bg -> umeng_update_title_bg
+    int umeng_update_wifi_disable -> umeng_update_wifi_disable
+com.isnc.superiddemo.R$id -> com.isnc.superiddemo.R$id:
+    int action -> action
+    int app_icon -> app_icon
+    int app_name -> app_name
+    int avatar -> avatar
+    int avatarimg -> avatarimg
+    int bar -> bar
+    int bar_title -> bar_title
+    int btn_agree -> btn_agree
+    int btn_auth -> btn_auth
+    int btn_back -> btn_back
+    int btn_code -> btn_code
+    int btn_gr3out -> btn_gr3out
+    int btn_gr3rebundle -> btn_gr3rebundle
+    int btn_grchange -> btn_grchange
+    int btn_grrescan -> btn_grrescan
+    int btn_gstart -> btn_gstart
+    int btn_llogin -> btn_llogin
+    int btn_rreg -> btn_rreg
+    int btn_save -> btn_save
+    int btn_spbundle -> btn_spbundle
+    int btnclear -> btnclear
+    int button1 -> button1
+    int button2 -> button2
+    int button3 -> button3
+    int button4 -> button4
+    int camerashade -> camerashade
+    int catalog -> catalog
+    int checkBox1 -> checkBox1
+    int clipview -> clipview
+    int container -> container
+    int countrycode -> countrycode
+    int countryname -> countryname
+    int datalist -> datalist
+    int dialog -> dialog
+    int dialog_icon -> dialog_icon
+    int ed_code -> ed_code
+    int ed_lphone -> ed_lphone
+    int ed_name -> ed_name
+    int ed_phone -> ed_phone
+    int ed_rbphone -> ed_rbphone
+    int editText1 -> editText1
+    int editText2 -> editText2
+    int edit_lclear -> edit_lclear
+    int edit_nameclear -> edit_nameclear
+    int edit_rbclear -> edit_rbclear
+    int empower_bgdown -> empower_bgdown
+    int empower_bgup -> empower_bgup
+    int facedatabg -> facedatabg
+    int facedataload -> facedataload
+    int gr3_tv1 -> gr3_tv1
+    int gr3_tv2 -> gr3_tv2
+    int gr_tv1 -> gr_tv1
+    int gr_tv2 -> gr_tv2
+    int guide_icondark -> guide_icondark
+    int guide_iconlight -> guide_iconlight
+    int guide_icontips -> guide_icontips
+    int guide_line -> guide_line
+    int guide_pic -> guide_pic
+    int guide_tvdark -> guide_tvdark
+    int guide_tvlight -> guide_tvlight
+    int icon_name -> icon_name
+    int icon_phone -> icon_phone
+    int icon_sp -> icon_sp
+    int icon_wb -> icon_wb
+    int icon_wx -> icon_wx
+    int imageView1 -> imageView1
+    int infoSurfaceView -> infoSurfaceView
+    int key -> key
+    int lcountry -> lcountry
+    int lcountrycode -> lcountrycode
+    int lcountrytitle -> lcountrytitle
+    int line -> line
+    int linearLayout1 -> linearLayout1
+    int linecatalog -> linecatalog
+    int list_country -> list_country
+    int listitem_root -> listitem_root
+    int loading -> loading
+    int loadingresult -> loadingresult
+    int loadingtitle -> loadingtitle
+    int login_tips -> login_tips
+    int logindialog_view_switcher -> logindialog_view_switcher
+    int mFaceRegistView -> mFaceRegistView
+    int phoneshow -> phoneshow
+    int progress -> progress
+    int rcountry -> rcountry
+    int rcountrycode -> rcountrycode
+    int rcountrytitle -> rcountrytitle
+    int rl_gr3top -> rl_gr3top
+    int rl_grtop -> rl_grtop
+    int rl_guideerror -> rl_guideerror
+    int rl_guideerthree -> rl_guideerthree
+    int rl_guidestart -> rl_guidestart
+    int rl_login -> rl_login
+    int rl_lphonenum -> rl_lphonenum
+    int rl_regist -> rl_regist
+    int rl_rphonenum -> rl_rphonenum
+    int rl_top -> rl_top
+    int rlroot -> rlroot
+    int scanfacebg -> scanfacebg
+    int select_lcountry -> select_lcountry
+    int select_rcountry -> select_rcountry
+    int sidebar -> sidebar
+    int src_pic -> src_pic
+    int t_nofacetips -> t_nofacetips
+    int t_rphone -> t_rphone
+    int textView1 -> textView1
+    int tips_ico -> tips_ico
+    int tv1 -> tv1
+    int tv2 -> tv2
+    int tv_authtitle -> tv_authtitle
+    int tv_name -> tv_name
+    int tv_phone -> tv_phone
+    int tv_phonenum -> tv_phonenum
+    int tv_wx -> tv_wx
+    int umeng_common_icon_view -> umeng_common_icon_view
+    int umeng_common_notification -> umeng_common_notification
+    int umeng_common_notification_controller -> umeng_common_notification_controller
+    int umeng_common_progress_bar -> umeng_common_progress_bar
+    int umeng_common_progress_text -> umeng_common_progress_text
+    int umeng_common_rich_notification_cancel -> umeng_common_rich_notification_cancel
+    int umeng_common_rich_notification_continue -> umeng_common_rich_notification_continue
+    int umeng_common_title -> umeng_common_title
+    int umeng_update_content -> umeng_update_content
+    int umeng_update_id_cancel -> umeng_update_id_cancel
+    int umeng_update_id_check -> umeng_update_id_check
+    int umeng_update_id_close -> umeng_update_id_close
+    int umeng_update_id_ignore -> umeng_update_id_ignore
+    int umeng_update_id_ok -> umeng_update_id_ok
+    int umeng_update_wifi_indicator -> umeng_update_wifi_indicator
+    int userinfo -> userinfo
+    int value -> value
+    int view1 -> view1
+    int webView -> webView
+com.isnc.superiddemo.R$layout -> com.isnc.superiddemo.R$layout:
+    int aty_faceemotion -> aty_faceemotion
+    int aty_login -> aty_login
+    int aty_usercenter -> aty_usercenter
+    int aty_welcome -> aty_welcome
+    int dialog -> dialog
+    int item_facedata -> item_facedata
+    int superid_activity_agreeitem -> superid_activity_agreeitem
+    int superid_activity_auth -> superid_activity_auth
+    int superid_activity_clippic -> superid_activity_clippic
+    int superid_activity_countrypage -> superid_activity_countrypage
+    int superid_activity_edituserinfo -> superid_activity_edituserinfo
+    int superid_activity_facedete -> superid_activity_facedete
+    int superid_common_bar -> superid_common_bar
+    int superid_item_countrypage -> superid_item_countrypage
+    int superid_pop_facelogin -> superid_pop_facelogin
+    int superid_pop_faceregist -> superid_pop_faceregist
+    int superid_pop_guideerror -> superid_pop_guideerror
+    int superid_pop_guideerthree -> superid_pop_guideerthree
+    int superid_pop_guidestart -> superid_pop_guidestart
+    int umeng_common_download_notification -> umeng_common_download_notification
+    int umeng_update_dialog -> umeng_update_dialog
+com.isnc.superiddemo.R$string -> com.isnc.superiddemo.R$string:
+    int UMAppUpdate -> UMAppUpdate
+    int UMBreak_Network -> UMBreak_Network
+    int UMDialog_InstallAPK -> UMDialog_InstallAPK
+    int UMGprsCondition -> UMGprsCondition
+    int UMIgnore -> UMIgnore
+    int UMNewVersion -> UMNewVersion
+    int UMNotNow -> UMNotNow
+    int UMTargetSize -> UMTargetSize
+    int UMToast_IsUpdating -> UMToast_IsUpdating
+    int UMUpdateCheck -> UMUpdateCheck
+    int UMUpdateContent -> UMUpdateContent
+    int UMUpdateNow -> UMUpdateNow
+    int UMUpdateSize -> UMUpdateSize
+    int UMUpdateTitle -> UMUpdateTitle
+    int app_name -> app_name
+    int superid_aciton_rebundle -> superid_aciton_rebundle
+    int superid_aciton_resend -> superid_aciton_resend
+    int superid_action_agreeitem -> superid_action_agreeitem
+    int superid_action_back -> superid_action_back
+    int superid_action_cancel -> superid_action_cancel
+    int superid_action_changephone -> superid_action_changephone
+    int superid_action_clip -> superid_action_clip
+    int superid_action_codesend -> superid_action_codesend
+    int superid_action_edit -> superid_action_edit
+    int superid_action_exit -> superid_action_exit
+    int superid_action_makesureauth -> superid_action_makesureauth
+    int superid_action_rebundleface -> superid_action_rebundleface
+    int superid_action_rescan -> superid_action_rescan
+    int superid_action_retry -> superid_action_retry
+    int superid_action_save -> superid_action_save
+    int superid_action_sendcode -> superid_action_sendcode
+    int superid_action_startscan -> superid_action_startscan
+    int superid_action_sure -> superid_action_sure
+    int superid_action_takefromalbum -> superid_action_takefromalbum
+    int superid_action_takepic -> superid_action_takepic
+    int superid_china -> superid_china
+    int superid_tips_actionnull -> superid_tips_actionnull
+    int superid_tips_apptokenfail -> superid_tips_apptokenfail
+    int superid_tips_apptokennull -> superid_tips_apptokennull
+    int superid_tips_authtips -> superid_tips_authtips
+    int superid_tips_cameraerror -> superid_tips_cameraerror
+    int superid_tips_codeerror -> superid_tips_codeerror
+    int superid_tips_codeoverlimit -> superid_tips_codeoverlimit
+    int superid_tips_connecttimeout -> superid_tips_connecttimeout
+    int superid_tips_emtokenerror -> superid_tips_emtokenerror
+    int superid_tips_facecomparefail -> superid_tips_facecomparefail
+    int superid_tips_firststart -> superid_tips_firststart
+    int superid_tips_getsuccess -> superid_tips_getsuccess
+    int superid_tips_guidedark -> superid_tips_guidedark
+    int superid_tips_guideerror -> superid_tips_guideerror
+    int superid_tips_guideerthree -> superid_tips_guideerthree
+    int superid_tips_guidelight -> superid_tips_guidelight
+    int superid_tips_guidestart -> superid_tips_guidestart
+    int superid_tips_idexist -> superid_tips_idexist
+    int superid_tips_infonull -> superid_tips_infonull
+    int superid_tips_inputcode -> superid_tips_inputcode
+    int superid_tips_inputphone -> superid_tips_inputphone
+    int superid_tips_inputphonetips -> superid_tips_inputphonetips
+    int superid_tips_loginfail -> superid_tips_loginfail
+    int superid_tips_loginsuccess -> superid_tips_loginsuccess
+    int superid_tips_missingface -> superid_tips_missingface
+    int superid_tips_namenull -> superid_tips_namenull
+    int superid_tips_neterror -> superid_tips_neterror
+    int superid_tips_nickname -> superid_tips_nickname
+    int superid_tips_noauth -> superid_tips_noauth
+    int superid_tips_nocamapp -> superid_tips_nocamapp
+    int superid_tips_noface -> superid_tips_noface
+    int superid_tips_nologin -> superid_tips_nologin
+    int superid_tips_picnotexist -> superid_tips_picnotexist
+    int superid_tips_rescan -> superid_tips_rescan
+    int superid_tips_sockettimeout -> superid_tips_sockettimeout
+    int superid_tips_sslnotsafe -> superid_tips_sslnotsafe
+    int superid_tips_takepicerror -> superid_tips_takepicerror
+    int superid_tips_tokennull -> superid_tips_tokennull
+    int superid_tips_uidnull -> superid_tips_uidnull
+    int superid_title_auth -> superid_title_auth
+    int superid_title_authtipstitle -> superid_title_authtipstitle
+    int superid_title_bundle -> superid_title_bundle
+    int superid_title_country -> superid_title_country
+    int superid_title_editinfo -> superid_title_editinfo
+    int superid_title_faceinfo -> superid_title_faceinfo
+    int superid_title_login -> superid_title_login
+    int superid_title_srvitem -> superid_title_srvitem
+    int superid_title_welcome -> superid_title_welcome
+    int umeng_common_action_cancel -> umeng_common_action_cancel
+    int umeng_common_action_continue -> umeng_common_action_continue
+    int umeng_common_action_info_exist -> umeng_common_action_info_exist
+    int umeng_common_action_pause -> umeng_common_action_pause
+    int umeng_common_download_failed -> umeng_common_download_failed
+    int umeng_common_download_finish -> umeng_common_download_finish
+    int umeng_common_download_notification_prefix -> umeng_common_download_notification_prefix
+    int umeng_common_icon -> umeng_common_icon
+    int umeng_common_info_interrupt -> umeng_common_info_interrupt
+    int umeng_common_network_break_alert -> umeng_common_network_break_alert
+    int umeng_common_patch_finish -> umeng_common_patch_finish
+    int umeng_common_pause_notification_prefix -> umeng_common_pause_notification_prefix
+    int umeng_common_silent_download_finish -> umeng_common_silent_download_finish
+    int umeng_common_start_download_notification -> umeng_common_start_download_notification
+    int umeng_common_start_patch_notification -> umeng_common_start_patch_notification
+com.isnc.superiddemo.R$style -> com.isnc.superiddemo.R$style:
+    int AppBaseTheme -> AppBaseTheme
+    int AppTheme -> AppTheme
+    int my_edittext_style -> my_edittext_style
+com.lotuseed.android.Constants -> com.a.a.a:
+    java.lang.String SDK_CHANNEL -> a
+com.lotuseed.android.Lotuseed -> com.a.a.b:
+    java.lang.String b() -> a
+com.lotuseed.android.PackageReceiver -> com.a.a.c:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    boolean a(android.content.Context) -> a
+com.lotuseed.android.a -> com.a.a.d:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    boolean d -> d
+    long e -> e
+    void a(java.lang.String) -> a
+    void a(java.lang.Exception) -> a
+    void a(java.lang.String,java.lang.Exception) -> a
+    java.lang.String a(java.lang.String,java.lang.String) -> a
+    boolean b(java.lang.String) -> b
+    byte[] c(java.lang.String) -> c
+    int a(byte[],int) -> a
+    java.lang.String a(android.location.Location) -> a
+com.lotuseed.android.b -> com.a.a.e:
+    boolean a -> a
+    java.lang.String a(byte[],int,int,int) -> a
+com.lotuseed.android.c -> com.a.a.f:
+    byte[] a -> a
+    int b -> b
+com.lotuseed.android.d -> com.a.a.g:
+    byte[] f -> f
+    byte[] g -> g
+    byte[] h -> h
+    int i -> i
+    int j -> j
+    boolean c -> c
+    boolean d -> d
+    boolean e -> e
+    byte[] k -> k
+    boolean l -> l
+    boolean a(byte[],int,int,boolean) -> a
+com.lotuseed.android.e -> com.a.a.h:
+    boolean a -> b
+    boolean b -> c
+    boolean c -> d
+com.lotuseed.android.f -> com.a.a.i:
+    android.content.Context a -> a
+    int b -> b
+    boolean c -> c
+    java.lang.String d -> d
+com.lotuseed.android.g -> com.a.a.j:
+    com.lotuseed.android.g a -> a
+    android.os.Handler b -> b
+    android.os.Handler c -> c
+    boolean d -> d
+    boolean e -> e
+    com.lotuseed.android.g a() -> b
+    void a(int,java.lang.String,java.lang.String,long,boolean,boolean) -> a
+    void a(int,java.lang.String,java.lang.String,long,boolean,boolean,long) -> a
+    void a(int,boolean) -> a
+    void startWithAppKey(java.lang.String) -> a
+    void startWithAppKey(java.lang.String,java.lang.String) -> a
+    void onResume(android.content.Context) -> a
+    void onPause(android.content.Context) -> b
+    void onCrashLog() -> c
+    void updateOnlineConfig() -> d
+    void setReportLocation(boolean) -> a
+    java.lang.String b() -> a
+    boolean c() -> e
+    void a(boolean) -> b
+com.lotuseed.android.h -> com.a.a.k:
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.lotuseed.android.i -> com.a.a.l:
+    com.lotuseed.android.j a -> a
+    com.lotuseed.android.k b -> b
+    boolean a(java.lang.String,java.lang.String) -> a
+    boolean a(java.lang.String,long) -> a
+    boolean a(java.lang.String,boolean) -> a
+    boolean a(java.lang.String,double) -> a
+    com.lotuseed.android.k a(com.lotuseed.android.k,java.lang.String,int) -> a
+    com.lotuseed.android.k a(com.lotuseed.android.k) -> a
+    boolean a(java.lang.String,byte[]) -> a
+    com.lotuseed.android.k b(java.lang.String) -> b
+    void a(com.lotuseed.android.k,java.io.ByteArrayOutputStream) -> a
+    byte[] a(java.lang.String) -> a
+com.lotuseed.android.j -> com.a.a.m:
+com.lotuseed.android.k -> com.a.a.n:
+    java.lang.String a -> a
+    byte[] b -> b
+    com.lotuseed.android.k c -> c
+    com.lotuseed.android.k d -> d
+    com.lotuseed.android.k e -> e
+    com.lotuseed.android.k f -> f
+com.lotuseed.android.l -> com.a.a.o:
+    boolean e -> e
+    int f -> f
+    boolean g -> g
+    java.io.ByteArrayOutputStream h -> h
+    void a(int,java.lang.String,java.lang.String,long,java.lang.Boolean,boolean,long) -> a
+    void a(byte[]) -> a
+    boolean a(android.content.Context) -> a
+    void run() -> run
+    int a(android.content.Context,java.io.ByteArrayOutputStream,int) -> a
+    void a(com.lotuseed.android.l,byte[]) -> a
+com.lotuseed.android.m -> com.a.a.p:
+    com.lotuseed.android.l a -> a
+    android.net.wifi.WifiManager b -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.lotuseed.android.n -> com.a.a.q:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+com.lotuseed.android.o -> com.a.a.r:
+    java.lang.Thread$UncaughtExceptionHandler a -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.lotuseed.android.p -> com.a.a.s:
+    boolean a(int,java.lang.String) -> a
+    boolean a(com.lotuseed.android.x) -> a
+com.lotuseed.android.q -> com.a.a.t:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    boolean c -> c
+    com.lotuseed.android.p d -> d
+    java.lang.String e -> e
+    long a(java.io.InputStream,java.io.FileOutputStream,long) -> a
+    boolean a() -> a
+    void run() -> run
+com.lotuseed.android.r -> com.a.a.u:
+    byte[] e -> e
+    void run() -> run
+    boolean a(com.lotuseed.android.x) -> a
+com.lotuseed.android.u -> com.a.a.v:
+    long a -> a
+    boolean b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String a(android.content.Context,int,byte[],java.lang.String,int,java.lang.String,java.lang.String) -> a
+    int a(android.content.Context,java.lang.String,byte[],boolean) -> a
+    int a(android.content.Context,java.io.ByteArrayOutputStream) -> a
+    void a(android.content.Context,int) -> a
+com.lotuseed.android.v -> com.a.a.w:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    com.lotuseed.android.n d -> d
+    int e -> e
+    java.util.Properties f -> f
+    java.util.List g -> g
+    android.app.Application a() -> a
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String b(android.content.Context) -> b
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String d(android.content.Context) -> d
+    java.lang.String a(java.lang.String,java.lang.String) -> a
+    android.net.wifi.WifiInfo e(android.content.Context) -> e
+    java.lang.String b() -> b
+    android.telephony.gsm.GsmCellLocation f(android.content.Context) -> f
+    java.lang.String b(android.content.Context,int) -> b
+    java.lang.String g(android.content.Context) -> g
+    java.lang.String h(android.content.Context) -> h
+    java.lang.String i(android.content.Context) -> i
+    java.lang.String j(android.content.Context) -> j
+    java.lang.String k(android.content.Context) -> k
+    java.lang.String l(android.content.Context) -> l
+    java.lang.String m(android.content.Context) -> m
+    com.lotuseed.android.n n(android.content.Context) -> n
+    android.net.NetworkInfo B(android.content.Context) -> B
+    java.lang.String o(android.content.Context) -> o
+    boolean p(android.content.Context) -> p
+    java.lang.String q(android.content.Context) -> q
+    boolean a(java.lang.String) -> a
+    android.location.Location r(android.content.Context) -> r
+    boolean s(android.content.Context) -> s
+    boolean t(android.content.Context) -> t
+    android.view.Display[] u(android.content.Context) -> u
+    java.lang.String a(java.lang.String,boolean) -> a
+    java.lang.String b(java.lang.String) -> b
+    java.lang.String c() -> c
+    boolean d() -> d
+    java.lang.String e() -> e
+    int f() -> f
+    boolean a(int) -> a
+    java.lang.String g() -> g
+    int v(android.content.Context) -> v
+    int n() -> n
+    java.lang.String o() -> o
+    java.util.ArrayList h() -> h
+    long i() -> i
+    java.lang.String j() -> j
+    java.lang.String k() -> k
+    boolean w(android.content.Context) -> w
+    int x(android.content.Context) -> x
+    java.util.ArrayList a(android.content.Context,int) -> a
+    java.lang.String l() -> l
+    boolean y(android.content.Context) -> y
+    long[] z(android.content.Context) -> z
+    long a(android.content.Context,java.lang.String) -> a
+    java.lang.String c(java.lang.String) -> c
+    byte[] d(java.lang.String) -> d
+    java.lang.String[] e(java.lang.String) -> e
+    java.util.ArrayList a(android.content.Context,boolean) -> a
+    java.util.ArrayList A(android.content.Context) -> A
+    java.lang.String m() -> m
+com.lotuseed.android.w -> com.a.a.x:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    boolean d -> d
+    boolean e -> e
+    byte[] f -> f
+    byte[] g -> g
+    byte[] h -> h
+    android.content.Context a() -> a
+    void a(java.lang.String) -> a
+    java.lang.String b(android.content.Context) -> a
+    void b(java.lang.String) -> b
+    java.lang.String c(android.content.Context) -> b
+    void a(android.content.Context,java.lang.String) -> a
+    java.lang.String d(android.content.Context) -> c
+    void a(android.content.Context,int) -> a
+    int e(android.content.Context) -> d
+    void a(android.content.Context,java.lang.Boolean) -> a
+    boolean f(android.content.Context) -> e
+    void b(android.content.Context,java.lang.Boolean) -> b
+    boolean g(android.content.Context) -> f
+    void b(android.content.Context,int) -> b
+    int h(android.content.Context) -> g
+    void a(android.content.Context,long) -> a
+    long i(android.content.Context) -> h
+    void a(android.content.Context,org.json.JSONArray) -> a
+    void a(android.content.Context,java.lang.String,java.lang.String) -> a
+    void a(android.content.Context,long,long) -> a
+    long[] j(android.content.Context) -> i
+    void c(boolean) -> a
+    boolean c() -> b
+    boolean a(java.util.ArrayList,java.lang.String) -> a
+    boolean a(android.content.Context,java.util.ArrayList) -> a
+    boolean c(android.content.Context,java.lang.String) -> b
+    long k(android.content.Context) -> j
+    void b(android.content.Context,long) -> b
+    long l(android.content.Context) -> k
+com.lotuseed.android.x -> com.a.a.y:
+    boolean a -> a
+    org.json.JSONObject b -> b
+com.lotuseed.android.y -> com.a.a.z:
+    java.lang.String a -> a
+    long b -> b
+    long c -> c
+    long d -> d
+    java.util.Timer e -> e
+    java.util.TimerTask f -> f
+    boolean a(android.content.Context) -> a
+    java.lang.String a() -> a
+    void b(long) -> a
+    void c(long) -> b
+com.lotuseed.android.z -> com.a.a.aa:
+    void run() -> run
+com.matrixcv.androidapi.face.Accelerometer -> com.matrixcv.androidapi.face.Accelerometer:
+    android.hardware.SensorManager cN -> cN
+    boolean cO -> cO
+    com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE cP -> cP
+    android.hardware.SensorEventListener cQ -> cQ
+    void start() -> start
+    void stop() -> stop
+    int getDirection() -> getDirection
+    void a(com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE) -> a
+com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE -> com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE:
+    com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE Deg0 -> Deg0
+    com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE Deg90 -> Deg90
+    com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE Deg180 -> Deg180
+    com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE Deg270 -> Deg270
+    int value -> value
+    com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE[] cR -> cR
+    int getValue() -> getValue
+    com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE[] values() -> values
+    com.matrixcv.androidapi.face.Accelerometer$CLOCKWISE_ANGLE valueOf(java.lang.String) -> valueOf
+com.matrixcv.androidapi.face.FaceRect -> com.matrixcv.androidapi.face.FaceRect:
+    com.matrixcv.androidapi.face.FaceRect$FacePose facePos -> facePos
+    float score -> score
+    android.graphics.Rect bound -> bound
+    android.graphics.Point[] point -> point
+    android.graphics.Rect raw_bound -> raw_bound
+    android.graphics.Point[] raw_point -> raw_point
+    java.lang.String toString() -> toString
+com.matrixcv.androidapi.face.FaceRect$FacePose -> com.matrixcv.androidapi.face.FaceRect$FacePose:
+    com.matrixcv.androidapi.face.FaceRect$FacePose StrictFrontal -> StrictFrontal
+    com.matrixcv.androidapi.face.FaceRect$FacePose Frontal -> Frontal
+    com.matrixcv.androidapi.face.FaceRect$FacePose HalfLeft -> HalfLeft
+    com.matrixcv.androidapi.face.FaceRect$FacePose HalfRight -> HalfRight
+    com.matrixcv.androidapi.face.FaceRect$FacePose FullLeft -> FullLeft
+    com.matrixcv.androidapi.face.FaceRect$FacePose FullRight -> FullRight
+    com.matrixcv.androidapi.face.FaceRect$FacePose FrontalCW30 -> FrontalCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose LeftHalfProfileCW30 -> LeftHalfProfileCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose RightHalfProfileCW30 -> RightHalfProfileCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose LeftProfileCW30 -> LeftProfileCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose RightProfileCW30 -> RightProfileCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose FrontalCCW30 -> FrontalCCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose LeftHalfProfileCCW30 -> LeftHalfProfileCCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose RightHalfProfileCCW30 -> RightHalfProfileCCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose LeftProfileCCW30 -> LeftProfileCCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose RightProfileCCW30 -> RightProfileCCW30
+    com.matrixcv.androidapi.face.FaceRect$FacePose[] cS -> cS
+    com.matrixcv.androidapi.face.FaceRect$FacePose[] values() -> values
+    com.matrixcv.androidapi.face.FaceRect$FacePose valueOf(java.lang.String) -> valueOf
+com.matrixcv.androidapi.face.FaceTrackerBase -> com.matrixcv.androidapi.face.FaceTrackerBase:
+    com.matrixcv.androidapi.face.FaceRect[] trackNV21(byte[],int) -> trackNV21
+    com.matrixcv.androidapi.face.NativeImageBuffer getPreprocessesBuffer() -> getPreprocessesBuffer
+com.matrixcv.androidapi.face.MultiFaceTracker -> com.matrixcv.androidapi.face.MultiFaceTracker:
+    long nativeHandle -> nativeHandle
+    boolean cT -> cT
+    int width -> width
+    int height -> height
+    com.matrixcv.androidapi.face.FaceRect[] trackNV21(byte[],int) -> trackNV21
+    void finalize() -> finalize
+    boolean doInitResource() -> doInitResource
+    int[] doTrackNV21Frame(byte[],int,int,int) -> doTrackNV21Frame
+    com.matrixcv.androidapi.face.NativeImageBuffer getPreprocessesBuffer() -> getPreprocessesBuffer
+    void doDestroy() -> doDestroy
+com.matrixcv.androidapi.face.NativeImageBuffer -> com.matrixcv.androidapi.face.NativeImageBuffer:
+    long handle -> handle
+    int width -> width
+    int height -> height
+    int stride -> stride
+com.matrixcv.androidapi.face.a -> com.matrixcv.androidapi.face.a:
+    void onAccuracyChanged(android.hardware.Sensor,int) -> onAccuracyChanged
+    void onSensorChanged(android.hardware.SensorEvent) -> onSensorChanged
+com.umeng.update.UmengDialogButtonListener -> com.umeng.update.a:
+    void onClick(int) -> a
+com.umeng.update.UmengDownloadListener -> com.umeng.update.b:
+    void OnDownloadStart() -> a
+    void OnDownloadUpdate(int) -> a
+    void OnDownloadEnd(int,java.lang.String) -> a
+com.umeng.update.UmengUpdateAgent -> com.umeng.update.c:
+    com.umeng.update.UmengUpdateListener a -> a
+    com.umeng.update.UmengDialogButtonListener b -> b
+    com.umeng.update.UmengDownloadListener c -> c
+    android.content.Context d -> d
+    com.umeng.update.c e -> e
+    android.os.Handler f -> f
+    void setUpdateOnlyWifi(boolean) -> a
+    void b(int,com.umeng.update.UpdateResponse) -> b
+    void update(android.content.Context) -> a
+    void b(android.content.Context) -> c
+    void b(android.content.Context,com.umeng.update.UpdateResponse,int) -> b
+    java.io.File downloadedFile(android.content.Context,com.umeng.update.UpdateResponse) -> a
+    boolean isIgnore(android.content.Context,com.umeng.update.UpdateResponse) -> b
+    void ignoreUpdate(android.content.Context,com.umeng.update.UpdateResponse) -> c
+    void a(int,android.content.Context,com.umeng.update.UpdateResponse,java.io.File) -> a
+    void a(android.content.Context,com.umeng.update.UpdateResponse,java.io.File) -> a
+    void startInstall(android.content.Context,java.io.File) -> a
+    void startDownload(android.content.Context,com.umeng.update.UpdateResponse) -> d
+    boolean c(android.content.Context) -> d
+    void a(int,com.umeng.update.UpdateResponse) -> a
+    android.content.Context a() -> a
+    void a(android.content.Context,com.umeng.update.UpdateResponse,int) -> a
+    void a(android.content.Context) -> b
+    com.umeng.update.UmengUpdateListener b() -> b
+com.umeng.update.UmengUpdateAgent$1 -> com.umeng.update.d:
+    void handleMessage(android.os.Message) -> handleMessage
+com.umeng.update.UmengUpdateAgent$2 -> com.umeng.update.e:
+    android.content.Context a -> a
+    void run() -> run
+com.umeng.update.UmengUpdateAgent$3 -> com.umeng.update.f:
+    android.content.Context a -> a
+    void run() -> run
+com.umeng.update.UmengUpdateAgent$4 -> com.umeng.update.g:
+    android.content.Context a -> a
+    void run() -> run
+com.umeng.update.UmengUpdateAgent$5 -> com.umeng.update.h:
+    android.content.Context a -> a
+    void run() -> run
+com.umeng.update.UmengUpdateAgent$6 -> com.umeng.update.i:
+    android.content.Context a -> a
+    void run() -> run
+com.umeng.update.UmengUpdateAgent$7 -> com.umeng.update.j:
+    android.content.Context a -> a
+    void run() -> run
+com.umeng.update.UmengUpdateAgent$a -> com.umeng.update.k:
+    android.content.Context a -> a
+    void run() -> run
+com.umeng.update.UmengUpdateListener -> com.umeng.update.l:
+    void onUpdateReturned(int,com.umeng.update.UpdateResponse) -> a
+com.umeng.update.UpdateConfig -> com.umeng.update.m:
+    java.lang.String l -> a
+    java.lang.String m -> b
+    boolean n -> c
+    boolean o -> d
+    boolean p -> e
+    boolean q -> f
+    boolean r -> g
+    boolean s -> h
+    boolean t -> i
+    int u -> j
+    java.lang.String getAppkey(android.content.Context) -> a
+    java.lang.String getChannel(android.content.Context) -> b
+    void saveIgnoreMd5(android.content.Context,java.lang.String) -> a
+    java.lang.String getIgnoreMd5(android.content.Context) -> c
+    boolean isUpdateOnlyWifi() -> a
+    void setUpdateOnlyWifi(boolean) -> a
+    boolean isUpdateAutoPopup() -> b
+    boolean isUpdateForce() -> c
+    void setUpdateForce(boolean) -> b
+    boolean isDeltaUpdate() -> d
+    boolean isSilentDownload() -> e
+    void setSilentDownload(boolean) -> c
+    int getStyle() -> f
+    boolean isUpdateCheck() -> g
+    boolean isRichNotification() -> h
+com.umeng.update.UpdateDialogActivity -> com.umeng.update.UpdateDialogActivity:
+    int a -> a
+    com.umeng.update.UpdateResponse b -> b
+    boolean c -> c
+    java.io.File d -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+com.umeng.update.UpdateDialogActivity$1 -> com.umeng.update.n:
+    com.umeng.update.UpdateDialogActivity a -> a
+    int b -> b
+    int c -> c
+    void onClick(android.view.View) -> onClick
+com.umeng.update.UpdateDialogActivity$2 -> com.umeng.update.o:
+    com.umeng.update.UpdateDialogActivity a -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.umeng.update.UpdateResponse -> com.umeng.update.p:
+    boolean hasUpdate -> a
+    java.lang.String updateLog -> b
+    java.lang.String version -> c
+    java.lang.String path -> d
+    java.lang.String origin -> e
+    java.lang.String new_md5 -> f
+    java.lang.String size -> g
+    java.lang.String target_size -> h
+    boolean delta -> i
+    java.lang.String patch_md5 -> j
+    java.lang.String a(android.content.Context,boolean) -> a
+com.umeng.update.b -> com.umeng.update.q:
+    android.content.Context a -> a
+    java.lang.String[] b -> b
+    java.lang.String c -> c
+    boolean a() -> a
+    com.umeng.update.UpdateResponse b() -> b
+com.umeng.update.c -> com.umeng.update.r:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    com.umeng.update.UmengDownloadListener c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    android.content.Context h -> h
+    java.lang.String i -> i
+    com.umeng.update.net.a j -> j
+    boolean k -> k
+    void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.umeng.update.UmengDownloadListener) -> a
+    boolean a() -> a
+    void b() -> b
+    void c() -> c
+    void a(com.umeng.update.net.a) -> a
+    void d() -> d
+    void a(int) -> a
+    void a(int,int,java.lang.String) -> a
+    void b(int) -> b
+    void a(android.content.Context,com.umeng.update.UpdateResponse,boolean,java.io.File) -> a
+    com.umeng.update.c$a b(android.content.Context,com.umeng.update.UpdateResponse,boolean,java.io.File) -> b
+com.umeng.update.c$a -> com.umeng.update.s:
+    java.lang.String e -> e
+    java.lang.String f -> f
+    com.umeng.update.c a -> a
+    com.umeng.update.c$a a(java.lang.CharSequence) -> a
+    com.umeng.update.c$a b(java.lang.CharSequence) -> b
+    com.umeng.update.c$a c(java.lang.CharSequence) -> c
+    android.app.Notification a() -> a
+com.umeng.update.d -> com.umeng.update.t:
+    java.lang.String d -> d
+    java.lang.String e -> e
+    org.json.JSONObject f -> f
+    org.json.JSONObject a(android.content.Context) -> a
+    org.json.JSONObject a() -> a
+    java.lang.String b() -> b
+com.umeng.update.net.DownloadingService -> com.umeng.update.net.DownloadingService:
+    java.lang.String t -> d
+    android.app.NotificationManager u -> e
+    com.umeng.update.net.c v -> f
+    android.content.Context A -> g
+    android.os.Handler B -> h
+    com.umeng.update.net.DownloadingService$a q -> a
+    boolean r -> b
+    java.util.Map E -> i
+    android.util.SparseArray F -> j
+    android.os.Messenger s -> c
+    com.umeng.update.net.e G -> k
+    boolean H -> l
+    java.lang.Boolean I -> m
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    void onCreate() -> onCreate
+    void d() -> d
+    void a(com.umeng.update.net.a$a) -> a
+    void a(java.lang.String) -> a
+    void onDestroy() -> onDestroy
+    void e() -> e
+    java.lang.String a() -> a
+    com.umeng.update.net.c a(com.umeng.update.net.DownloadingService) -> a
+    android.util.SparseArray b() -> b
+    android.content.Context b(com.umeng.update.net.DownloadingService) -> b
+    java.util.Map c() -> c
+    void a(com.umeng.update.net.DownloadingService,com.umeng.update.net.a$a) -> a
+    android.app.NotificationManager c(com.umeng.update.net.DownloadingService) -> c
+    android.os.Handler d(com.umeng.update.net.DownloadingService) -> d
+    void a(com.umeng.update.net.DownloadingService,java.lang.String) -> a
+    void a(com.umeng.update.net.DownloadingService,android.app.NotificationManager) -> a
+    void a(java.lang.Boolean) -> a
+com.umeng.update.net.DownloadingService$1 -> com.umeng.update.net.a:
+    com.umeng.update.net.DownloadingService a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.umeng.update.net.DownloadingService$2 -> com.umeng.update.net.b:
+    android.util.SparseArray a -> a
+    com.umeng.update.net.DownloadingService b -> b
+    void a(int) -> a
+    void a(int,int) -> a
+    void a(int,java.lang.String) -> a
+    void a(int,java.lang.Exception) -> a
+com.umeng.update.net.DownloadingService$3 -> com.umeng.update.net.c:
+    com.umeng.update.net.DownloadingService a -> a
+    java.lang.String b -> b
+    void run() -> run
+com.umeng.update.net.DownloadingService$4 -> com.umeng.update.net.d:
+    com.umeng.update.net.DownloadingService a -> a
+    void run() -> run
+com.umeng.update.net.DownloadingService$a -> com.umeng.update.net.e:
+    void a(int) -> a
+    void a(int,int) -> a
+    void a(int,java.lang.String) -> a
+    void a(int,java.lang.Exception) -> a
+com.umeng.update.net.DownloadingService$b -> com.umeng.update.net.f:
+    android.content.Context b -> b
+    boolean c -> c
+    java.io.File d -> d
+    int e -> e
+    long f -> f
+    long g -> g
+    int h -> h
+    int i -> i
+    com.umeng.update.net.DownloadingService$a j -> j
+    com.umeng.update.net.a$a k -> k
+    com.umeng.update.net.DownloadingService a -> a
+    void run() -> run
+    void a(int) -> a
+    void a(boolean) -> a
+    void a() -> a
+    void b(int) -> b
+    java.net.HttpURLConnection a(java.net.URL,java.io.File) -> a
+    java.lang.String a(com.umeng.update.net.a$a) -> a
+    void b() -> b
+    void a(java.io.File,java.lang.String) -> a
+    void a(java.lang.Exception) -> a
+    android.content.Context a(com.umeng.update.net.DownloadingService$b) -> a
+    com.umeng.update.net.DownloadingService b(com.umeng.update.net.DownloadingService$b) -> b
+com.umeng.update.net.DownloadingService$b$1 -> com.umeng.update.net.g:
+    com.umeng.update.net.DownloadingService$b a -> a
+    void run() -> run
+com.umeng.update.net.DownloadingService$c -> com.umeng.update.net.h:
+    com.umeng.update.net.DownloadingService a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.umeng.update.net.a -> com.umeng.update.net.i:
+    java.lang.String b -> b
+    android.content.Context c -> c
+    com.umeng.update.net.d d -> d
+    android.os.Messenger e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String[] k -> k
+    boolean l -> l
+    boolean m -> m
+    boolean n -> n
+    android.os.Messenger a -> a
+    android.content.ServiceConnection o -> o
+    void a(java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void a(boolean) -> a
+    void b(boolean) -> b
+    void c(boolean) -> c
+    void a() -> a
+    java.lang.String b() -> b
+    void a(com.umeng.update.net.a,android.os.Messenger) -> a
+    java.lang.String a(com.umeng.update.net.a) -> a
+    java.lang.String b(com.umeng.update.net.a) -> b
+    java.lang.String c(com.umeng.update.net.a) -> c
+    java.lang.String d(com.umeng.update.net.a) -> d
+    java.lang.String e(com.umeng.update.net.a) -> e
+    java.lang.String[] f(com.umeng.update.net.a) -> f
+    boolean g(com.umeng.update.net.a) -> g
+    boolean h(com.umeng.update.net.a) -> h
+    boolean i(com.umeng.update.net.a) -> i
+    android.os.Messenger j(com.umeng.update.net.a) -> j
+    com.umeng.update.net.d k(com.umeng.update.net.a) -> k
+    android.content.Context l(com.umeng.update.net.a) -> l
+    android.content.ServiceConnection m(com.umeng.update.net.a) -> m
+com.umeng.update.net.a$1 -> com.umeng.update.net.j:
+    com.umeng.update.net.a a -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.umeng.update.net.a$a -> com.umeng.update.net.k:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String[] f -> f
+    boolean g -> g
+    boolean h -> h
+    boolean i -> i
+    android.os.Bundle a() -> a
+    com.umeng.update.net.a$a a(android.os.Bundle) -> a
+com.umeng.update.net.a$b -> com.umeng.update.net.l:
+    com.umeng.update.net.a a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.umeng.update.net.b -> com.umeng.update.net.m:
+    java.lang.String a -> a
+    android.content.Context i -> b
+    com.umeng.update.net.b$a k -> c
+    com.umeng.update.net.b a(android.content.Context) -> a
+    boolean a(java.lang.String,java.lang.String) -> a
+    void a(java.lang.String,java.lang.String,int) -> a
+    void a(int) -> a
+    void finalize() -> finalize
+    java.lang.String a() -> a
+com.umeng.update.net.b$a -> com.umeng.update.net.n:
+    com.umeng.update.net.b a -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.umeng.update.net.b$b -> com.umeng.update.net.o:
+    com.umeng.update.net.b a -> a
+com.umeng.update.net.c -> com.umeng.update.net.p:
+    java.lang.String e -> a
+    android.util.SparseArray f -> b
+    java.util.Map g -> c
+    com.umeng.update.net.e h -> d
+    int a(com.umeng.update.net.a$a) -> a
+    com.umeng.update.net.c$a a(android.content.Context,com.umeng.update.net.a$a,int,int) -> a
+    void a(android.content.Context,com.umeng.update.net.c$a,int,int) -> a
+    boolean a(android.content.Context) -> a
+    boolean a(com.umeng.update.net.a$a,boolean,android.os.Messenger) -> a
+    int b(com.umeng.update.net.a$a) -> b
+    void a(android.content.Context,int) -> a
+    void b(android.content.Context,int) -> b
+    void a(com.umeng.update.net.a$a,long,long,long) -> a
+    void a(java.util.Map,boolean,java.lang.String[]) -> a
+    boolean a(com.umeng.update.net.DownloadingService,android.content.Intent) -> a
+    java.lang.String a() -> a
+    java.util.Map a(com.umeng.update.net.c) -> a
+com.umeng.update.net.c$1 -> com.umeng.update.net.q:
+    com.umeng.update.net.c a -> a
+    java.lang.String[] b -> b
+    boolean c -> c
+    java.util.Map d -> d
+    void run() -> run
+com.umeng.update.net.c$a -> com.umeng.update.net.r:
+    com.umeng.update.net.c$a a(android.widget.RemoteViews) -> a
+    com.umeng.update.net.c$a a(java.lang.CharSequence) -> a
+    com.umeng.update.net.c$a b(java.lang.CharSequence) -> b
+    com.umeng.update.net.c$a a(int,int,boolean) -> a
+    com.umeng.update.net.c$a a() -> a
+    com.umeng.update.net.c$a a(android.app.PendingIntent,android.app.PendingIntent) -> a
+    com.umeng.update.net.c$a b() -> b
+    com.umeng.update.net.c$a c() -> c
+    android.app.Notification d() -> d
+    void a(int,java.lang.String,android.app.PendingIntent) -> a
+com.umeng.update.net.c$b -> com.umeng.update.net.s:
+    com.umeng.update.net.DownloadingService$b a -> a
+    com.umeng.update.net.c$a b -> b
+    int c -> c
+    int d -> d
+    com.umeng.update.net.a$a e -> e
+    long[] f -> f
+    void a(android.util.SparseArray) -> a
+    void b(android.util.SparseArray) -> b
+com.umeng.update.net.c$c -> com.umeng.update.net.t:
+    int a -> a
+    java.lang.String b -> b
+    com.umeng.update.net.a$a d -> d
+    android.content.Context e -> e
+    android.app.NotificationManager f -> f
+    com.umeng.update.net.c c -> c
+    void onPreExecute() -> onPreExecute
+    java.lang.Integer a(java.lang.String[]) -> a
+    void a(java.lang.Integer) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.umeng.update.net.d -> com.umeng.update.net.u:
+    void d() -> d
+    void a(int) -> a
+    void a(int,int,java.lang.String) -> a
+    void b(int) -> b
+com.umeng.update.net.e -> com.umeng.update.net.v:
+    java.lang.String b -> a
+    android.content.Context c -> b
+    void a(int) -> a
+    java.util.List a() -> a
+    boolean b() -> b
+    void b(int) -> b
+com.umeng.update.net.f -> com.umeng.update.net.w:
+    java.lang.String a(int,java.lang.String) -> a
+    android.app.PendingIntent b(android.content.Context,java.lang.String) -> a
+com.umeng.update.net.j -> com.umeng.update.net.x:
+    java.lang.String b -> b
+    boolean a -> a
+    java.util.Map f -> c
+    java.lang.Thread g -> d
+    java.io.File a(java.lang.String,android.content.Context,boolean[]) -> a
+    boolean a(java.lang.String,int,int,int) -> a
+    boolean a(java.lang.String,int) -> a
+    void a(java.io.File,long,long) -> a
+    long a(java.io.File) -> a
+    void b(java.io.File,long) -> b
+    void a(java.io.File,long) -> a
+    void a(java.lang.Thread) -> a
+com.umeng.update.net.j$1 -> com.umeng.update.net.y:
+    java.io.File a -> a
+    long b -> b
+    void run() -> run
+com.umeng.update.util.DeltaUpdate -> com.umeng.update.util.DeltaUpdate:
+    boolean a -> a
+    boolean a() -> a
+    int a(java.lang.String,java.lang.String,java.lang.String) -> a
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String b(android.content.Context) -> b
+    int bspatch(java.lang.String,java.lang.String,java.lang.String) -> bspatch
+com.umeng.update.util.b -> com.umeng.update.util.a:
+    android.content.Context b -> b
+    android.app.Notification c -> c
+    android.app.Notification$Builder d -> d
+    void e() -> e
+    com.umeng.update.util.b b(android.widget.RemoteViews) -> b
+    com.umeng.update.util.b a(android.app.PendingIntent) -> a
+    com.umeng.update.util.b a(boolean) -> a
+    com.umeng.update.util.b b(boolean) -> b
+    com.umeng.update.util.b a(int) -> a
+    com.umeng.update.util.b d(java.lang.CharSequence) -> d
+    com.umeng.update.util.b a(long) -> a
+org.apache.http.entity.mime.FormBodyPart -> a.a.a.a.a.a:
+    java.lang.String name -> a
+    org.apache.http.entity.mime.Header header -> b
+    org.apache.http.entity.mime.content.ContentBody body -> c
+    java.lang.String getName() -> a
+    org.apache.http.entity.mime.content.ContentBody getBody() -> b
+    org.apache.http.entity.mime.Header getHeader() -> c
+    void addField(java.lang.String,java.lang.String) -> a
+    void generateContentDisp(org.apache.http.entity.mime.content.ContentBody) -> a
+    void generateContentType(org.apache.http.entity.mime.content.ContentBody) -> b
+    void generateTransferEncoding(org.apache.http.entity.mime.content.ContentBody) -> c
+org.apache.http.entity.mime.Header -> a.a.a.a.a.b:
+    java.util.List fields -> a
+    java.util.Map fieldMap -> b
+    void addField(org.apache.http.entity.mime.MinimalField) -> a
+    org.apache.http.entity.mime.MinimalField getField(java.lang.String) -> a
+    java.util.Iterator iterator() -> iterator
+    java.lang.String toString() -> toString
+org.apache.http.entity.mime.HttpMultipart -> a.a.a.a.a.c:
+    org.apache.http.util.ByteArrayBuffer FIELD_SEP -> a
+    org.apache.http.util.ByteArrayBuffer CR_LF -> b
+    org.apache.http.util.ByteArrayBuffer TWO_DASHES -> c
+    java.lang.String subType -> d
+    java.nio.charset.Charset charset -> e
+    java.lang.String boundary -> f
+    java.util.List parts -> g
+    org.apache.http.entity.mime.HttpMultipartMode mode -> h
+    org.apache.http.util.ByteArrayBuffer encode(java.nio.charset.Charset,java.lang.String) -> a
+    void writeBytes(org.apache.http.util.ByteArrayBuffer,java.io.OutputStream) -> a
+    void writeBytes(java.lang.String,java.nio.charset.Charset,java.io.OutputStream) -> a
+    void writeBytes(java.lang.String,java.io.OutputStream) -> a
+    void writeField(org.apache.http.entity.mime.MinimalField,java.io.OutputStream) -> a
+    void writeField(org.apache.http.entity.mime.MinimalField,java.nio.charset.Charset,java.io.OutputStream) -> a
+    java.util.List getBodyParts() -> a
+    void addBodyPart(org.apache.http.entity.mime.FormBodyPart) -> a
+    java.lang.String getBoundary() -> b
+    void doWriteTo(org.apache.http.entity.mime.HttpMultipartMode,java.io.OutputStream,boolean) -> a
+    void writeTo(java.io.OutputStream) -> a
+    long getTotalLength() -> c
+org.apache.http.entity.mime.HttpMultipart$1 -> a.a.a.a.a.d:
+    int[] $SwitchMap$org$apache$http$entity$mime$HttpMultipartMode -> a
+org.apache.http.entity.mime.HttpMultipartMode -> a.a.a.a.a.e:
+    org.apache.http.entity.mime.HttpMultipartMode STRICT -> a
+    org.apache.http.entity.mime.HttpMultipartMode BROWSER_COMPATIBLE -> b
+    org.apache.http.entity.mime.HttpMultipartMode[] $VALUES -> c
+    org.apache.http.entity.mime.HttpMultipartMode[] values() -> values
+    org.apache.http.entity.mime.HttpMultipartMode valueOf(java.lang.String) -> valueOf
+org.apache.http.entity.mime.MIME -> a.a.a.a.a.f:
+    java.nio.charset.Charset DEFAULT_CHARSET -> a
+org.apache.http.entity.mime.MinimalField -> a.a.a.a.a.g:
+    java.lang.String name -> a
+    java.lang.String value -> b
+    java.lang.String getName() -> a
+    java.lang.String getBody() -> b
+    java.lang.String toString() -> toString
+org.apache.http.entity.mime.MultipartEntity -> a.a.a.a.a.h:
+    char[] MULTIPART_CHARS -> a
+    org.apache.http.entity.mime.HttpMultipart multipart -> b
+    org.apache.http.Header contentType -> c
+    long length -> d
+    boolean dirty -> e
+    java.lang.String generateContentType(java.lang.String,java.nio.charset.Charset) -> a
+    java.lang.String generateBoundary() -> a
+    void addPart(org.apache.http.entity.mime.FormBodyPart) -> a
+    void addPart(java.lang.String,org.apache.http.entity.mime.content.ContentBody) -> a
+    boolean isRepeatable() -> isRepeatable
+    boolean isChunked() -> isChunked
+    boolean isStreaming() -> isStreaming
+    long getContentLength() -> getContentLength
+    org.apache.http.Header getContentType() -> getContentType
+    org.apache.http.Header getContentEncoding() -> getContentEncoding
+    void consumeContent() -> consumeContent
+    java.io.InputStream getContent() -> getContent
+    void writeTo(java.io.OutputStream) -> writeTo
+org.apache.http.entity.mime.content.AbstractContentBody -> a.a.a.a.a.a.a:
+    java.lang.String mimeType -> a
+    java.lang.String mediaType -> b
+    java.lang.String subType -> c
+    java.lang.String getMimeType() -> a
+org.apache.http.entity.mime.content.ContentBody -> a.a.a.a.a.a.b:
+    java.lang.String getFilename() -> b
+    void writeTo(java.io.OutputStream) -> a
+org.apache.http.entity.mime.content.ContentDescriptor -> a.a.a.a.a.a.c:
+    java.lang.String getMimeType() -> a
+    java.lang.String getCharset() -> c
+    java.lang.String getTransferEncoding() -> d
+    long getContentLength() -> e
+org.apache.http.entity.mime.content.FileBody -> a.a.a.a.a.a.d:
+    java.io.File file -> a
+    java.lang.String filename -> b
+    java.lang.String charset -> c
+    void writeTo(java.io.OutputStream) -> a
+    java.lang.String getTransferEncoding() -> d
+    java.lang.String getCharset() -> c
+    long getContentLength() -> e
+    java.lang.String getFilename() -> b
+org.apache.http.entity.mime.content.StringBody -> a.a.a.a.a.a.e:
+    byte[] content -> a
+    java.nio.charset.Charset charset -> b
+    void writeTo(java.io.OutputStream) -> a
+    java.lang.String getTransferEncoding() -> d
+    java.lang.String getCharset() -> c
+    long getContentLength() -> e
+    java.lang.String getFilename() -> b
+u.upd.a -> b.a.a:
+    java.lang.String a -> a
+    java.lang.String c(android.content.Context) -> a
+    boolean a(android.content.Context,java.lang.String) -> a
+    java.lang.String f(android.content.Context) -> b
+    java.lang.String[] j(android.content.Context) -> c
+    boolean k(android.content.Context) -> d
+    boolean l(android.content.Context) -> e
+    boolean b() -> a
+    java.lang.String o(android.content.Context) -> f
+    java.lang.String p(android.content.Context) -> g
+    java.lang.String t(android.content.Context) -> h
+    java.lang.String u(android.content.Context) -> i
+    java.lang.String v(android.content.Context) -> j
+u.upd.b -> b.a.b:
+    boolean a -> a
+    void a(java.lang.String,java.lang.String) -> a
+    void a(java.lang.String,java.lang.String,java.lang.Exception) -> a
+    void b(java.lang.String,java.lang.String) -> b
+    void b(java.lang.String,java.lang.String,java.lang.Exception) -> b
+    void c(java.lang.String,java.lang.String) -> c
+    void c(java.lang.String,java.lang.String,java.lang.Exception) -> c
+    void e(java.lang.String,java.lang.String) -> d
+    void e(java.lang.String,java.lang.String,java.lang.Exception) -> d
+u.upd.c -> b.a.c:
+    java.lang.String a -> a
+    u.upd.c b -> b
+    android.content.res.Resources c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String k -> k
+    u.upd.c a(android.content.Context) -> a
+    int b(java.lang.String) -> a
+    int c(java.lang.String) -> b
+    int d(java.lang.String) -> c
+    int f(java.lang.String) -> d
+    int a(java.lang.String,java.lang.String) -> a
+u.upd.g -> b.a.d:
+    java.lang.String a -> a
+    java.util.Map b -> b
+    u.upd.i a(u.upd.h,java.lang.Class) -> a
+    org.json.JSONObject a(java.lang.String,org.json.JSONObject) -> a
+    boolean a() -> a
+    java.lang.String a(java.io.InputStream) -> a
+    org.json.JSONObject a(java.lang.String) -> a
+    org.apache.http.params.HttpParams b() -> b
+    void b(java.lang.String) -> b
+u.upd.h -> b.a.e:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    org.json.JSONObject a() -> a
+    java.lang.String b() -> b
+    java.lang.String c() -> c
+    void a(java.lang.String) -> a
+u.upd.i -> b.a.f:
+u.upd.j -> b.a.g:
+    int a(android.content.Context) -> a
+    int b(android.content.Context) -> b
+    int c(android.content.Context) -> c
+    int d(android.content.Context) -> d
+    int e(android.content.Context) -> e
+    int g(android.content.Context) -> f
+u.upd.k -> b.a.h:
+    int a(android.content.Context) -> a
+u.upd.l -> b.a.i:
+    int a(android.content.Context) -> a
+    int b(android.content.Context) -> b
+    int c(android.content.Context) -> c
+    int d(android.content.Context) -> d
+    int e(android.content.Context) -> e
+    int f(android.content.Context) -> f
+    int g(android.content.Context) -> g
+    int h(android.content.Context) -> h
+    int i(android.content.Context) -> i
+    int j(android.content.Context) -> j
+    int k(android.content.Context) -> k
+    int l(android.content.Context) -> l
+    int m(android.content.Context) -> m
+    int n(android.content.Context) -> n
+u.upd.m -> b.a.j:
+    int a -> a
+    byte[] a(java.lang.String,java.lang.String) -> a
+    byte[] a(byte[]) -> a
+u.upd.n -> b.a.k:
+    java.lang.String a -> a
+    java.lang.String a(java.lang.String) -> a
+    java.lang.String b(java.lang.String) -> b
+    java.lang.String a(java.io.File) -> a
+    java.lang.String c(java.lang.String) -> c
+    boolean d(java.lang.String) -> d
+    java.lang.String a() -> a
+    java.lang.String a(java.util.Date) -> a

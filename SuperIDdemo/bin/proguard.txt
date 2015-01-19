@@ -1,0 +1,123 @@
+# view AndroidManifest.xml #generated:50
+-keep class com.isnc.facesdk.aty.Aty_AgreeItem { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.isnc.facesdk.aty.Aty_Auth { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.isnc.facesdk.aty.Aty_ClipPicture { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.isnc.facesdk.aty.Aty_CountryPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.isnc.facesdk.aty.Aty_EditUserinfo { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.isnc.facesdk.aty.Aty_FaceDetect { <init>(...); }
+
+# view res/layout/superid_activity_clippic.xml #generated:21
+-keep class com.isnc.facesdk.view.ClipView { <init>(...); }
+
+# view res/layout/aty_faceemotion.xml #generated:91
+# view res/layout/superid_activity_facedete.xml #generated:20
+-keep class com.isnc.facesdk.view.FaceRegistView { <init>(...); }
+
+# view res/layout/superid_activity_countrypage.xml #generated:32
+-keep class com.isnc.facesdk.view.SideBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.isnc.superiddemo.Aty_AppGetFaceEmotion { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.isnc.superiddemo.Aty_GetFaceEmotion { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.isnc.superiddemo.Aty_Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.isnc.superiddemo.Aty_UserCenter { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.isnc.superiddemo.Aty_Welcome { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.umeng.update.net.DownloadingService { <init>(...); }
+
+# onClick res/layout/superid_pop_faceregist.xml #generated:165
+-keepclassmembers class * { *** agree(...); }
+
+# onClick res/layout/superid_activity_auth.xml #generated:118
+-keepclassmembers class * { *** btn_auth(...); }
+
+# onClick res/layout/aty_faceemotion.xml #generated:13
+# onClick res/layout/superid_common_bar.xml #generated:8
+-keepclassmembers class * { *** btn_back(...); }
+
+# onClick res/layout/aty_login.xml #generated:56
+-keepclassmembers class * { *** btn_clear(...); }
+
+# onClick res/layout/aty_usercenter.xml #generated:244
+-keepclassmembers class * { *** btn_facedata(...); }
+
+# onClick res/layout/superid_pop_guideerthree.xml #generated:124
+-keepclassmembers class * { *** btn_gr3out(...); }
+
+# onClick res/layout/superid_pop_guideerthree.xml #generated:107
+-keepclassmembers class * { *** btn_gr3rebundle(...); }
+
+# onClick res/layout/superid_pop_guideerror.xml #generated:57
+-keepclassmembers class * { *** btn_grchange(...); }
+
+# onClick res/layout/superid_pop_guideerror.xml #generated:74
+-keepclassmembers class * { *** btn_grrescan(...); }
+
+# onClick res/layout/superid_pop_guidestart.xml #generated:50
+-keepclassmembers class * { *** btn_guidestart(...); }
+
+# onClick res/layout/superid_pop_facelogin.xml #generated:125
+-keepclassmembers class * { *** btn_ledclear(...); }
+
+# onClick res/layout/superid_pop_facelogin.xml #generated:111
+-keepclassmembers class * { *** btn_llogin(...); }
+
+# onClick res/layout/aty_login.xml #generated:66
+-keepclassmembers class * { *** btn_login(...); }
+
+# onClick res/layout/aty_usercenter.xml #generated:283
+-keepclassmembers class * { *** btn_logout(...); }
+
+# onClick res/layout/superid_pop_facelogin.xml #generated:10
+-keepclassmembers class * { *** btn_lselectcountry(...); }
+
+# onClick res/layout/superid_activity_edituserinfo.xml #generated:96
+-keepclassmembers class * { *** btn_nameedclear(...); }
+
+# onClick res/layout/superid_pop_faceregist.xml #generated:96
+-keepclassmembers class * { *** btn_rbedclear(...); }
+
+# onClick res/layout/superid_pop_faceregist.xml #generated:151
+-keepclassmembers class * { *** btn_recode(...); }
+
+# onClick res/layout/superid_pop_faceregist.xml #generated:137
+-keepclassmembers class * { *** btn_rreg(...); }
+
+# onClick res/layout/superid_pop_faceregist.xml #generated:11
+-keepclassmembers class * { *** btn_rselectcountry(...); }
+
+# onClick res/layout/superid_activity_edituserinfo.xml #generated:110
+# onClick res/layout/superid_common_bar.xml #generated:28
+-keepclassmembers class * { *** btn_save(...); }
+
+# onClick res/layout/aty_usercenter.xml #generated:270
+-keepclassmembers class * { *** btn_sciencefacedata(...); }
+
+# onClick res/layout/aty_login.xml #generated:105
+-keepclassmembers class * { *** btn_superidlogin(...); }
+
+# onClick res/layout/aty_usercenter.xml #generated:166
+-keepclassmembers class * { *** btn_unbundle(...); }
+

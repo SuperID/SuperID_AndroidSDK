@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="s_color_background_main">#F1F2F3</color>
+    <color name="s_color_background_cell">#FFFFFF</color>
+    <color name="s_color_background_bar">#0999D0</color>
+    <color name="s_color_background_view">#F2F2F2</color>
+    <color name="s_color_background_green">#00C300</color>
+    <color name="s_color_background_view_input">#202020</color>
+    <color name="s_color_background_view_touch">#DCDCDC</color>
+    <color name="s_color_border">#CCCCCC</color>
+    <color name="s_color_border_hightlight">#484848</color>
+    <color name="s_color_font_main">#232323</color>
+    <color name="s_color_font_vice">#323232</color>
+    <color name="s_color_font_contant">#626262</color>
+    <color name="s_color_font_tips">#979797</color>
+    <color name="s_color_font_hint">#C2C2C2</color>
+    <color name="s_color_font_hightlight">#FFFFFF</color>
+    <color name="s_color_font_green">#00C300</color>
+    <color name="s_color_font_hightlight_disable">#4d5E5E5E</color>
+    <color name="s_color_faceloginloadbg">#80000000</color>
+    <color name="s_color_camera_shade">#b3000000</color>
+    <color name="s_color_font_ligthbule">#33B5E5</color>
+    <color name="s_color_font_darkbule">#0999D0</color>
+    <color name="s_color_barbtn_press">#0F759C</color>
+    <color name="s_color_nofacetips">#FEC00F</color>
+</resources>
