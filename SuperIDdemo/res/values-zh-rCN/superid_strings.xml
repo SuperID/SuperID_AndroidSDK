@@ -65,7 +65,7 @@
     <string name="superid_tips_nologin">尚未使用一登账号登录</string>
     <string name="superid_tips_noauth">您尚未授权该应用，请先绑定授权</string>
     <string name="superid_tips_apptokenfail">获取app_token失败</string>
-    <string name="superid_tips_guidelight">光线充⾜，您可以重新绑定\n⼈脸，并正常登录失败</string>
+    <string name="superid_tips_guidelight">光线充⾜，您可以重新绑定\n⼈脸，并正常登录</string>
     <string name="superid_tips_guidedark">环境昏暗，建议您退出刷脸\n使⽤其他⽅式登录</string>
     <string name="superid_title_country">国家和地区</string>
     <string name="superid_china">中国</string>
