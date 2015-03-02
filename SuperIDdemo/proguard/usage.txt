@@ -1,58 +1,6 @@
 com.isnc.superiddemo.BuildConfig
 com.isnc.superiddemo.R:
     10:10:public R()
-com.lotuseed.android.Constants:
-    public static final java.lang.String SDK_VERSION
-    3:3:public Constants()
-com.lotuseed.android.LocationReport
-com.lotuseed.android.PackageReceiver:
-    12:12:public PackageReceiver()
-com.lotuseed.android.e:
-    public static final java.lang.String BASE_SDK_VERSION
-    3:3:e()
-com.lotuseed.android.g:
-    87:96:public static void init(android.content.Context)
-    115:116:public static void forcePost()
-    124:126:public static void onCreate(android.content.Context)
-    134:136:public static void onDestroy(android.content.Context)
-    144:149:public static void onPageViewBegin(java.lang.String)
-    157:162:public static void onPageViewEnd(java.lang.String)
-    292:294:public static void onCustomLog(java.lang.String)
-    302:303:public static void onEvent(java.lang.String)
-    306:307:public static void onEvent(java.lang.String,boolean)
-    310:311:public static void onEvent(java.lang.String,long)
-    314:315:public static void onEvent(java.lang.String,long,boolean)
-    318:319:public static void onEvent(java.lang.String,java.lang.String)
-    322:323:public static void onEvent(java.lang.String,java.lang.String,boolean)
-    326:327:public static void onEvent(java.lang.String,java.lang.String,long)
-    331:333:public static void onEvent(java.lang.String,java.lang.String,long,boolean)
-    336:337:public static void onEvent(java.lang.String,java.util.Map)
-    341:342:public static void onEvent(java.lang.String,java.util.Map,boolean)
-    346:347:public static void onEvent(java.lang.String,java.util.Map,long)
-    351:363:public static void onEvent(java.lang.String,java.util.Map,long,boolean)
-    371:372:public static void onEventDuration(java.lang.String,long)
-    376:377:public static void onEventDuration(java.lang.String,long,boolean)
-    381:382:public static void onEventDuration(java.lang.String,java.lang.String,long)
-    386:388:public static void onEventDuration(java.lang.String,java.lang.String,long,boolean)
-    392:393:public static void onEventDuration(java.lang.String,java.util.Map,long)
-    397:409:public static void onEventDuration(java.lang.String,java.util.Map,long,boolean)
-    417:425:public static void setUpdateOnlyWifi(boolean)
-    433:435:public static void setUpdateUseCache(boolean)
-    443:443:public static boolean isUpdating()
-    472:474:public static java.lang.String getConfigParams(java.lang.String,java.lang.String)
-    483:484:public static void setDebugMode(boolean)
-    492:493:public static void setSessionContinueMillis(long)
-    511:516:public static void queryMyLocation(com.lotuseed.android.LocationReport)
-com.lotuseed.android.s
-com.lotuseed.android.t
-com.lotuseed.android.w:
-    43:46:static void a(android.content.Context)
-    351:395:static java.lang.String b(android.content.Context,java.lang.String)
-    502:502:static void a(boolean)
-    522:522:static void b(boolean)
-    536:537:static boolean b()
-com.lotuseed.android.y:
-    202:203:static void a(long)
 com.umeng.update.UmengUpdateAgent:
     25:25:public UmengUpdateAgent()
     36:46:public static void setDefault()

@@ -69,5 +69,25 @@
     <string name="superid_tips_guidedark">Dark condition？\nAdjust your surrounding or logout</string>
     <string name="superid_title_country">Regions</string>
     <string name="superid_china">China</string>
-	<string name="superid_tips_noface">Please look at the screen</string>
+    <string name="superid_tips_noface">Please look at the screen</string>
+    <string name="superid_tips_secureemailtexta">You can use mailbox to receive the notice of authorized log-in or re-binding the face and to block your account when necessary.</string>
+    <string name="superid_aciton_notreceivedemail">No received?</string>
+    <string name="superid_title_secureemail">Security mailbox</string>
+    <string name="superid_aciton_close">close</string>
+    <string name="superid_tips_secureemailtextb">The verification mail has been sent to your security mailbox, please kindly check it within 24 hours to confirm the set up.</string>
+    <string name="superid_aciton_closeview">close</string>
+    <string name="superid_tips_secureemailtextc">The security mailbox has been bound. You can block your account via the notification mail when necessary.</string>
+    <string name="superid_tips_secureemailwarn">Please kindly set your security mailbox to improve the security level.</string>
+    <string name="superid_tips_secureemailfail">The E-mail address is wrong.</string>
+    <string name="superid_tips_guidelock">Please kindly set your security mailbox to improve the security level.</string>
+    <string name="superid_aciton_unfreeze">Unblock</string>
+    <string name="superid_tips_unfreezesubmit">Success</string>
+    <string name="superid_title_unfreeze">Unblock</string>
+    <string name="superid_tips_auditing">The account is unblocking. </string>
+    <string name="superid_aciton_authrevise">Check or modify your authorized contents.</string>
+    <string name="superid_aciton_submit">Submit</string>
+    <string name="superid_tips_accounthasbeenfrozen">The account has been blocked.</string>
+    <string name="superid_aciton_resubmit">Re-Submit</string>
+    <string name="superid_tips_secureemailtexttips">Cannot change once set up</string>
+
 </resources>

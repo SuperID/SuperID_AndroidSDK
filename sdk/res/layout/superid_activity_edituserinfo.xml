@@ -58,7 +58,7 @@
             android:layout_alignBottom="@+id/icon_phone"
             android:layout_marginLeft="38dp"
             android:layout_toRightOf="@+id/icon_phone"
-            android:textColor="@color/s_color_font_darkbule"
+            android:textColor="@color/s_color_font_contant"
             android:textSize="@dimen/s_size_font_title" />
     </RelativeLayout>
 

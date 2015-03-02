@@ -18,7 +18,7 @@ public class Aty_Welcome extends Activity {
 
 		setContentView(view);
 		FaceSDKMethod.initFaceSDK(this);
-		FaceSDKMethod.setDebugMode(false);
+		FaceSDKMethod.setDebugMode(true);
 		// 渐变展示启动屏
 		AlphaAnimation aa = new AlphaAnimation(0.3f, 1.0f);
 		aa.setDuration(1500);

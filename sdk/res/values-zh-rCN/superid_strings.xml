@@ -44,7 +44,7 @@
     <string name="superid_tips_sockettimeout">请求超时，服务器连接失败</string>
     <string name="superid_tips_sslnotsafe">当前网络不安全</string>
     <string name="superid_tips_cameraerror">相机连接失败</string>
-    <string name="superid_title_authtipstitle">使用一登授权并登录：</string>
+    <string name="superid_title_authtipstitle">使用一登授权并登录</string>
     <string name="superid_tips_authtips">访问您的注册信息：头像、昵称。</string>
     <string name="superid_action_makesureauth">确定登录</string>
     <string name="superid_tips_nickname">昵称</string>
@@ -65,10 +65,29 @@
     <string name="superid_tips_nologin">尚未使用一登账号登录</string>
     <string name="superid_tips_noauth">您尚未授权该应用，请先绑定授权</string>
     <string name="superid_tips_apptokenfail">获取app_token失败</string>
-    <string name="superid_tips_guidelight">光线充⾜，您可以重新绑定\n⼈脸，并正常登录</string>
+    <string name="superid_tips_guidelight">光线充⾜，您可以重新绑定\n⼈脸，并正常登录失败</string>
     <string name="superid_tips_guidedark">环境昏暗，建议您退出刷脸\n使⽤其他⽅式登录</string>
     <string name="superid_title_country">国家和地区</string>
     <string name="superid_china">中国</string>
     <string name="superid_tips_noface">请您面对屏幕，将脸对准黄框</string>
+    <string name="superid_tips_secureemailtexta">安全邮箱用于接收授权登录、重绑人脸的通知。如帐号发生异常，您可以在通知邮件中冻结帐号，保障帐号安全。</string>
+    <string name="superid_aciton_notreceivedemail">没有收到验证邮件？</string>
+    <string name="superid_title_secureemail">我的安全邮箱</string>
+    <string name="superid_aciton_close">关闭</string>
+    <string name="superid_tips_secureemailtextb">已向您的安全邮箱发送验证邮件，请您在24小时内登录邮箱查看，并确认设置</string>
+    <string name="superid_aciton_closeview">关闭窗口</string>
+    <string name="superid_tips_secureemailtextc">已成功绑定安全邮箱。如帐号发生异常，您可以在通知邮件中冻结帐号，保障帐号安全。</string>
+    <string name="superid_tips_secureemailwarn">请您设置安全邮箱，提高安全级别</string>
+    <string name="superid_tips_secureemailfail">邮箱填写有误</string>
+    <string name="superid_tips_guidelock">您当前帐号已被冻结，请在光线充足的环境下进行刷脸，申请解除冻结</string>
+    <string name="superid_aciton_unfreeze">解除冻结</string>
+    <string name="superid_tips_unfreezesubmit">提交成功</string>
+    <string name="superid_title_unfreeze">一登解除冻结</string>
+    <string name="superid_tips_auditing">帐号正解除冻结，请稍候</string>
+    <string name="superid_aciton_authrevise">查看或修改您的授权内容</string>
+    <string name="superid_aciton_submit">提交</string>
+    <string name="superid_tips_accounthasbeenfrozen">帐号已冻结</string>
+    <string name="superid_aciton_resubmit">重新提交</string>
+    <string name="superid_tips_secureemailtexttips">安全邮箱设置后不能修改</string>
 
 </resources>

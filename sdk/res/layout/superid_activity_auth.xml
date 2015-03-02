@@ -21,24 +21,58 @@
             <RelativeLayout
                 android:id="@+id/empower_bgup"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
+                android:layout_height="160dp"
                 android:background="@drawable/superid_common_empower_bg_up"
                 android:gravity="center" >
 
-                <ImageView
-                    android:id="@+id/app_icon"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_centerHorizontal="true" />
+                <RelativeLayout
+                    android:id="@+id/rl_icon"
+                    android:layout_width="206dp"
+                    android:layout_height="74dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/superid_common_authorize_bg_img" >
+
+                    <ImageView
+                        android:layout_width="62dp"
+                        android:layout_height="62dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="6dp"
+                        android:src="@drawable/superid_avatar_img_bg" />
+
+                    <ImageView
+                        android:id="@+id/avatar"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="7dp"
+                        android:src="@drawable/superid_avatar_img_default" />
+
+                    <ImageView
+                        android:layout_width="62dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="6dp"
+                        android:src="@drawable/superid_avatar_img_bg" />
+
+                    <ImageView
+                        android:id="@+id/app_icon"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="7dp" />
+                </RelativeLayout>
 
                 <TextView
-                    android:id="@+id/app_name"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/auth_tips"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/app_icon"
-                    android:layout_centerHorizontal="true"
-                    android:paddingTop="6dp"
-                    android:textColor="@color/s_color_font_hightlight"
+                    android:layout_below="@+id/rl_icon"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/superid_title_authtipstitle"
+                    android:textColor="@color/s_color_font_tips"
                     android:textSize="@dimen/s_size_font_text" />
             </RelativeLayout>
 
@@ -47,6 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/empower_bgup"
+                android:paddingBottom="15dp"
                 android:background="@drawable/superid_common_empower_bg_down" >
 
                 <TextView
@@ -55,64 +90,37 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginLeft="70dp"
-                    android:layout_marginTop="5dp"
-                    android:textColor="@color/s_color_font_ligthbule"
-                    android:textSize="@dimen/s_size_font_title" />
-
-                <TextView
-                    android:id="@+id/tv_phone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/tv_name"
-                    android:layout_alignBottom="@+id/tv_name"
-                    android:layout_marginLeft="10dp"
-                    android:layout_toRightOf="@+id/tv_name"
-                    android:textColor="@color/s_color_font_ligthbule"
-                    android:textSize="@dimen/s_size_font_title" />
-
-                <TextView
-                    android:id="@+id/tv_authtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_below="@+id/tv_name"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="24dp"
-                    android:text="@string/superid_title_authtipstitle"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
                     android:textColor="@color/s_color_font_main"
                     android:textSize="@dimen/s_size_font_title" />
 
-                <CheckBox
-                    android:id="@+id/checkBox1"
+                <ImageView
+                    android:id="@+id/edit_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_below="@+id/tv_authtitle"
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="15dp"
-                    android:checked="true"
-                    android:clickable="false"
-                    android:text="@string/superid_tips_authtips"
-                    android:textColor="@color/s_color_font_contant"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp"
+                    android:layout_alignLeft="@id/tv_name"
+                    android:layout_below="@id/tv_name"
+                    android:src="@drawable/superid_common_authorize_edit_ico" />
+
+                <Button
+                    android:id="@+id/tv_authtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/edit_icon"
+                    android:background="@null"
+                    android:onClick="btn_save"
+                    android:layout_alignTop="@id/edit_icon"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@id/edit_icon"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/superid_aciton_authrevise"
+                    android:textColor="@color/s_color_font_darkbule"
                     android:textSize="@dimen/s_size_font_text" />
+
             </RelativeLayout>
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="114dp"
-                android:src="@drawable/superid_avatar_img_bg" />
-
-            <ImageView
-                android:id="@+id/avatar"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="115dp"
-                android:src="@drawable/superid_avatar_img_default" />
         </RelativeLayout>
 
         <Button
@@ -127,7 +135,22 @@
             android:onClick="btn_auth"
             android:text="@string/superid_action_makesureauth"
             android:textColor="@color/s_color_font_hightlight" />
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/tv_setmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:onClick="btn_setmail"
+        android:text="@string/superid_title_secureemail"
+        android:textColor="@color/s_color_font_darkbule"
+        android:textSize="@dimen/s_size_font_text" />
 
     <ViewSwitcher
         android:id="@+id/logindialog_view_switcher"

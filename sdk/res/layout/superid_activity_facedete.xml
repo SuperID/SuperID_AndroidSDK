@@ -64,6 +64,8 @@
         <include layout="@layout/superid_pop_guideerror" />
 
         <include layout="@layout/superid_pop_guideerthree" />
+        
+        <include layout="@layout/superid_pop_guidelock" />
 
         <include layout="@layout/superid_pop_facelogin" />
 

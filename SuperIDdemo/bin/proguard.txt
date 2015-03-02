@@ -16,6 +16,9 @@
 # view AndroidManifest.xml #generated:44
 -keep class com.isnc.facesdk.aty.Aty_FaceDetect { <init>(...); }
 
+# view AndroidManifest.xml #generated:110
+-keep class com.isnc.facesdk.aty.Aty_SecureEmail { <init>(...); }
+
 # view res/layout/superid_activity_clippic.xml #generated:21
 -keep class com.isnc.facesdk.view.ClipView { <init>(...); }
 
@@ -41,16 +44,16 @@
 # view AndroidManifest.xml #generated:73
 -keep class com.isnc.superiddemo.Aty_Welcome { <init>(...); }
 
-# view AndroidManifest.xml #generated:116
+# view AndroidManifest.xml #generated:121
 -keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:111
+# view AndroidManifest.xml #generated:116
 -keep class com.umeng.update.net.DownloadingService { <init>(...); }
 
 # onClick res/layout/superid_pop_faceregist.xml #generated:165
 -keepclassmembers class * { *** agree(...); }
 
-# onClick res/layout/superid_activity_auth.xml #generated:118
+# onClick res/layout/superid_activity_auth.xml #generated:126
 -keepclassmembers class * { *** btn_auth(...); }
 
 # onClick res/layout/aty_faceemotion.xml #generated:13
@@ -60,8 +63,17 @@
 # onClick res/layout/aty_login.xml #generated:56
 -keepclassmembers class * { *** btn_clear(...); }
 
+# onClick res/layout/superid_activity_secureemail.xml #generated:81
+-keepclassmembers class * { *** btn_emailedclear(...); }
+
 # onClick res/layout/aty_usercenter.xml #generated:244
 -keepclassmembers class * { *** btn_facedata(...); }
+
+# onClick res/layout/superid_pop_guidelock.xml #generated:74
+-keepclassmembers class * { *** btn_glexit(...); }
+
+# onClick res/layout/superid_pop_guidelock.xml #generated:57
+-keepclassmembers class * { *** btn_glunfreeze(...); }
 
 # onClick res/layout/superid_pop_guideerthree.xml #generated:124
 -keepclassmembers class * { *** btn_gr3out(...); }
@@ -96,6 +108,9 @@
 # onClick res/layout/superid_activity_edituserinfo.xml #generated:96
 -keepclassmembers class * { *** btn_nameedclear(...); }
 
+# onClick res/layout/superid_activity_secureemail.xml #generated:106
+-keepclassmembers class * { *** btn_notreceivemail(...); }
+
 # onClick res/layout/superid_pop_faceregist.xml #generated:96
 -keepclassmembers class * { *** btn_rbedclear(...); }
 
@@ -108,12 +123,19 @@
 # onClick res/layout/superid_pop_faceregist.xml #generated:11
 -keepclassmembers class * { *** btn_rselectcountry(...); }
 
+# onClick res/layout/superid_activity_auth.xml #generated:108
 # onClick res/layout/superid_activity_edituserinfo.xml #generated:110
 # onClick res/layout/superid_common_bar.xml #generated:28
 -keepclassmembers class * { *** btn_save(...); }
 
+# onClick res/layout/superid_activity_secureemail.xml #generated:93
+-keepclassmembers class * { *** btn_savemail(...); }
+
 # onClick res/layout/aty_usercenter.xml #generated:270
 -keepclassmembers class * { *** btn_sciencefacedata(...); }
+
+# onClick res/layout/superid_activity_auth.xml #generated:141
+-keepclassmembers class * { *** btn_setmail(...); }
 
 # onClick res/layout/aty_login.xml #generated:105
 -keepclassmembers class * { *** btn_superidlogin(...); }
