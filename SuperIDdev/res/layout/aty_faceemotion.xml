@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/s_demo_color_background_red" >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:onClick="btn_back"
+            android:src="@drawable/button_demobackselector" />
+
+        <TextView
+            android:id="@+id/bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/btn_back"
+            android:gravity="center"
+            android:text="一登人脸信息"
+            android:textColor="@color/s_color_font_hightlight"
+            android:textSize="@dimen/s_size_font_bar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/facedatabg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:background="#000000" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/facedatabg" />
+
+        <LinearLayout
+            android:id="@+id/facedataload"
+            android:layout_width="270dp"
+            android:layout_height="110dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@color/s_color_faceloginloadbg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp" >
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:indeterminateDrawable="@drawable/superid_drawable_progress"
+                 />
+			<TextView
+                android:id="@+id/loadingtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="人脸信息分析中..."
+                android:textSize="@dimen/s_size_font_title" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:gravity="center"
+        android:visibility="invisible" >
+
+        <SurfaceView
+            android:id="@+id/infoSurfaceView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <com.isnc.facesdk.view.FaceRegistView
+            android:id="@+id/mFaceRegistView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/datalist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp" >
+    </ListView>
+
+</LinearLayout>
