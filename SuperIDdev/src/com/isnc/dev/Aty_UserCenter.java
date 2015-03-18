@@ -177,7 +177,7 @@ public class Aty_UserCenter extends Activity {
 
 	// 有刷脸界面获取表情接口返回请查看onActivityResult，数据处理请查看Aty_AppGetFaceEmotion.class
 	public void btn_facedata(View v) {
-		SuperID.GetFaceEmotion(this);
+		SuperID.getFaceEmotion(this);
 	}
 
 	// 无刷脸界面获取表情，接口返回及数据处理请查看Aty_GetFaceEmotion.class
