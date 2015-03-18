@@ -20,6 +20,7 @@
     <string name="superid_tips_nocamapp">The device is not camera application</string>
     <string name="superid_tips_takepicerror">unable to write the photo library </string>
     <string name="superid_tips_namenull">Please fill out your name</string>
+    <string name="superid_tips_avatarnull">Please fill out your avatar</string>
     <string name="superid_action_sendcode">Send code</string>
     <string name="superid_tips_apptokennull">Lack of app token</string>
     <string name="superid_title_login">Login</string>
