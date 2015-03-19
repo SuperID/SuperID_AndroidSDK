@@ -126,13 +126,14 @@
         <Button
             android:id="@+id/btn_auth"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/superid_button_faceselector"
             android:onClick="btn_auth"
+            android:textSize="@dimen/s_size_font_title"
             android:text="@string/superid_action_makesureauth"
             android:textColor="@color/s_color_font_hightlight" />
 
