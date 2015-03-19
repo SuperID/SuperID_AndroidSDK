@@ -92,12 +92,12 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.isnc.dev.Aty_GetFaceEmotion"
+            android:name="com.isnc.dev.Aty_GetFaceFeatures"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.isnc.dev.Aty_AppGetFaceEmotion"
+            android:name="com.isnc.dev.Aty_AppGetFaceFeatures"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>

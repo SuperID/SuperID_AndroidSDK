@@ -177,13 +177,13 @@ public class Aty_UserCenter extends Activity {
 
 	// 有刷脸界面获取表情接口返回请查看onActivityResult，数据处理请查看Aty_AppGetFaceEmotion.class
 	public void btn_facedata(View v) {
-		SuperID.getFaceEmotion(this);
+		SuperID.getFaceFeatures(this);
 	}
 
 	// 无刷脸界面获取表情，接口返回及数据处理请查看Aty_GetFaceEmotion.class
 	public void btn_sciencefacedata(View v) {
 
-		startActivity(new Intent(this, Aty_GetFaceEmotion.class));
+		startActivity(new Intent(this, Aty_GetFaceFeatures.class));
 	}
 
 	// 退出登录
@@ -230,7 +230,7 @@ public class Aty_UserCenter extends Activity {
 			break;
 		// 有界面刷脸获取人脸表情成功
 		case SDKConfig.GETEMOTIONRESULT:
-			Intent intent = new Intent(this, Aty_AppGetFaceEmotion.class);
+			Intent intent = new Intent(this, Aty_AppGetFaceFeatures.class);
 			intent.putExtra("facedata", data.getStringExtra(SDKConfig.FACEDATA));
 			startActivity(intent);
 			break;
