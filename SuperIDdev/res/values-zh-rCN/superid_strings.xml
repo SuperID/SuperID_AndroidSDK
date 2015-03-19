@@ -20,7 +20,7 @@
     <string name="superid_tips_nocamapp">该设备没有拍照应用</string>
     <string name="superid_tips_takepicerror">发生意外，无法写入相册</string>
     <string name="superid_tips_namenull">请先填写昵称</string>
-    <string name="superid_tips_avatarnull">请先选择头像</string>
+    <string name="superid_tips_avatarnull">请先设置头像</string>
     <string name="superid_action_sendcode">发送验证码</string>
     <string name="superid_tips_apptokennull">缺少参数app_token</string>
     <string name="superid_title_login">一登刷脸登录</string>
