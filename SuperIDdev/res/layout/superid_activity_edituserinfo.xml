@@ -110,7 +110,7 @@
     <Button
         android:id="@+id/btn_save"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
@@ -118,6 +118,7 @@
         android:background="@drawable/superid_button_faceselector"
         android:onClick="btn_save"
         android:text="@string/superid_action_save"
+        android:textSize="@dimen/s_size_font_title"
         android:textColor="@color/s_color_font_hightlight" />
 
 </LinearLayout>

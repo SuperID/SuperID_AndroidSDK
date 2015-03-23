@@ -51,6 +51,12 @@
             android:layout_height="fill_parent"
             android:background="@color/s_color_camera_shade"
             android:visibility="gone" />
+
+        <com.isnc.facesdk.view.NightModeView
+            android:id="@+id/nightmodeview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
     </FrameLayout>
 
     <LinearLayout
@@ -70,14 +76,14 @@
         <com.isnc.facesdk.view.PopLoginView
             android:id="@+id/pop_loginview"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" 
-            android:visibility="gone"/>
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
 
         <com.isnc.facesdk.view.PopRegistView
             android:id="@+id/pop_registview"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" 
-            android:visibility="gone"/>
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
     </LinearLayout>
 
     <include layout="@layout/superid_common_bar" />
