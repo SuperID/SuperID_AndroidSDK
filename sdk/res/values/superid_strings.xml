@@ -32,7 +32,7 @@
     <string name="superid_tips_rescan">Try again</string>
     <string name="superid_tips_loginfail">Fail</string>
     <string name="superid_tips_codeerror">Invalid SMS code</string>
-    <string name="superid_tips_missingface">Fail to virify your face</string>
+    <string name="superid_tips_missingface">Cannot recognize your face, Please retry</string>
     <string name="superid_aciton_rebundle">Record  again</string>
     <string name="superid_tips_idexist">Account has linked with other User ID</string>
     <string name="superid_action_sure">Yes</string>
@@ -51,7 +51,7 @@
     <string name="superid_tips_nickname">name</string>
     <string name="superid_action_save">Submit</string>
     <string name="superid_action_agreeitem">I agree the privacy policy</string>
-    <string name="superid_tips_guideerror">Sorry, we fail to virify your face. Make sure this is the mobile number of your SuperID. If not error, try again</string>
+    <string name="superid_tips_guideerror">Fail to login. Make sure the above number is your SuperID. if dark condition, double tap to open the highlight mode when scanning face.</string>
     <string name="superid_action_changephone">Change account</string>
     <string name="superid_action_rescan">Retry</string>
     <string name="superid_tips_guideerthree">You have failed to login over 3 times, for proper acquisition, you should always enroll in the best lighting conditions</string>
@@ -90,5 +90,6 @@
     <string name="superid_tips_accounthasbeenfrozen">The account has been blocked.</string>
     <string name="superid_aciton_resubmit">Re-Submit</string>
     <string name="superid_tips_secureemailtexttips">Cannot change once set up</string>
+    <string name="superid_action_sendcodeing">Sending code</string>
 
 </resources>

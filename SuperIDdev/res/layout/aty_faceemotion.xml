@@ -24,7 +24,7 @@
             android:layout_height="100dp"
             android:layout_toRightOf="@id/btn_back"
             android:gravity="center"
-            android:text="一登人脸信息"
+            android:text="一登人脸属性"
             android:textColor="@color/s_color_font_hightlight"
             android:textSize="@dimen/s_size_font_bar" />
     </RelativeLayout>

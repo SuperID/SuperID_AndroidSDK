@@ -353,6 +353,7 @@ public final class R {
         public static final int superid_action_retry=0x7f060009;
         public static final int superid_action_save=0x7f060031;
         public static final int superid_action_sendcode=0x7f060015;
+        public static final int superid_action_sendcodeing=0x7f06005a;
         public static final int superid_action_startscan=0x7f06003b;
         public static final int superid_action_sure=0x7f060023;
         public static final int superid_action_takefromalbum=0x7f06000e;

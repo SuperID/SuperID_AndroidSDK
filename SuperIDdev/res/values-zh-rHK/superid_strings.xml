@@ -32,12 +32,12 @@
     <string name="superid_tips_rescan">再試一次</string>
     <string name="superid_tips_loginfail">登入失敗</string>
     <string name="superid_tips_codeerror">驗證碼有誤</string>
-    <string name="superid_tips_missingface">當前人臉有誤，請重試</string>
+    <string name="superid_tips_missingface">無法識別當前人臉，請退出刷臉後重試</string>
     <string name="superid_aciton_rebundle">重新綁定</string>
     <string name="superid_tips_idexist">此SuperID賬號已被綁定</string>
     <string name="superid_action_sure">確定</string>
     <string name="superid_tips_facecomparefail">人臉比對失敗，請重試</string>
-    <string name="superid_tips_firststart">首次使用請輸入短信驗證碼</string>
+    <string name="superid_tips_firststart">授權此應用請輸入短信驗證碼</string>
     <string name="superid_tips_codeoverlimit">驗證碼請求超過限制次數</string>
     <string name="superid_aciton_resend">重新發送</string>
     <string name="superid_action_codesend">已發送</string>
@@ -51,7 +51,7 @@
     <string name="superid_tips_nickname">昵稱</string>
     <string name="superid_action_save">保存</string>
     <string name="superid_action_agreeitem">我同意SuperID服務協議</string>
-    <string name="superid_tips_guideerror">您的人臉特征與此號碼不匹配，請檢查號碼是否有誤，無誤請重刷一次</string>
+    <string name="superid_tips_guideerror">您的人臉與此號碼不匹配，請檢查號碼是否有誤；如環境昏暗，刷臉時可雙擊屏幕開啓加亮模式</string>
     <string name="superid_action_changephone">切換賬號</string>
     <string name="superid_action_rescan">再試一次</string>
     <string name="superid_tips_guideerthree">您已多次登入失敗，請留意當前的光線情況</string>
@@ -90,5 +90,6 @@
     <string name="superid_tips_accounthasbeenfrozen">帳號已凍結</string>
     <string name="superid_aciton_resubmit">重新提交</string>
     <string name="superid_tips_secureemailtexttips">安全郵箱設置後不能修改</string>
+    <string name="superid_action_sendcodeing">發送中</string>
 
 </resources>
