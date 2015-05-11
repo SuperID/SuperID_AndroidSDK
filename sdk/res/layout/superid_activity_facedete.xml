@@ -68,6 +68,10 @@
         <include layout="@layout/superid_pop_guidestart" />
 
         <include layout="@layout/superid_pop_guideerror" />
+        
+        <include layout="@layout/superid_pop_guideregerror" />
+        
+        <include layout="@layout/superid_pop_guiderebundle" />
 
         <include layout="@layout/superid_pop_guideerthree" />
 

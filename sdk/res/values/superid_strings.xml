@@ -91,5 +91,12 @@
     <string name="superid_aciton_resubmit">Re-Submit</string>
     <string name="superid_tips_secureemailtexttips">Cannot change once set up</string>
     <string name="superid_action_sendcodeing">Sending code</string>
+    <string name="superid_tips_bundlemissingfaceoperate">Retry</string>
+    <string name="superid_tips_guideregisterer">Login failed, please keep positive face pose and try again. </string>
+    <string name="superid_tips_guideregisterbundle">You have failed to login over 2 times. you can try to record your face again  in bright lighting conditions. </string>
+    <string name="superid_tips_rebundleapplication">Your application has submitted.we will inform you by SMS later.</string>
+    <string name="superid_tips_rebundling">Your application is under reviewing, we will inform you by SMS later.</string>
+    <string name="superid_tips_facerebundlefreeze">Current account has been blocked. You cannot operate.</string>
+    <string name="superid_tips_bundlemissingface">System cannot detect your face. </string>
 
 </resources>

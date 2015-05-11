@@ -8,8 +8,9 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 
-import com.isnc.dev.R;
 import com.isnc.facesdk.SuperID;
+import com.isnc.facesdk.common.Cache;
+import com.isnc.facesdk.common.SDKConfig;
 
 public class Aty_Welcome extends Activity {
 	@Override
@@ -27,7 +28,12 @@ public class Aty_Welcome extends Activity {
 		aa.setAnimationListener(new AnimationListener() {
 			@Override
 			public void onAnimationEnd(Animation arg0) {
-				startActivity(new Intent(Aty_Welcome.this, Aty_Login.class));
+				if (Cache.getCached(Aty_Welcome.this, SDKConfig.KEY_ACCESSTOKEN).equals("")) {
+					startActivity(new Intent(Aty_Welcome.this, Aty_Login.class));
+					
+				}else {
+					startActivity(new Intent(Aty_Welcome.this, Aty_UserCenter.class));
+				}
 				finish();
 			}
 

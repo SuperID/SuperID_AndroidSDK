@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -41,45 +40,58 @@ public class Aty_AppGetFaceFeatures extends Activity {
 	// 获取得到的表情数据
 	private List<Map<String, Object>> getIntentData() {
 		String facedata = getIntent().getExtras().getString("facedata");
+		JSONObject obj;
 		try {
-			JSONObject obj = new JSONObject(facedata);
-			JSONArray attributes = obj.optJSONArray("attributes");
+			obj = new JSONObject(facedata);
 			list = new ArrayList<Map<String, Object>>();
-			String key = "",result = "";
-			int value = 0;
-			if (attributes.length()>0) {
-				for (int i = 0; i < attributes.length(); i++) {
-					key = attributes.getJSONObject(i).optString("name");
-					value = attributes.getJSONObject(i).getInt("result");
-					if (key.equals("Eyeglasses")) {
-						key = "眼镜";
-						if (value==1) {
-							result = "有戴";
-						}else {
-							result = "没戴";
-						}
-					}else if (key.equals("Male")) {
-						key = "性别";
-						if (value==1) {
-							result = "男";
-						}else {
-							result = "女";
-						}
-					}else if (key.equals("Smiling")) {
-						key = "微笑";
-						if (value==1) {
-							result = "是";
-						}else {
-							result = "否";
-						}
-					}
-					
-					Map<String, Object> map = new HashMap<String, Object>();
-					map.put("key", key);
-					map.put("value",result);
-					list.add(map);
-				}
+
+			double sex = obj.getJSONObject("male").getInt("result");
+			Map<String, Object> map = new HashMap<String, Object>();
+			if (sex == 1.0) {
+				map.put("key", "性别");
+				map.put("value", "男");
+			} else {
+				map.put("key", "性别");
+				map.put("value", "女");
 			}
+			list.add(map);
+
+			double age = obj.getDouble("age");
+			map = new HashMap<String, Object>();
+			map.put("key", "年龄");
+			map.put("value", (int) age);
+			list.add(map);
+
+			double smile = obj.getJSONObject("smiling").getDouble("score");
+			map = new HashMap<String, Object>();
+			map.put("key", "微笑值");
+			map.put("value", String.format("%d", (int) (smile * 100)));
+			list.add(map);
+			int glasses = obj.getJSONObject("eyeglasses").getInt("result");
+			map = new HashMap<String, Object>();
+			map.put("key", "眼镜");
+			if (glasses == 1.0) {
+				map.put("value", "有戴");
+			} else {
+				map.put("value", "没戴");
+			}
+			list.add(map);
+
+			int sunglasses = obj.getJSONObject("eyeglasses").getInt("result");
+			map = new HashMap<String, Object>();
+			map.put("key", "太阳眼镜");
+			if (sunglasses == 1.0) {
+				map.put("value", "有戴");
+			} else {
+				map.put("value", "没戴");
+			}
+			list.add(map);
+
+			double mustache = obj.getJSONObject("mustache").getInt("score");
+			map = new HashMap<String, Object>();
+			map.put("key", "胡须密度");
+			map.put("value", mustache);
+			list.add(map);
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}

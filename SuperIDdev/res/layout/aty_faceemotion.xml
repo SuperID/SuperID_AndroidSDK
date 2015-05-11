@@ -104,4 +104,13 @@
         android:layout_marginTop="12dp" >
     </ListView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="如需更多获取属性，请到开发者管理中心申请。"
+        android:textColor="@color/s_color_font_darkbule"
+        android:textSize="14sp" />
+
 </LinearLayout>

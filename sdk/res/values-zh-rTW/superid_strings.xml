@@ -32,7 +32,7 @@
     <string name="superid_tips_rescan">再試一次</string>
     <string name="superid_tips_loginfail">登入失敗</string>
     <string name="superid_tips_codeerror">驗證碼有誤</string>
-    <string name="superid_tips_missingface">無法識別當前人臉，請退出刷臉後重試</string>
+    <string name="superid_tips_missingface">無法識別當前人臉，請重試</string>
     <string name="superid_aciton_rebundle">重新綁定</string>
     <string name="superid_tips_idexist">此SuperID賬號已被綁定</string>
     <string name="superid_action_sure">確定</string>
@@ -91,5 +91,12 @@
     <string name="superid_aciton_resubmit">重新提交</string>
     <string name="superid_tips_secureemailtexttips">安全郵箱設置後不能修改</string>
     <string name="superid_action_sendcodeing">發送中</string>
+    <string name="superid_tips_bundlemissingfaceoperate">重新刷臉</string>
+    <string name="superid_tips_guideregisterer">登入失敗，請保持正臉姿勢重刷壹次</string>
+    <string name="superid_tips_guideregisterbundle">您已兩次登入失敗，請在光亮的環境下，重新綁定人臉</string>
+    <string name="superid_tips_rebundleapplication">人臉已提交審核，請您留意短信通知</string>
+    <string name="superid_tips_rebundling">人臉正在審核中，請您留意短信通知</string>
+    <string name="superid_tips_facerebundlefreeze">帳號凍結中，請解除凍結後重試</string>
+    <string name="superid_tips_bundlemissingface">無法識別當前人臉</string>
 
 </resources>
