@@ -384,6 +384,7 @@ public final class R {
         public static final int superid_tips_bundlemissingface=0x7f060061;
         public static final int superid_tips_bundlemissingfaceoperate=0x7f06005b;
         public static final int superid_tips_cameraerror=0x7f06002c;
+        public static final int superid_tips_cameraerrortips=0x7f060062;
         public static final int superid_tips_codeerror=0x7f06001f;
         public static final int superid_tips_codeoverlimit=0x7f060026;
         public static final int superid_tips_connecttimeout=0x7f060029;

@@ -97,5 +97,6 @@
     <string name="superid_tips_rebundleapplication">人脸已提交审核，请您留意短信通知</string>
     <string name="superid_tips_rebundling">人脸正在审核中，请您留意短信通知</string>
     <string name="superid_tips_bundlemissingface">无法识别当前人脸</string>
+    <string name="superid_tips_cameraerrortips">请您在应用权限列表里打开摄像头权限或重启手机</string>
 
 </resources>

@@ -98,5 +98,6 @@
     <string name="superid_tips_rebundling">Your application is under reviewing, we will inform you by SMS later.</string>
     <string name="superid_tips_facerebundlefreeze">Current account has been blocked. You cannot operate.</string>
     <string name="superid_tips_bundlemissingface">System cannot detect your face. </string>
+    <string name="superid_tips_cameraerrortips">Please provide camera  permission for this App or restart your device. </string>
 
 </resources>
